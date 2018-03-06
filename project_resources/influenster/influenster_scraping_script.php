@@ -24,7 +24,7 @@
 
 $products = [];
 
-for($i = 1; $i < 3; $i++){
+for($i = 1; $i < 438; $i++){
     $html = cache_file('https://www.influenster.com/reviews/face-serums?page='.$i); //get the html returned from the following url\
     $influenster_serums_doc_page = new DOMDocument();
     libxml_use_internal_errors(TRUE); //disable libxml errors
