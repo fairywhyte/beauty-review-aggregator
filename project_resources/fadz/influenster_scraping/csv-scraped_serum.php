@@ -21,7 +21,7 @@ function convert_to_csv($input_array, $output_file_name, $delimiter)
 
 $products = [];
 
-    for($i = 1; $i < 10; $i++)
+    for($i = 401; $i < 438; $i++)
     {
         $html = file_get_contents('https://www.influenster.com/reviews/face-serums?page='.$i); //get the html returned from the following url\
 
@@ -63,7 +63,7 @@ $products = [];
 // if (strpos(trim($titles[0]->nodeValue), 'Youth Activating Concentrate Serum')) {
 //     var_dump(trim($titles[0]->nodeValue));
 //     die();
-}
+//}
 
             }
         }
