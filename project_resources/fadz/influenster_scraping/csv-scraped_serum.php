@@ -60,9 +60,9 @@ $products = [];
                     'scraped_at_date' =>($scraped_at_date)
                 ];
 
-if (strpos(trim($titles[0]->nodeValue), 'Youth Activating Concentrate Serum')) {
-    var_dump(trim($titles[0]->nodeValue));
-    die();
+// if (strpos(trim($titles[0]->nodeValue), 'Youth Activating Concentrate Serum')) {
+//     var_dump(trim($titles[0]->nodeValue));
+//     die();
 }
 
             }
