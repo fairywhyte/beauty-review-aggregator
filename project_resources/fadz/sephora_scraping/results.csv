@@ -1,0 +1,3307 @@
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/good-genes-all-in-one-lactic-acid-treatment-P309308
+    [productId] => P309308
+    [brandName] => SUNDAY RILEY
+    [displayName] => Good Genes All-In-One Lactic Acid Treatment
+    [rating] => 4.3319
+    [url] => http://10.105.156.142:80/v1/catalog/products/P309308?preferedSku=1887298
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1887298-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1887298-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1887298-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1887298-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1887298
+            [imageAltText] => SUNDAY RILEY - Good Genes All-In-One Lactic Acid Treatment
+            [listPrice] => $105.00 - $158.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $175.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/buffet-P427420
+    [productId] => P427420
+    [brandName] => The Ordinary
+    [displayName] => Buffet
+    [rating] => 4.1966
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427420?preferedSku=2031367
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031367-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031367-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031367-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031367-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031367
+            [imageAltText] => The Ordinary - Buffet
+            [listPrice] => $14.80
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/c-firma-day-serum-P400259
+    [productId] => P400259
+    [brandName] => Drunk Elephant
+    [displayName] => C-Firma™ Day Serum
+    [rating] => 4.1362
+    [url] => http://10.105.156.142:80/v1/catalog/products/P400259?preferedSku=1765239
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1765239-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1765239-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1765239-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1765239-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1765239
+            [imageAltText] => Drunk Elephant - C-Firma™ Day Serum
+            [listPrice] => $80.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/t-l-c-framboos-tm-glycolic-night-serum-P392246
+    [productId] => P392246
+    [brandName] => Drunk Elephant
+    [displayName] => T.L.C. Framboos™ Glycolic Night Serum
+    [rating] => 4.3187
+    [url] => http://10.105.156.142:80/v1/catalog/products/P392246?preferedSku=1679307
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1679307-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1679307-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1679307-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1679307-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1679307
+            [imageAltText] => Drunk Elephant - T.L.C. Framboos™ Glycolic Night Serum
+            [listPrice] => $90.00 - $134.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/truth-serum-P42343
+    [productId] => P42343
+    [brandName] => OLEHENRIKSEN
+    [displayName] => Truth Serum®
+    [rating] => 4.2838
+    [url] => http://10.105.156.142:80/v1/catalog/products/P42343?preferedSku=1910470
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1910470-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1910470-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1910470-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1910470-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1910470
+            [imageAltText] => OLEHENRIKSEN - Truth Serum®
+            [listPrice] => $15.00 - $72.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/facial-treatment-essence-P375849
+    [productId] => P375849
+    [brandName] => SK-II
+    [displayName] => Facial Treatment Essence
+    [rating] => 4.0902
+    [url] => http://10.105.156.142:80/v1/catalog/products/P375849?preferedSku=1850346
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1850346-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1850346-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1850346-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1850346-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1850346
+            [imageAltText] => SK-II - Facial Treatment Essence
+            [listPrice] => $99.00 - $290.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $214.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/rose-gold-elixir-P417139
+    [productId] => P417139
+    [brandName] => FARSÁLI
+    [displayName] => Rose Gold Elixir
+    [rating] => 4.0786
+    [url] => http://10.105.156.142:80/v1/catalog/products/P417139?preferedSku=1931518
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1931518-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1931518-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1931518-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1931518-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1931518
+            [imageAltText] => FARSÁLI - Rose Gold Elixir
+            [listPrice] => $20.00 - $54.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/unicorn-essence-P417141
+    [productId] => P417141
+    [brandName] => FARSÁLI
+    [displayName] => Unicorn Essence
+    [rating] => 3.8656
+    [url] => http://10.105.156.142:80/v1/catalog/products/P417141?preferedSku=1931526
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1931526-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1931526-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1931526-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1931526-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1931526
+            [imageAltText] => FARSÁLI - Unicorn Essence
+            [listPrice] => $20.00 - $54.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/nightbright-P414672
+    [productId] => P414672
+    [brandName] => Drunk Elephant
+    [displayName] => NightBright™ Duo
+    [rating] => 4.1948
+    [url] => http://10.105.156.142:80/v1/catalog/products/P414672?preferedSku=1862457
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1862457-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1862457-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1862457-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1862457-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1862457
+            [imageAltText] => Drunk Elephant - NightBright™ Duo
+            [listPrice] => $28.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $43.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/luna-sleeping-night-oil-P393718
+    [productId] => P393718
+    [brandName] => SUNDAY RILEY
+    [displayName] => Luna Sleeping Night Oil
+    [rating] => 4.1117
+    [url] => http://10.105.156.142:80/v1/catalog/products/P393718?preferedSku=1681881
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1681881-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1681881-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1681881-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1681881-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1681881
+            [imageAltText] => SUNDAY RILEY - Luna Sleeping Night Oil
+            [listPrice] => $55.00 - $105.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/rise-and-glow-P414671
+    [productId] => P414671
+    [brandName] => Drunk Elephant
+    [displayName] => Rise + Glow™ Duo
+    [rating] => 3.9087
+    [url] => http://10.105.156.142:80/v1/catalog/products/P414671?preferedSku=1862440
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1862440-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1862440-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1862440-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1862440-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1862440
+            [imageAltText] => Drunk Elephant - Rise + Glow™ Duo
+            [listPrice] => $23.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $30.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/genius-liquid-collagen-P421277
+    [productId] => P421277
+    [brandName] => Algenist
+    [displayName] => GENIUS Liquid Collagen
+    [rating] => 4.0756
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421277?preferedSku=1957182
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1957182-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1957182-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1957182-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1957182-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1957182
+            [imageAltText] => Algenist - GENIUS Liquid Collagen
+            [listPrice] => $115.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/u-f-o-ultra-clarifying-face-oil-P410400
+    [productId] => P410400
+    [brandName] => SUNDAY RILEY
+    [displayName] => U.F.O. Ultra-Clarifying Face Oil
+    [rating] => 4.1949
+    [url] => http://10.105.156.142:80/v1/catalog/products/P410400?preferedSku=1842251
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1842251-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1842251-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1842251-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1842251-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1842251
+            [imageAltText] => SUNDAY RILEY - U.F.O. Ultra-Clarifying Face Oil
+            [listPrice] => $40.00 - $80.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/cicapair-tiger-grass-color-correcting-treatment-spf-30-P411540
+    [productId] => P411540
+    [brandName] => Dr. Jart+
+    [displayName] => Cicapair ™ Tiger Grass Color Correcting Treatment SPF 30
+    [rating] => 4.2564
+    [url] => http://10.105.156.142:80/v1/catalog/products/P411540?preferedSku=1855709
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1855709-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1855709-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1855709-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1855709-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1855709
+            [imageAltText] => Dr. Jart+ - Cicapair ™ Tiger Grass Color Correcting Treatment SPF 30
+            [listPrice] => $18.00 - $52.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/advanced-night-repair-synchronized-recovery-complex-ii-P379994
+    [productId] => P379994
+    [brandName] => Estée Lauder
+    [displayName] => Advanced Night Repair Synchronized Recovery Complex II
+    [rating] => 4.3818
+    [url] => http://10.105.156.142:80/v1/catalog/products/P379994?preferedSku=1551753
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1551753-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1551753-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1551753-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1551753-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1551753
+            [imageAltText] => Estée Lauder - Advanced Night Repair Synchronized Recovery Complex II
+            [listPrice] => $68.00 - $98.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/midnight-recovery-concentrate-P421998
+    [productId] => P421998
+    [brandName] => Kiehl's Since 1851
+    [displayName] => Midnight Recovery Concentrate
+    [rating] => 4.582
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421998?preferedSku=1988732
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1988732-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1988732-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1988732-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1988732-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1988732
+            [imageAltText] => Kiehl's Since 1851 - Midnight Recovery Concentrate
+            [listPrice] => $47.00 - $123.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/gravitymud-firming-treatment-P403486
+    [productId] => P403486
+    [brandName] => GLAMGLOW
+    [displayName] => GRAVITYMUD™ Firming Treatment
+    [rating] => 3.9441
+    [url] => http://10.105.156.142:80/v1/catalog/products/P403486?preferedSku=1923523
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1923523-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1923523-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1923523-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1923523-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1923523
+            [imageAltText] => GLAMGLOW - GRAVITYMUD™ Firming Treatment
+            [listPrice] => $24.00 - $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/vinoperfect-radiance-serum-P94421
+    [productId] => P94421
+    [brandName] => Caudalie
+    [displayName] => Vinoperfect Radiance Serum
+    [rating] => 4.2235
+    [url] => http://10.105.156.142:80/v1/catalog/products/P94421?preferedSku=823427
+    [heroImage] =>https://www.sephora.com/productimages/sku/s823427-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s823427-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s823427-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s823427-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 823427
+            [imageAltText] => Caudalie - Vinoperfect Radiance Serum
+            [listPrice] => $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/matrixyl-10-ha-P427405
+    [productId] => P427405
+    [brandName] => The Ordinary
+    [displayName] => Matrixyl* 10% + HA
+    [rating] => 4.1818
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427405?preferedSku=2031516
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031516-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031516-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031516-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031516-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031516
+            [imageAltText] => The Ordinary - Matrixyl* 10% + HA
+            [listPrice] => $11.50
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/lactic-acid-10-ha-2-P427413
+    [productId] => P427413
+    [brandName] => The Ordinary
+    [displayName] => Lactic Acid 10% + HA 2%
+    [rating] => 4.7551
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427413?preferedSku=2031433
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031433-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031433-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031433-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031433-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031433
+            [imageAltText] => The Ordinary - Lactic Acid 10% + HA 2%
+            [listPrice] => $6.79
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/b-hydra-intensive-hydration-gel-P406712
+    [productId] => P406712
+    [brandName] => Drunk Elephant
+    [displayName] => B-Hydra™ Intensive Hydration Gel
+    [rating] => 4.0738
+    [url] => http://10.105.156.142:80/v1/catalog/products/P406712?preferedSku=1785856
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1785856-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1785856-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1785856-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1785856-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1785856
+            [imageAltText] => Drunk Elephant - B-Hydra™ Intensive Hydration Gel
+            [listPrice] => $52.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/powerful-strength-line-reducing-concentrate-12-5-vitamin-c-P427529
+    [productId] => P427529
+    [brandName] => Kiehl's Since 1851
+    [displayName] => Powerful-Strength Line-Reducing Concentrate 12.5% Vitamin C
+    [rating] => 3.9474
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427529?preferedSku=2024792
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2024792-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2024792-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2024792-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2024792-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2024792
+            [imageAltText] => Kiehl's Since 1851 - Powerful-Strength Line-Reducing Concentrate 12.5% Vitamin C
+            [listPrice] => $62.00 - $81.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/potent-c-power-serum-P428100
+    [productId] => P428100
+    [brandName] => Peter Thomas Roth
+    [displayName] => Potent-C™ Power Serum
+    [rating] => 4.7727
+    [url] => http://10.105.156.142:80/v1/catalog/products/P428100?preferedSku=2025591
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2025591-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2025591-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2025591-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2025591-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2025591
+            [imageAltText] => Peter Thomas Roth - Potent-C™ Power Serum
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/the-treatment-lotion-P416345
+    [productId] => P416345
+    [brandName] => La Mer
+    [displayName] => The Treatment Lotion
+    [rating] => 4.7778
+    [url] => http://10.105.156.142:80/v1/catalog/products/P416345?preferedSku=1932391
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1932391-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1932391-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1932391-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1932391-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1932391
+            [imageAltText] => La Mer - The Treatment Lotion
+            [listPrice] => $95.00 - $145.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/rapid-age-spot-pigment-lightening-serum-P4009
+    [productId] => P4009
+    [brandName] => Murad
+    [displayName] => Rapid Age Spot and Pigment Lightening Serum
+    [rating] => 3.8192
+    [url] => http://10.105.156.142:80/v1/catalog/products/P4009?preferedSku=654095
+    [heroImage] =>https://www.sephora.com/productimages/sku/s654095-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s654095-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s654095-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s654095-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 654095
+            [imageAltText] => Murad - Rapid Age Spot and Pigment Lightening Serum
+            [listPrice] => $69.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/ultimune-power-infusing-concentrate-P388058
+    [productId] => P388058
+    [brandName] => Shiseido
+    [displayName] => Ultimune Power Infusing Concentrate
+    [rating] => 4.1588
+    [url] => http://10.105.156.142:80/v1/catalog/products/P388058?preferedSku=1641760
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1641760-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1641760-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1641760-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1641760-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1641760
+            [imageAltText] => Shiseido - Ultimune Power Infusing Concentrate
+            [listPrice] => $37.00 - $125.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/invigorating-night-transformation-gel-P42330
+    [productId] => P42330
+    [brandName] => OLEHENRIKSEN
+    [displayName] => Invigorating Night Transformation™ Gel
+    [rating] => 4.3104
+    [url] => http://10.105.156.142:80/v1/catalog/products/P42330?preferedSku=1910579
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1910579-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1910579-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1910579-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1910579-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1910579
+            [imageAltText] => OLEHENRIKSEN - Invigorating Night Transformation™ Gel
+            [listPrice] => $48.00 - $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/advanced-genifique-youth-activating-serum-P379510
+    [productId] => P379510
+    [brandName] => Lancôme
+    [displayName] => Advanced Génifique Youth Activating Serum
+    [rating] => 4.256
+    [url] => http://10.105.156.142:80/v1/catalog/products/P379510?preferedSku=1528066
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1528066-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1528066-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1528066-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1528066-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1528066
+            [imageAltText] => Lancôme - Advanced Génifique Youth Activating Serum
+            [listPrice] => $78.00 - $178.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/vitamin-c-suspension-23-ha-spheres-2-P427410
+    [productId] => P427410
+    [brandName] => The Ordinary
+    [displayName] => Vitamin C Suspension 23% + HA Spheres 2%
+    [rating] => 3.9098
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427410?preferedSku=2031466
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031466-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031466-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031466-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031466-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031466
+            [imageAltText] => The Ordinary - Vitamin C Suspension 23% + HA Spheres 2%
+            [listPrice] => $5.80
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/clearly-corrective-dark-spot-solution-P422022
+    [productId] => P422022
+    [brandName] => Kiehl's Since 1851
+    [displayName] => Clearly Corrective™ Dark Spot Solution
+    [rating] => 3.9091
+    [url] => http://10.105.156.142:80/v1/catalog/products/P422022?preferedSku=1989474
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1989474-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1989474-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1989474-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1989474-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1989474
+            [imageAltText] => Kiehl's Since 1851 - Clearly Corrective™ Dark Spot Solution
+            [listPrice] => $50.00 - $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/pores-no-more-pore-refiner-primer-P139005
+    [productId] => P139005
+    [brandName] => Dr. Brandt Skincare
+    [displayName] => pores no more® pore refiner primer
+    [rating] => 4.2827
+    [url] => http://10.105.156.142:80/v1/catalog/products/P139005?preferedSku=1161629
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1161629-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1161629-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1161629-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1161629-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1161629
+            [imageAltText] => Dr. Brandt Skincare - pores no more® pore refiner primer
+            [listPrice] => $22.00 - $45.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/capture-youth-serum-P428255
+    [productId] => P428255
+    [brandName] => Dior
+    [displayName] => Capture Youth Collection
+    [rating] => 4.8889
+    [url] => http://10.105.156.142:80/v1/catalog/products/P428255?preferedSku=2028397
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2028397-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2028397-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2028397-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2028397-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2028397
+            [imageAltText] => Dior - Capture Youth Collection
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/eradikate-acne-treatment-P232903
+    [productId] => P232903
+    [brandName] => Kate Somerville
+    [displayName] => EradiKate™ Acne Treatment
+    [rating] => 4.2902
+    [url] => http://10.105.156.142:80/v1/catalog/products/P232903?preferedSku=1167147
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1167147-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1167147-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1167147-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1167147-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1167147
+            [imageAltText] => Kate Somerville - EradiKate™ Acne Treatment
+            [listPrice] => $26.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/the-regenerating-serum-P417601
+    [productId] => P417601
+    [brandName] => La Mer
+    [displayName] => The Regenerating Serum
+    [rating] => 4.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P417601?preferedSku=1932276
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1932276-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1932276-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1932276-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1932276-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1932276
+            [imageAltText] => La Mer - The Regenerating Serum
+            [listPrice] => $335.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/natural-moisturizing-factors-ha-P427414
+    [productId] => P427414
+    [brandName] => The Ordinary
+    [displayName] => Natural Moisturizing Factors + HA
+    [rating] => 4.1207
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427414?preferedSku=2031425
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031425-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031425-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031425-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031425-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031425
+            [imageAltText] => The Ordinary - Natural Moisturizing Factors + HA
+            [listPrice] => $5.80
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/tiger-grass-re-pair-serum-P423259
+    [productId] => P423259
+    [brandName] => Dr. Jart+
+    [displayName] => Cicapair™ Tiger Grass Re.Pair Serum
+    [rating] => 4.2611
+    [url] => http://10.105.156.142:80/v1/catalog/products/P423259?preferedSku=1976935
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1976935-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1976935-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1976935-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1976935-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1976935
+            [imageAltText] => Dr. Jart+ - Cicapair™ Tiger Grass Re.Pair Serum
+            [listPrice] => $46.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/juno-hydroactive-cellular-face-oil-P309306
+    [productId] => P309306
+    [brandName] => SUNDAY RILEY
+    [displayName] => Juno Hydroactive Cellular Face Oil
+    [rating] => 4.441
+    [url] => http://10.105.156.142:80/v1/catalog/products/P309306?preferedSku=1418607
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1418607-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1418607-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1418607-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1418607-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1418607
+            [imageAltText] => SUNDAY RILEY - Juno Hydroactive Cellular Face Oil
+            [listPrice] => $45.00 - $90.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/squalane-vitamin-c-rose-oil-P416563
+    [productId] => P416563
+    [brandName] => Biossance
+    [displayName] => Squalane + Vitamin C Rose Oil
+    [rating] => 4.4675
+    [url] => http://10.105.156.142:80/v1/catalog/products/P416563?preferedSku=1923572
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1923572-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1923572-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1923572-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1923572-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1923572
+            [imageAltText] => Biossance - Squalane + Vitamin C Rose Oil
+            [listPrice] => $72.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/backlight-priming-filter-P399831
+    [productId] => P399831
+    [brandName] => BECCA
+    [displayName] => Backlight Priming Filter Face Primer
+    [rating] => 4.2329
+    [url] => http://10.105.156.142:80/v1/catalog/products/P399831?preferedSku=1721281
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1721281-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1721281-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1721281-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1721281-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1721281
+            [imageAltText] => BECCA - Backlight Priming Filter Face Primer
+            [listPrice] => $18.00 - $38.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/premier-cru-serum-P427509
+    [productId] => P427509
+    [brandName] => Caudalie
+    [displayName] => Premier Cru Serum
+    [rating] => 4.129
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427509?preferedSku=2024370
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2024370-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2024370-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2024370-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2024370-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2024370
+            [imageAltText] => Caudalie - Premier Cru Serum
+            [listPrice] => $150.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/double-serum-complete-age-control-concentrate-P421235
+    [productId] => P421235
+    [brandName] => Clarins
+    [displayName] => Double Serum Complete Age Control Concentrate
+    [rating] => 4.0593
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421235?preferedSku=1973973
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1973973-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1973973-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1973973-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1973973-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1973973
+            [imageAltText] => Clarins - Double Serum Complete Age Control Concentrate
+            [listPrice] => $89.00 - $122.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/vinosource-s-o-s-thirst-quenching-serum-P374211
+    [productId] => P374211
+    [brandName] => Caudalie
+    [displayName] => Vinosource S.O.S Thirst Quenching Serum
+    [rating] => 4.5104
+    [url] => http://10.105.156.142:80/v1/catalog/products/P374211?preferedSku=1424241
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1424241-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1424241-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1424241-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1424241-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1424241
+            [imageAltText] => Caudalie - Vinosource S.O.S Thirst Quenching Serum
+            [listPrice] => $49.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/umbrian-clay-purifying-mask-P54104
+    [productId] => P54104
+    [brandName] => Fresh
+    [displayName] => Umbrian Clay Purifying Mask
+    [rating] => 4.4635
+    [url] => http://10.105.156.142:80/v1/catalog/products/P54104?preferedSku=1822691
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1822691-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1822691-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1822691-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1822691-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1822691
+            [imageAltText] => Fresh - Umbrian Clay Purifying Mask
+            [listPrice] => $23.00 - $58.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/clinique-smart-custom-repair-serum-P387616
+    [productId] => P387616
+    [brandName] => CLINIQUE
+    [displayName] => Clinique Smart Custom-Repair Serum
+    [rating] => 4.0373
+    [url] => http://10.105.156.142:80/v1/catalog/products/P387616?preferedSku=1629963
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1629963-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1629963-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1629963-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1629963-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1629963
+            [imageAltText] => CLINIQUE - Clinique Smart Custom-Repair Serum
+            [listPrice] => $59.50 - $154.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/professional-3-retinoid-plus-P394358
+    [productId] => P394358
+    [brandName] => Peter Thomas Roth
+    [displayName] => Professional 3% Retinoid Plus
+    [rating] => 4.584
+    [url] => http://10.105.156.142:80/v1/catalog/products/P394358?preferedSku=1699313
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1699313-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1699313-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1699313-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1699313-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1699313
+            [imageAltText] => Peter Thomas Roth - Professional 3% Retinoid Plus
+            [listPrice] => $82.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/ever-matte-poreless-priming-perfector-P378017
+    [productId] => P378017
+    [brandName] => BECCA
+    [displayName] => Ever-Matte Poreless Priming Perfector
+    [rating] => 3.6013
+    [url] => http://10.105.156.142:80/v1/catalog/products/P378017?preferedSku=1495209
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1495209-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1495209-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1495209-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1495209-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1495209
+            [imageAltText] => BECCA - Ever-Matte Poreless Priming Perfector
+            [listPrice] => $15.00 - $38.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/keep-young-beautiful-tm-instant-firming-beauty-shot-P391761
+    [productId] => P391761
+    [brandName] => REN
+    [displayName] => Keep Young And Beautiful™ Instant Firming Beauty Shot
+    [rating] => 4.0898
+    [url] => http://10.105.156.142:80/v1/catalog/products/P391761?preferedSku=1671270
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1671270-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1671270-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1671270-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1671270-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1671270
+            [imageAltText] => REN - Keep Young And Beautiful™ Instant Firming Beauty Shot
+            [listPrice] => $56.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/vinoperfect-concentrated-brightening-essence-P420224
+    [productId] => P420224
+    [brandName] => Caudalie
+    [displayName] => Vinoperfect Concentrated Brightening Essence
+    [rating] => 4.4
+    [url] => http://10.105.156.142:80/v1/catalog/products/P420224?preferedSku=1943026
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1943026-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1943026-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1943026-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1943026-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1943026
+            [imageAltText] => Caudalie - Vinoperfect Concentrated Brightening Essence
+            [listPrice] => $42.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/c-e-o-rapid-flash-brightening-serum-P418346
+    [productId] => P418346
+    [brandName] => SUNDAY RILEY
+    [displayName] => C.E.O. Rapid Flash Brightening Serum
+    [rating] => 3.9167
+    [url] => http://10.105.156.142:80/v1/catalog/products/P418346?preferedSku=1933225
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1933225-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1933225-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1933225-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1933225-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1933225
+            [imageAltText] => SUNDAY RILEY - C.E.O. Rapid Flash Brightening Serum
+            [listPrice] => $85.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/2-retinol-complex-serum-P417626
+    [productId] => P417626
+    [brandName] => Dr. Brandt Skincare
+    [displayName] => 2% Retinol Complex Serum
+    [rating] => 4.3243
+    [url] => http://10.105.156.142:80/v1/catalog/products/P417626?preferedSku=1928787
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1928787-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1928787-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1928787-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1928787-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1928787
+            [imageAltText] => Dr. Brandt Skincare - 2% Retinol Complex Serum
+            [listPrice] => $69.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/acne-solutions-clinical-clearing-gel-P385432
+    [productId] => P385432
+    [brandName] => CLINIQUE
+    [displayName] => Acne Solutions Clinical Clearing Gel
+    [rating] => 4.1755
+    [url] => http://10.105.156.142:80/v1/catalog/products/P385432?preferedSku=1592831
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1592831-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1592831-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1592831-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1592831-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1592831
+            [imageAltText] => CLINIQUE - Acne Solutions Clinical Clearing Gel
+            [listPrice] => $18.00 - $26.50
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/ferulic-acid-retinol-brightening-solution-P375269
+    [productId] => P375269
+    [brandName] => Dr. Dennis Gross Skincare
+    [displayName] => Ferulic Acid + Retinol Brightening Solution
+    [rating] => 4.1174
+    [url] => http://10.105.156.142:80/v1/catalog/products/P375269?preferedSku=1450881
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1450881-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1450881-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1450881-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1450881-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1450881
+            [imageAltText] => Dr. Dennis Gross Skincare - Ferulic Acid + Retinol Brightening Solution
+            [listPrice] => $88.00 - $125.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/the-revitalizing-hydrating-serum-P416725
+    [productId] => P416725
+    [brandName] => La Mer
+    [displayName] => The Revitalizing Hydrating Serum
+    [rating] => 4.5
+    [url] => http://10.105.156.142:80/v1/catalog/products/P416725?preferedSku=1932284
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1932284-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1932284-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1932284-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1932284-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1932284
+            [imageAltText] => La Mer - The Revitalizing Hydrating Serum
+            [listPrice] => $195.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/retinol-firming-lifting-serum-P379027
+    [productId] => P379027
+    [brandName] => Algenist
+    [displayName] => Retinol Firming & Lifting Serum
+    [rating] => 4.3964
+    [url] => http://10.105.156.142:80/v1/catalog/products/P379027?preferedSku=1521400
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1521400-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1521400-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1521400-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1521400-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1521400
+            [imageAltText] => Algenist - Retinol Firming & Lifting Serum
+            [listPrice] => $102.00 - $156.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/daily-reviving-concentrate-P422003
+    [productId] => P422003
+    [brandName] => Kiehl's Since 1851
+    [displayName] => Daily Reviving Concentrate
+    [rating] => 4.7143
+    [url] => http://10.105.156.142:80/v1/catalog/products/P422003?preferedSku=1989540
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1989540-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1989540-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1989540-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1989540-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1989540
+            [imageAltText] => Kiehl's Since 1851 - Daily Reviving Concentrate
+            [listPrice] => $47.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/flashmud-tm-brightening-treatment-P397313
+    [productId] => P397313
+    [brandName] => GLAMGLOW
+    [displayName] => FLASHMUD™ Brightening Treatment
+    [rating] => 4.1142
+    [url] => http://10.105.156.142:80/v1/catalog/products/P397313?preferedSku=1718311
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1718311-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1718311-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1718311-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1718311-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1718311
+            [imageAltText] => GLAMGLOW - FLASHMUD™ Brightening Treatment
+            [listPrice] => $24.00 - $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/capture-youth-glow-booster-age-delay-illuminating-serum-P427731
+    [productId] => P427731
+    [brandName] => Dior
+    [displayName] => Capture Youth Glow Booster Age-Delay Illuminating Serum
+    [rating] => 5.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427731?preferedSku=2028397
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2028397-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2028397-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2028397-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2028397-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2028397
+            [imageAltText] => Dior - Capture Youth Glow Booster Age-Delay Illuminating Serum
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/no-foundation-foundation-serum-spf-30-P386465
+    [moreColors] => 1
+    [productId] => P386465
+    [brandName] => Perricone MD
+    [displayName] => No Foundation Foundation Serum SPF 30
+    [rating] => 4.2582
+    [url] => http://10.105.156.142:80/v1/catalog/products/P386465?preferedSku=1608397
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1608397-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1608397-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1608397-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1608397-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1608397
+            [imageAltText] => Perricone MD - No Foundation Foundation Serum SPF 30
+            [listPrice] => $22.00 - $60.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/pure-argan-milk-tm-intensive-hydrating-treatment-P384780
+    [productId] => P384780
+    [brandName] => Josie Maran
+    [displayName] => Pure Argan Milk™ Intensive Hydrating Treatment
+    [rating] => 4.0247
+    [url] => http://10.105.156.142:80/v1/catalog/products/P384780?preferedSku=1572445
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1572445-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1572445-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1572445-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1572445-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1572445
+            [imageAltText] => Josie Maran - Pure Argan Milk™ Intensive Hydrating Treatment
+            [listPrice] => $20.00 - $56.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/d-scar-scar-diminishing-serum-P377368
+    [productId] => P377368
+    [brandName] => Kate Somerville
+    [displayName] => D-Scar™ Scar Diminishing Serum
+    [rating] => 4.1761
+    [url] => http://10.105.156.142:80/v1/catalog/products/P377368?preferedSku=1490333
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1490333-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1490333-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1490333-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1490333-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1490333
+            [imageAltText] => Kate Somerville - D-Scar™ Scar Diminishing Serum
+            [listPrice] => $48.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/super-spot-remover-acne-treatment-gel-P297517
+    [productId] => P297517
+    [brandName] => Origins
+    [displayName] => Super Spot Remover™ Blemish Treatment Gel
+    [rating] => 4.0355
+    [url] => http://10.105.156.142:80/v1/catalog/products/P297517?preferedSku=1375690
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1375690-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1375690-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1375690-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1375690-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1375690
+            [imageAltText] => Origins - Super Spot Remover™ Blemish Treatment Gel
+            [listPrice] => $17.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/youthmud-tinglexfoliate-treatment-P375741
+    [productId] => P375741
+    [brandName] => GLAMGLOW
+    [displayName] => YOUTHMUD™ Tinglexfoliate Treatment
+    [rating] => 4.0775
+    [url] => http://10.105.156.142:80/v1/catalog/products/P375741?preferedSku=1463801
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1463801-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1463801-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1463801-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1463801-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1463801
+            [imageAltText] => GLAMGLOW - YOUTHMUD™ Tinglexfoliate Treatment
+            [listPrice] => $24.00 - $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/c-collagen-brighten-firm-vitamin-c-serum-P415209
+    [productId] => P415209
+    [brandName] => Dr. Dennis Gross Skincare
+    [displayName] => C+ Collagen Brighten & Firm Vitamin C Serum
+    [rating] => 4.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P415209?preferedSku=1899202
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1899202-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1899202-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1899202-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1899202-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1899202
+            [imageAltText] => Dr. Dennis Gross Skincare - C+ Collagen Brighten & Firm Vitamin C Serum
+            [listPrice] => $78.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/water-drench-hyaluronic-cloud-serum-P222818
+    [productId] => P222818
+    [brandName] => Peter Thomas Roth
+    [displayName] => Water Drench Hyaluronic Cloud Serum
+    [rating] => 4.2353
+    [url] => http://10.105.156.142:80/v1/catalog/products/P222818?preferedSku=1898568
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1898568-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1898568-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1898568-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1898568-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1898568
+            [imageAltText] => Peter Thomas Roth - Water Drench Hyaluronic Cloud Serum
+            [listPrice] => $65.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/goodnight-glow-invigorating-night-transformation-tm-gel-P423268
+    [productId] => P423268
+    [brandName] => OLEHENRIKSEN
+    [displayName] => Goodnight Glow Invigorating Night Transformation™ Gel
+    [rating] => 4.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P423268?preferedSku=1987973
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1987973-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1987973-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1987973-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1987973-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1987973
+            [imageAltText] => OLEHENRIKSEN - Goodnight Glow Invigorating Night Transformation™ Gel
+            [listPrice] => $79.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $96.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] => 1
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/ultra-repair-hydrating-serum-P403739
+    [productId] => P403739
+    [brandName] => First Aid Beauty
+    [displayName] => Ultra Repair® Hydrating Serum
+    [rating] => 4.2398
+    [url] => http://10.105.156.142:80/v1/catalog/products/P403739?preferedSku=1767573
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1767573-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1767573-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1767573-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1767573-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1767573
+            [imageAltText] => First Aid Beauty - Ultra Repair® Hydrating Serum
+            [listPrice] => $36.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/wrinkle-warrior-2-in-1-plumping-moisturizer-serum-P415202
+    [productId] => P415202
+    [brandName] => Kate Somerville
+    [displayName] => Wrinkle Warrior™ 2-in-1 Plumping Moisturizer + Serum
+    [rating] => 3.8434
+    [url] => http://10.105.156.142:80/v1/catalog/products/P415202?preferedSku=1898220
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1898220-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1898220-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1898220-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1898220-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1898220
+            [imageAltText] => Kate Somerville - Wrinkle Warrior™ 2-in-1 Plumping Moisturizer + Serum
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/orchidee-imperiale-longevity-concentrate-P421261
+    [productId] => P421261
+    [brandName] => Guerlain
+    [displayName] => Orchidée Impériale Longevity Concentrate
+    [rating] => 5.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421261?preferedSku=1975770
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1975770-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1975770-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1975770-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1975770-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1975770
+            [imageAltText] => Guerlain - Orchidée Impériale Longevity Concentrate
+            [listPrice] => $510.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/dreamduo-overnight-transforming-treatment-P412366
+    [productId] => P412366
+    [brandName] => GLAMGLOW
+    [displayName] => DREAMDUO™ Overnight Transforming Treatment
+    [rating] => 4.2271
+    [url] => http://10.105.156.142:80/v1/catalog/products/P412366?preferedSku=1863182
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1863182-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1863182-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1863182-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1863182-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1863182
+            [imageAltText] => GLAMGLOW - DREAMDUO™ Overnight Transforming Treatment
+            [listPrice] => $59.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/sunless-tan-anti-aging-face-serum-P418221
+    [productId] => P418221
+    [brandName] => COOLA
+    [displayName] => Sunless Tan Anti-Aging Face Serum
+    [rating] => 4.4444
+    [url] => http://10.105.156.142:80/v1/catalog/products/P418221?preferedSku=1924596
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1924596-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1924596-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1924596-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1924596-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1924596
+            [imageAltText] => COOLA - Sunless Tan Anti-Aging Face Serum
+            [listPrice] => $54.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/visionnaire-advanced-skin-corrector-serum-P393077
+    [productId] => P393077
+    [brandName] => Lancôme
+    [displayName] => Visionnaire Advanced Skin Corrector Serum
+    [rating] => 4.2479
+    [url] => http://10.105.156.142:80/v1/catalog/products/P393077?preferedSku=1655273
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1655273-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1655273-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1655273-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1655273-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1655273
+            [imageAltText] => Lancôme - Visionnaire Advanced Skin Corrector Serum
+            [listPrice] => $80.00 - $116.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/facial-treatment-essence-lunar-new-year-edition-P428096
+    [productId] => P428096
+    [brandName] => SK-II
+    [displayName] => Facial Treatment Essence- Lunar New Year Edition
+    [rating] => 0.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P428096?preferedSku=2024487
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2024487-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2024487-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2024487-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2024487-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2024487
+            [imageAltText] => SK-II - Facial Treatment Essence- Lunar New Year Edition
+            [listPrice] => $229.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] => 1
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/the-treatment-lotion-mini-P428638
+    [productId] => P428638
+    [brandName] => La Mer
+    [displayName] => The Treatment Lotion Mini
+    [rating] => 0.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P428638?preferedSku=2048957
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2048957-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2048957-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2048957-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2048957-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2048957
+            [imageAltText] => La Mer - The Treatment Lotion Mini
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/hydro-plumping-re-texturizing-serum-concentrate-P422016
+    [productId] => P422016
+    [brandName] => Kiehl's Since 1851
+    [displayName] => Hydro-Plumping Re-Texturizing Serum Concentrate
+    [rating] => 4.9286
+    [url] => http://10.105.156.142:80/v1/catalog/products/P422016?preferedSku=1988989
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1988989-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1988989-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1988989-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1988989-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1988989
+            [imageAltText] => Kiehl's Since 1851 - Hydro-Plumping Re-Texturizing Serum Concentrate
+            [listPrice] => $59.00 - $78.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/retinol-youth-renewal-serum-P411365
+    [productId] => P411365
+    [brandName] => Murad
+    [displayName] => Retinol Youth Renewal Serum
+    [rating] => 4.1961
+    [url] => http://10.105.156.142:80/v1/catalog/products/P411365?preferedSku=1857002
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1857002-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1857002-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1857002-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1857002-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1857002
+            [imageAltText] => Murad - Retinol Youth Renewal Serum
+            [listPrice] => $88.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/squalane-phyto-retinol-serum-P429028
+    [productId] => P429028
+    [brandName] => Biossance
+    [displayName] => Squalane + Phyto-Retinol Serum
+    [rating] => 5.0
+    [url] => http://10.105.156.142:80/v1/catalog/products/P429028?preferedSku=2038057
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2038057-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2038057-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2038057-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2038057-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2038057
+            [imageAltText] => Biossance - Squalane + Phyto-Retinol Serum
+            [listPrice] => $78.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/miracle-water-tm-3-in-1-glow-tonic-P423414
+    [productId] => P423414
+    [brandName] => IT Cosmetics
+    [displayName] => Miracle Water 3-in-1 Micellar Cleanser
+    [rating] => 4.7455
+    [url] => http://10.105.156.142:80/v1/catalog/products/P423414?preferedSku=1983188
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1983188-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1983188-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1983188-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1983188-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1983188
+            [imageAltText] => IT Cosmetics - Miracle Water 3-in-1 Micellar Cleanser
+            [listPrice] => $38.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/retinol-fusion-pm-P251529
+    [productId] => P251529
+    [brandName] => Peter Thomas Roth
+    [displayName] => Retinol Fusion PM
+    [rating] => 4.3739
+    [url] => http://10.105.156.142:80/v1/catalog/products/P251529?preferedSku=1224781
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1224781-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1224781-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1224781-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1224781-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1224781
+            [imageAltText] => Peter Thomas Roth - Retinol Fusion PM
+            [listPrice] => $65.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/white-lucent-microtargeting-spot-corrector-P406311
+    [productId] => P406311
+    [brandName] => Shiseido
+    [displayName] => White Lucent MicroTargeting Spot Corrector
+    [rating] => 3.617
+    [url] => http://10.105.156.142:80/v1/catalog/products/P406311?preferedSku=1785583
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1785583-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1785583-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1785583-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1785583-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1785583
+            [imageAltText] => Shiseido - White Lucent MicroTargeting Spot Corrector
+            [listPrice] => $132.00 - $180.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/vitamin-c-ester-brightening-serum-P378714
+    [productId] => P378714
+    [brandName] => Perricone MD
+    [displayName] => Vitamin C Ester Brightening Serum
+    [rating] => 4.3333
+    [url] => http://10.105.156.142:80/v1/catalog/products/P378714?preferedSku=1521384
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1521384-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1521384-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1521384-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1521384-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1521384
+            [imageAltText] => Perricone MD - Vitamin C Ester Brightening Serum
+            [listPrice] => $105.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/anti-bac-clearing-lotion-P232907
+    [productId] => P232907
+    [brandName] => Kate Somerville
+    [displayName] => Anti Bac Clearing Lotion
+    [rating] => 4.4286
+    [url] => http://10.105.156.142:80/v1/catalog/products/P232907?preferedSku=1167139
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1167139-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1167139-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1167139-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1167139-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1167139
+            [imageAltText] => Kate Somerville - Anti Bac Clearing Lotion
+            [listPrice] => $42.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/hungarian-water-essence-P394633
+    [productId] => P394633
+    [brandName] => belif
+    [displayName] => Hungarian Water Essence
+    [rating] => 4.247
+    [url] => http://10.105.156.142:80/v1/catalog/products/P394633?preferedSku=1686351
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1686351-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1686351-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1686351-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1686351-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1686351
+            [imageAltText] => belif - Hungarian Water Essence
+            [listPrice] => $42.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/caffeine-solution-5-egcg-P427416
+    [productId] => P427416
+    [brandName] => The Ordinary
+    [displayName] => Caffeine Solution 5% + EGCG
+    [rating] => 4.1703
+    [url] => http://10.105.156.142:80/v1/catalog/products/P427416?preferedSku=2031409
+    [heroImage] =>https://www.sephora.com/productimages/sku/s2031409-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s2031409-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s2031409-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s2031409-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 2031409
+            [imageAltText] => The Ordinary - Caffeine Solution 5% + EGCG
+            [listPrice] => $6.70
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] => 1
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/rose-deep-hydration-face-serum-P407087
+    [productId] => P407087
+    [brandName] => Fresh
+    [displayName] => Rose Deep Hydration Face Serum
+    [rating] => 4.1594
+    [url] => http://10.105.156.142:80/v1/catalog/products/P407087?preferedSku=1788389
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1788389-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1788389-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1788389-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1788389-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1788389
+            [imageAltText] => Fresh - Rose Deep Hydration Face Serum
+            [listPrice] => $48.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/even-better-clinical-dark-spot-corrector-optimizer-P410673
+    [productId] => P410673
+    [brandName] => CLINIQUE
+    [displayName] => Even Better Clinical Dark Spot Corrector & Optimizer
+    [rating] => 3.6071
+    [url] => http://10.105.156.142:80/v1/catalog/products/P410673?preferedSku=1839133
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1839133-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1839133-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1839133-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1839133-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1839133
+            [imageAltText] => CLINIQUE - Even Better Clinical Dark Spot Corrector & Optimizer
+            [listPrice] => $49.50 - $79.50
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/needles-no-more-3-d-filler-mask-P404010
+    [productId] => P404010
+    [brandName] => Dr. Brandt Skincare
+    [displayName] => needles no more® 3-D filler mask
+    [rating] => 3.725
+    [url] => http://10.105.156.142:80/v1/catalog/products/P404010?preferedSku=1768134
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1768134-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1768134-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1768134-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1768134-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1768134
+            [imageAltText] => Dr. Brandt Skincare - needles no more® 3-D filler mask
+            [listPrice] => $95.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/fab-skin-lab-retinol-serum-0-25-pure-concentrate-P416825
+    [productId] => P416825
+    [brandName] => First Aid Beauty
+    [displayName] => FAB Skin Lab Retinol Serum 0.25% Pure Concentrate
+    [rating] => 4.32
+    [url] => http://10.105.156.142:80/v1/catalog/products/P416825?preferedSku=1899194
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1899194-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1899194-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1899194-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1899194-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1899194
+            [imageAltText] => First Aid Beauty - FAB Skin Lab Retinol Serum 0.25% Pure Concentrate
+            [listPrice] => $58.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/c-collagen-deep-cream-P421957
+    [productId] => P421957
+    [brandName] => Dr. Dennis Gross Skincare
+    [displayName] => C+ Collagen Deep Cream
+    [rating] => 4.5
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421957?preferedSku=1940725
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1940725-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1940725-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1940725-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1940725-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1940725
+            [imageAltText] => Dr. Dennis Gross Skincare - C+ Collagen Deep Cream
+            [listPrice] => $72.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/perfectionist-cp-r-wrinkle-lifting-firming-serum-P379995
+    [productId] => P379995
+    [brandName] => Estée Lauder
+    [displayName] => Perfectionist CP+R Wrinkle Lifting/Firming Serum
+    [rating] => 4.375
+    [url] => http://10.105.156.142:80/v1/catalog/products/P379995?preferedSku=1468230
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1468230-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1468230-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1468230-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1468230-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1468230
+            [imageAltText] => Estée Lauder - Perfectionist CP+R Wrinkle Lifting/Firming Serum
+            [listPrice] => $68.00 - $98.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/bio-retinoid-anti-wrinkle-concentrate-oil-P311126
+    [productId] => P311126
+    [brandName] => REN
+    [displayName] => Bio Retinoid Anti-Wrinkle Concentrate Oil
+    [rating] => 4.2247
+    [url] => http://10.105.156.142:80/v1/catalog/products/P311126?preferedSku=1431436
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1431436-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1431436-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1431436-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1431436-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1431436
+            [imageAltText] => REN - Bio Retinoid Anti-Wrinkle Concentrate Oil
+            [listPrice] => $69.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/magnetight-age-defier-P411254
+    [productId] => P411254
+    [brandName] => Dr. Brandt Skincare
+    [displayName] => MAGNETIGHT Age-Defier™ Mask
+    [rating] => 3.954
+    [url] => http://10.105.156.142:80/v1/catalog/products/P411254?preferedSku=1851898
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1851898-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1851898-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1851898-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1851898-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1851898
+            [imageAltText] => Dr. Brandt Skincare - MAGNETIGHT Age-Defier™ Mask
+            [listPrice] => $24.00 - $75.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/rapid-relief-acne-spot-treatment-P421432
+    [productId] => P421432
+    [brandName] => Murad
+    [displayName] => Rapid Relief Acne Spot Treatment
+    [rating] => 4.0682
+    [url] => http://10.105.156.142:80/v1/catalog/products/P421432?preferedSku=1933100
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1933100-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1933100-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1933100-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1933100-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1933100
+            [imageAltText] => Murad - Rapid Relief Acne Spot Treatment
+            [listPrice] => $22.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/post-acne-spot-lightening-gel-P188907
+    [productId] => P188907
+    [brandName] => Murad
+    [displayName] => Post-Acne Spot Lightening Gel
+    [rating] => 3.7577
+    [url] => http://10.105.156.142:80/v1/catalog/products/P188907?preferedSku=1021930
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1021930-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1021930-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1021930-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1021930-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1021930
+            [imageAltText] => Murad - Post-Acne Spot Lightening Gel
+            [listPrice] => $65.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/genius-ultimate-anti-aging-vitamin-c-serum-P392945
+    [productId] => P392945
+    [brandName] => Algenist
+    [displayName] => GENIUS Ultimate Anti-Aging Vitamin C+ Serum
+    [rating] => 3.9427
+    [url] => http://10.105.156.142:80/v1/catalog/products/P392945?preferedSku=1675974
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1675974-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1675974-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1675974-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1675974-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1675974
+            [imageAltText] => Algenist - GENIUS Ultimate Anti-Aging Vitamin C+ Serum
+            [listPrice] => $118.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/acne-solutions-all-over-clearing-treatment-oil-free-P188306
+    [productId] => P188306
+    [brandName] => CLINIQUE
+    [displayName] => Acne Solutions All-Over Clearing Treatment Oil-Free
+    [rating] => 3.9845
+    [url] => http://10.105.156.142:80/v1/catalog/products/P188306?preferedSku=1027465
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1027465-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1027465-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1027465-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1027465-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1027465
+            [imageAltText] => CLINIQUE - Acne Solutions All-Over Clearing Treatment Oil-Free
+            [listPrice] => $23.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/needles-no-more-P391802
+    [productId] => P391802
+    [brandName] => Dr. Brandt Skincare
+    [displayName] => needles no more™
+    [rating] => 3.386
+    [url] => http://10.105.156.142:80/v1/catalog/products/P391802?preferedSku=1658434
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1658434-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1658434-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1658434-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1658434-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1658434
+            [imageAltText] => Dr. Brandt Skincare - needles no more™
+            [listPrice] => $89.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/acne-duo-P420705
+    [productId] => P420705
+    [brandName] => Peter Thomas Roth
+    [displayName] => Acne Duo
+    [rating] => 4.8333
+    [url] => http://10.105.156.142:80/v1/catalog/products/P420705?preferedSku=1958800
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1958800-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1958800-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1958800-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1958800-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1958800
+            [imageAltText] => Peter Thomas Roth - Acne Duo
+            [listPrice] => $47.00
+            [salePrice] =>
+            [skuType] => Standard
+            [valuePrice] => $64.00
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] => 1
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] => 1
+            [isSephoraExclusive] => 1
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/evercalm-anti-redness-serum-P399736
+    [productId] => P399736
+    [brandName] => REN
+    [displayName] => Evercalm™ Anti-Redness Serum
+    [rating] => 3.7255
+    [url] => http://10.105.156.142:80/v1/catalog/products/P399736?preferedSku=1738194
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1738194-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1738194-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1738194-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1738194-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1738194
+            [imageAltText] => REN - Evercalm™ Anti-Redness Serum
+            [listPrice] => $46.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/r-n-a-power-radical-new-age-essence-P405951
+    [productId] => P405951
+    [brandName] => SK-II
+    [displayName] => R.N.A. POWER Anti-Aging Essence Serum
+    [rating] => 4.3396
+    [url] => http://10.105.156.142:80/v1/catalog/products/P405951?preferedSku=1811058
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1811058-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1811058-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1811058-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1811058-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1811058
+            [imageAltText] => SK-II - R.N.A. POWER Anti-Aging Essence Serum
+            [listPrice] => $195.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+Array
+(
+    [targetUrl] => https://www.sephora.com/product/turbo-booster-c-powder-P204606
+    [productId] => P204606
+    [brandName] => philosophy
+    [displayName] => Turbo Booster C Powder
+    [rating] => 4.4502
+    [url] => http://10.105.156.142:80/v1/catalog/products/P204606?preferedSku=1049170
+    [heroImage] =>https://www.sephora.com/productimages/sku/s1049170-main-grid.jpg
+    [image135] => https://www.sephora.com/productimages/sku/s1049170-main-grid.jpg
+    [image250] => https://www.sephora.com/productimages/sku/s1049170-main-hero.jpg
+    [image450] => https://www.sephora.com/productimages/sku/s1049170-main-Lhero.jpg
+    [currentSku] => Array
+        (
+            [skuId] => 1049170
+            [imageAltText] => philosophy - Turbo Booster C Powder
+            [listPrice] => $39.00
+            [salePrice] =>
+            [skuType] => Standard
+            [isNew] =>
+            [isBest] =>
+            [isLimitedEdition] =>
+            [isOrganic] =>
+            [isBI] =>
+            [isNatural] =>
+            [isOnlineOnly] =>
+            [isSephoraExclusive] =>
+            [biExclusiveLevel] => none
+        )
+
+)
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
+
+Notice: Array to string conversion in C:\www\_final_project\project_resources\fadz\sephora_scraping\json_scrape_sephora.php on line 33
