@@ -21,7 +21,7 @@ function convert_to_csv($input_array, $output_file_name, $delimiter)
 
 $products = [];
 
-    for($i = 401; $i < 438; $i++)
+    for($i = 1; $i < 10; $i++)
     {
         $html = file_get_contents('https://www.influenster.com/reviews/face-serums?page='.$i); //get the html returned from the following url\
 
@@ -69,6 +69,13 @@ $products = [];
         }
     }
     convert_to_csv($products, 'serum.csv', ',');
+
+
+    //something to test but no idea how to impliment it
+
+    // resu <- download.file(url_KO, "temp.htm")   # save the web page to disk
+    // stopifnot (resu==0)
+    // html1 <- readChars(file("temp.htm"), encoding="UTF-8")
 
 
 // echo '<pre>';
