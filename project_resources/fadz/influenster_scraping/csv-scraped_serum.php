@@ -71,12 +71,6 @@ $products = [];
     convert_to_csv($products, 'serum.csv', ',');
 
 
-    //something to test but no idea how to impliment it
-
-    // resu <- download.file(url_KO, "temp.htm")   # save the web page to disk
-    // stopifnot (resu==0)
-    // html1 <- readChars(file("temp.htm"), encoding="UTF-8")
-
 
 // echo '<pre>';
 // print_r($products);
