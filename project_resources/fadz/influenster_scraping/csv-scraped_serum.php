@@ -21,9 +21,9 @@ function convert_to_csv($input_array, $output_file_name, $delimiter)
 
 $products = [];
 
-    for($i = 1; $i < 10; $i++)
+    for($i = 401; $i < 438; $i++)
     {
-        $html = file_get_contents('https://www.influenster.com/reviews/face-serums?page='.$i); //get the html returned from the following url\
+        $html = mb_convert_encoding( file_get_contents('https://www.influenster.com/reviews/face-serums?page='.$i), "HTML-ENTITIES", "UTF-8" ); //get the html returned from the following url\
 
         $influenster_serums_doc_page = new DOMDocument();
         libxml_use_internal_errors(TRUE); //disable libxml errors
