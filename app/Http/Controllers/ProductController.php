@@ -38,11 +38,12 @@ class ProductController extends Controller
         //
         if (($handle = fopen ( public_path () . '/serum1-10.csv', 'r' )) !== FALSE) {
             while ( ($data = fgetcsv ( $handle, 81, ',' )) !== FALSE ) {
+
                 $csv_data = new Product ();
-                $csv_data->title = $data [1];
-                $csv_data->brand = $data [2];
-                $csv_data->average_rating = $data [3];
-                $csv_data->price = $data [4];
+                $csv_data->title = $data [0];
+                $csv_data->brand = $data [1];
+                $csv_data->average_rating = $data [2];
+                $csv_data->price = $data [3];
                 $csv_data->save ();
             }
             fclose ( $handle );

@@ -16,13 +16,13 @@ class Products extends Migration
         //
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');       // adds id, AI, PK
-            $table->string('title', 127);     // adds user_id (int (11))
-            $table->string('brand', 127); // adds question_id (int (11))
-            $table->text('description');           // adds text (TEXT)
-            $table->decimal('price');
-            $table->string('image', 255);
-            $table->decimal('average_rating');
-            $table->integer('total_number_of_ratings');
+            $table->string('title', 127)->nullable();     // adds user_id (int (11))
+            $table->string('brand', 127)->nullable(); // adds question_id (int (11))
+            $table->text('description')->nullable();           // adds text (TEXT)
+            $table->string('price')->nullable();
+            $table->string('image', 255)->nullable();
+            $table->string('average_rating')->nullable();
+            $table->integer('total_number_of_ratings')->nullable();
         });
 
     }

@@ -19,3 +19,5 @@
 Route::get('/', 'MainController@index');
 Route::get('/details', 'MainController@details');
 Route::get('/results', 'MainController@results');
+
+Route::get('/store', 'ProductController@store');
