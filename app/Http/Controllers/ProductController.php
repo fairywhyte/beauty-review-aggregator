@@ -36,13 +36,13 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         //
-        if (($handle = fopen ( public_path () . '/serum1-10.csv', 'r' )) !== FALSE) {
+        if (($handle = fopen ( public_path () . '/sephora_face_serum_product_attributes_1-300.csv', 'r' )) !== FALSE) {
             while ( ($data = fgetcsv ( $handle, 250, ',' )) !== FALSE ) {
 
                 $csv_data = new Product ();
-                $csv_data->title = $data [0];
-                $csv_data->brand = $data [1];
-                $csv_data->average_rating = $data [2];
+                $csv_data->brand = $data [0];
+                $csv_data->title = $data [1];
+              //$csv_data->average_rating = $data [2];
                 $csv_data->price = $data [3];
                 $csv_data->save ();
             }
