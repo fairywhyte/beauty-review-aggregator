@@ -24,7 +24,7 @@ function save_image($inPath,$outPath)
 
 while (false !== ($row = $resource->fetch()))
 {
-    save_image($row['image_url'],'image'.$row['id'].'.jpg');
+    save_image('https://www.sephora.com'.$row['image_url'],'image'.$row['id'].'.jpg');
 
 }
 
