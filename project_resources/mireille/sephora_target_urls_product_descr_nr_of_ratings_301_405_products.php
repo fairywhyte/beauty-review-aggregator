@@ -47,7 +47,7 @@ foreach($data['products'] as $product) {
     $product_target_url = $product['targetUrl'];
 
     $product_target_urls_sephora[] = [
-        $product_target_url
+        'https://www.sephora.com' .$product_target_url
     ];
 
 
