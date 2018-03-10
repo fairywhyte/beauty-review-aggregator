@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use Illuminate\Http\Request;
+use Illuminate\Html\HtmlFacade;
 
 
 class ProductController extends Controller
@@ -57,14 +58,8 @@ class ProductController extends Controller
 
     public function description()
     {
-        //$product_url =\App\Product::all(['product_url'])->toArray();
-        $product_url =\App\Product::first(['product_url']);
-        dd($product_url);
-        //Table::select('name','surname')->where('id', 1)->get();
-
-        //$html = file::get($product_url);
-   
-        $html = file_get_contents($product_url ); //get the html returned from the following url\
+        $product_url =\App\Product::all(['product_url'])->toArray();
+        $html = file_get_contents($product_url); //get the html returned from the following url\
 
         $sephora_serums_indiv_doc_page = new \DOMDocument();
 
