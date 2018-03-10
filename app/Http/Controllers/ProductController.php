@@ -37,7 +37,7 @@ class ProductController extends Controller
     {
         //
         if (($handle = fopen ( public_path () . '/serum1-10.csv', 'r' )) !== FALSE) {
-            while ( ($data = fgetcsv ( $handle, 81, ',' )) !== FALSE ) {
+            while ( ($data = fgetcsv ( $handle, 250, ',' )) !== FALSE ) {
 
                 $csv_data = new Product ();
                 $csv_data->title = $data [0];
