@@ -9,4 +9,14 @@ class Product extends Model
     //
     protected $table = 'products';
     public $timestamps = false;
+
+    public function shops()
+    {
+        return $this->belongsToMany('Shop');
+    }
+
+    public function product_category()
+    {
+        return $this->belongsToMany('productCategory');
+    }
 }

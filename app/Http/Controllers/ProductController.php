@@ -35,8 +35,8 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        if (($handle = fopen ( public_path () . '/sephora_face_serum_product_attributes_1-300.csv', 'r' )) !== FALSE) {
+
+        if (($handle = fopen ( public_path () . '/sephora_face_serum_product_attributes_1_405.csv', 'r' )) !== FALSE) {
             while ( ($data = fgetcsv ( $handle, 250, ',' )) !== FALSE ) {
 
                 $csv_data = new Product ();
@@ -50,6 +50,19 @@ class ProductController extends Controller
         }
     }
 
+    public function store_sephora_description(Request $request)
+    {
+
+        if (($handle = fopen ( public_path () . '/product_image_urls_sephora_0_300.csv', 'r' )) !== FALSE) {
+            while ( ($data = fgetcsv ( $handle, 250, ',' )) !== FALSE ) {
+
+                $csv_data = new Product ();
+                $csv_data->description= $data [0] ;
+                $csv_data->save ();
+            }
+            fclose ( $handle );
+        }
+    }
     /**
      * Display the specified resource.
      *

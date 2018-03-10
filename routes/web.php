@@ -21,3 +21,4 @@ Route::get('/details', 'MainController@details');
 Route::get('/results', 'MainController@results');
 
 Route::get('/store', 'ProductController@store');
+Route::get('/store/description', 'ProductController@store_sephora_description');
