@@ -41,7 +41,7 @@ class ProductController extends Controller
         if (($handle = fopen ( public_path () . '/sephora_face_serum_product_attributes_1_405.csv', 'r' )) !== FALSE) {
             while ( ($data = fgetcsv ( $handle, 500, ',' )) !== FALSE ) {
 
-                $csv_data = new Product ();
+                $csv_data = new ProductIsInShop ();
                 $csv_data->sephora_id = $data [0];
                 $csv_data->brand = $data [1];
                 $csv_data->title = $data [2];
@@ -68,6 +68,10 @@ class ProductController extends Controller
         // return it
     }
 
+    public function json_scrape_sephora()
+    {
+        \App\Scrapers\JsonScrapeSephora::json_scrape_sephora();
+    }
 
     /**
      * Display the specified resource.
