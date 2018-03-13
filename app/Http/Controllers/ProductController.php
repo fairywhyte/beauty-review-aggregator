@@ -4,10 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use Illuminate\Http\Request;
-use Illuminate\Html\HtmlFacade;
-use Illuminate\Support\Facades\File;
-use GuzzleHttp\Exception\GuzzleException;
-use GuzzleHttp\Client;
+
 
 
 
@@ -60,7 +57,17 @@ class ProductController extends Controller
         }
     }
 
-     
+    /**
+     * get the target url from the databsae and return description and number of ratings
+     * returns an array of product descriptions and number of ratings
+     */
+    public function scrape_description()
+    {
+        // call the SephoraTargetURL with scrape() which will scrape the product description and return it
+        \App\Scrapers\SephoraTargetURL::scrape_description();
+        // return it
+    }
+
 
     /**
      * Display the specified resource.

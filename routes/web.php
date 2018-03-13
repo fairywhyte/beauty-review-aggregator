@@ -21,4 +21,4 @@ Route::get('/details', 'MainController@details');
 Route::get('/results', 'MainController@results');
 
 Route::get('/store', 'ProductController@store');
-Route::get('/description', 'ProductController@description');
+Route::get('/scrape_description', 'ProductController@scrape_description');
