@@ -20,7 +20,7 @@ class Products extends Migration
             $table->string('brand', 127)->nullable(); // adds question_id (int (11))
             $table->text('description')->nullable();           // adds text (TEXT)
             $table->string('price')->nullable();
-            $table->string('image', 255)->nullable();
+            $table->string('image', 255)->nullable();//have to delete this column.
             $table->string('average_rating')->nullable();
             $table->integer('total_number_of_ratings')->nullable();
         });
