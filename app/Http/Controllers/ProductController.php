@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Product;
 use Illuminate\Http\Request;
 use Illuminate\Html\HtmlFacade;
+use Illuminate\Support\Facades\File;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
+
 
 
 class ProductController extends Controller
@@ -56,41 +60,7 @@ class ProductController extends Controller
         }
     }
 
-    public function description()
-    {
-        $product_url =\App\Product::all(['product_url'])->toArray();
-        $html = file_get_contents($product_url); //get the html returned from the following url\
-
-        $sephora_serums_indiv_doc_page = new \DOMDocument();
-
-        libxml_use_internal_errors(TRUE); //disable libxml errors
-
-        if(!empty($html)){ //if any html is actually returned
-
-            $sephora_serums_indiv_doc_page->loadHTML($html);
-
-            libxml_clear_errors(); //remove errors for yucky html
-
-            $sephora_serums_indiv_xpath = new \DOMXPath($sephora_serums_indiv_doc_page);
-
-            //get all the product DESCRIPTIONS
-            $sephora_serums_description = $sephora_serums_indiv_xpath->query('//div[@class="css-8tl366"]');
-
-            //get all the product NUMBER OF RATINGS
-            $sephora_serums_nr_of_ratings = $sephora_serums_indiv_xpath->query('//button[@class="css-fisw11"]');
-
-            $product_desc_and_nr_of_ratings[] = [
-                $sephora_serums_description[0]->nodeValue,
-                $sephora_serums_nr_of_ratings[0]->nodeValue,
-            ];
-            $html = $sephora_serums_indiv_doc_page->saveHTML();
-
-        }
-
-        echo '<pre>';
-        print_r($product_desc_and_nr_of_ratings);
-        echo '</pre>';
-    }
+     
 
     /**
      * Display the specified resource.
