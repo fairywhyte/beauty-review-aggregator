@@ -25,6 +25,7 @@ $data = json_decode($html, true);
         $product_title = $product['displayName'];
         $product_rating = $product['rating'];
         $product_SKU=$product['currentSku'];
+        $sephora_id=$product['productId'];
         $product_price = $product_SKU['listPrice'];
         $product_target_url= $product['targetUrl'];
         $product_image_url_img135= $product['image135'];
@@ -33,6 +34,7 @@ $data = json_decode($html, true);
         $scraped_at_date = date("Y/m/d");
 
         $product_attributes[] =[
+        $sephora_id,
         $product_brand_name,
         $product_title,
         $product_rating,
