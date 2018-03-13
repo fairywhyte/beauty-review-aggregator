@@ -23,6 +23,9 @@ class Products extends Migration
             $table->string('image', 255)->nullable();//have to delete this column.
             $table->string('average_rating')->nullable();
             $table->integer('total_number_of_ratings')->nullable();
+            $table->string('img135');
+            $table->string('img250');
+            $table->string('img450');
         });
 
     }

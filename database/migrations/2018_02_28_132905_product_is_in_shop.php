@@ -14,13 +14,18 @@ class ProductIsInShop extends Migration
     public function up()
     {
         //
-        Schema::create('product_is_in_shop', function (Blueprint $table) {
+        Schema::create('scraped_products', function (Blueprint $table) {
+            $table->increments('id');
             $table->integer('product_id');
+            $table->string('slug')->index('slug');
             $table->integer('shop_id');
+            $table->string('id_in_shop');
             $table->decimal('rating');
             $table->integer('num_of_ratings');
             $table->date('scraped_at');
             $table->decimal('price');
+            $table->unique(['shop_id', 'id_in_shop']);
+            $table->string('product_url');
         });
 
     }
