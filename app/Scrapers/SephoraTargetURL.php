@@ -8,7 +8,7 @@ class SephoraTargetURL{
     {
 
 
-        $product_urls =\App\Product::get(['id','product_url']);
+        $product_urls =\App\ProductIsInShop::get(['id','product_url']);
         //$product_urls =\App\Product::all(['product_url']);//get an array of objects
         //need to loop through every object
 
@@ -73,7 +73,7 @@ class SephoraTargetURL{
                 ];
 
                 // save the item to db
-                
+
 
             }
 
