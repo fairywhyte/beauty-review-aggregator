@@ -43,15 +43,19 @@ class ProductController extends Controller
             while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
 
                 $csv_data = new ProductIsInShop ();
+
                 $csv_data->id_in_shop = $data [0];
                 $csv_data->brand= $data [1];
                 $csv_data->title = $data [2];
                 $csv_data->rating = $data[3];
                 $csv_data->price = $data [4];
                 $csv_data->product_url = $data [5];
-                $csv_date->image450 = $data[];
-                $csv_data->shop_id = $data [10];
-                $csv_data->skuId = $data [11];
+                $csv_data->image450 = $data[8];
+                $csv_data->scraped_at = $data[9];
+                $csv_data->shop_id = $data[10];
+                $csv_data->skuId = $data[11];
+
+
                 $csv_data->save();
             }
             fclose ( $handle );
