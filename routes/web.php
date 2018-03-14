@@ -22,4 +22,5 @@ Route::get('/results', 'MainController@results');
 
 Route::get('/store', 'ProductController@store');
 Route::get('/scrape_description', 'ProductController@scrape_description');
+Route::get('/load_influenster', 'ServiceController@load_influenster');
 Route::get('/json_scrape_sephora', 'ProductController@json_scrape_sephora');

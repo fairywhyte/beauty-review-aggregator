@@ -1,8 +1,8 @@
 <?php
 
 //define the file you wish to work with
-$source_file = 'serum51-100.csv';
-$target_file = 'serum51-100-corrected.csv';
+$source_file = 'influenster.csv';
+$target_file = 'influenster-corrected.csv';
 
 //open the file to read it
 $fh = fopen($source_file, 'r');
