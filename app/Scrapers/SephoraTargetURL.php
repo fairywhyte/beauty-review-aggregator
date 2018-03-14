@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Scrapers;
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
 
 class SephoraTargetURL{
 
@@ -73,10 +76,19 @@ class SephoraTargetURL{
                 ];
 
                 // save the item to db
+                // find the id_in_shop
 
 
+                // $num_of_ratings = \App\ProductIsInShop::find($id);
+                // $num_of_ratings = new \App\ProductIsInShop();
+                // $num_of_ratings->num_of_ratings= $sephora_serums_nr_of_ratings[0]->nodeValue;
+                // $num_of_ratings->save();
             }
-
+            $description = \App\ProductIsInShop::find($id)->where($id ,'=', 'id');
+            $description = new \App\ProductIsInShop();
+            //save the data into the column
+            $description->description=$sephora_serums_description[0]->nodeValue;
+            $description->save();
             echo '<pre>';
             print_r($product_desc_and_nr_of_ratings);
             echo '</pre>';
@@ -84,6 +96,7 @@ class SephoraTargetURL{
             //if(++$scraped > 200) break;
             //break;//for testing purpose only
         }//for loop
+
 
 
     }//public function
