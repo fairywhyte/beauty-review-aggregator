@@ -26,7 +26,7 @@ class JsonScrapeSephora{
     {
 
         $product_attributes=[];
-        $html = file_get_contents('https://www.sephora.com/api/catalog/categories/cat60103/products?currentPage=2&pageSize=300&content=true&includeRegionsMap=true');
+        $html = file_get_contents('https://www.sephora.com/api/catalog/categories/cat60103/products?currentPage=1&pageSize=300&content=true&includeRegionsMap=true');
         $data = json_decode($html, true);
             foreach($data['products'] as $product)
             {
@@ -34,6 +34,7 @@ class JsonScrapeSephora{
                 $product_title = $product['displayName'];
                 $product_rating = $product['rating'];
                 $product_SKU=$product['currentSku'];
+                $product_skuId=$product['skuId'];
                 $sephora_id=$product['productId'];
                 $product_price = $product_SKU['listPrice'];
                 $product_target_url= $product['targetUrl'];
@@ -54,7 +55,8 @@ class JsonScrapeSephora{
                 'https://www.sephora.com'.$product_image_url_img250,
                 'https://www.sephora.com'.$product_image_url_img450,
                 $scraped_at_date,
-                $shop_id
+                $shop_id,
+                $product_skuId
                 ];
             }
         static::convert_to_csv($product_attributes, 'sephora_face_serum_product_attributes_1-300.csv', ',');

@@ -48,6 +48,7 @@ class ProductController extends Controller
                 $csv_data->price = $data [4];
                 $csv_data->product_url = $data [5];
                 $csv_data->shop_id = $data [10];
+                $csv_data->sku_id = $data [11];
                 $csv_data->save();
             }
             fclose ( $handle );
