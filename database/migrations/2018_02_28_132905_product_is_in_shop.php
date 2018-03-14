@@ -15,6 +15,7 @@ class ProductIsInShop extends Migration
     {
         //
         Schema::create('scraped_products', function (Blueprint $table) {
+
             $table->increments('id');
             $table->integer('product_id');
             $table->string('slug')->index('slug');
@@ -26,6 +27,8 @@ class ProductIsInShop extends Migration
             $table->decimal('price');
             $table->unique(['shop_id', 'id_in_shop']);
             $table->string('product_url');
+            $table->timestamps();
+
         });
 
     }
@@ -38,6 +41,6 @@ class ProductIsInShop extends Migration
     public function down()
     {
         //
-        Schema::dropIfExists('product_is_in_shop');
+        Schema::dropIfExists('scraped_products');
     }
 }
