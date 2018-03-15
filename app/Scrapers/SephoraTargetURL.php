@@ -76,7 +76,7 @@ class SephoraTargetURL{
                 ];
 
                 // save the item to db
-                // find the id_in_shop
+                // find the id_in_shop in the table scraped_products that matches the string in product_url
 
             }
 
