@@ -32,16 +32,18 @@ $data = json_decode($html, true);
         $product_image_url_img450= $product['image450'];
         $scraped_at_date = date("Y/m/d");
 
+
         $product_attributes[] =[
-        $product_brand_name,
-        $product_title,
-        $product_rating,
-        $product_price,
-        'https://www.sephora.com'.$product_target_url,
-        'https://www.sephora.com'.$product_image_url_img135,
-        'https://www.sephora.com'.$product_image_url_img250,
-        'https://www.sephora.com'.$product_image_url_img450,
-        $scraped_at_date
+            $product_brand_name,
+            $product_title,
+            $product_rating,
+            $product_price,
+            'https://www.sephora.com'.$product_target_url,
+            'https://www.sephora.com'.$product_image_url_img135,
+            'https://www.sephora.com'.$product_image_url_img250,
+            'https://www.sephora.com'.$product_image_url_img450,
+            $scraped_at_date
+
         ];
     }
 convert_to_csv($product_attributes, 'sephora_face_serum_product_attributes_301-405.csv', ',');

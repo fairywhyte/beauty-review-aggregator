@@ -1,10 +1,8 @@
-
-
 <?php
 function convert_to_csv($input_array, $output_file_name, $delimiter)
 {
     /** open raw memory as file, no need for temp files, be careful not to run out of memory thought */
-    $f = fopen('php://memory', 'w');
+    $f = fopen('influenster.csv', 'w');
     /** loop through array  */
     foreach ($input_array as $line) {
         /** default php csv handler **/
@@ -21,7 +19,7 @@ function convert_to_csv($input_array, $output_file_name, $delimiter)
 
 $products = [];
 
-    for($i = 401; $i < 438; $i++)
+    for($i = 1; $i < 438; $i++)
     {
         $html = mb_convert_encoding( file_get_contents('https://www.influenster.com/reviews/face-serums?page='.$i), "HTML-ENTITIES", "UTF-8" ); //get the html returned from the following url\
 
@@ -39,11 +37,21 @@ $products = [];
             $influenster_serums_xpath = new DOMXPath($influenster_serums_doc_page);
 
             //get all the product TITLES
-            $product_details = $influenster_serums_xpath->query('//div[@class="category-product-detail"]');
+            $product_links = $influenster_serums_xpath->query('//a[@class="category-product"]');
+
             //foreach through each of products on page
             //$detail holds variable
-            foreach($product_details as $detail)
+            foreach($product_links as $link)
             {
+                $url = $link->getAttribute('href');
+
+                if(!preg_match('#^\/reviews\/([^\/]+)($|\/)#is', $url, $m)) continue;
+
+                $id_in_shop = $m[1];
+
+                $product_details = $influenster_serums_xpath->query('//div[@class="category-product-detail"]', $link);
+                $detail = $product_details[0];
+
                 //$detail at end of following queries mean: look within the context of $detail
                 $titles = $influenster_serums_xpath->query('./div[@class="category-product-title"]', $detail);
                 $brands = $influenster_serums_xpath->query('./div[@class="category-product-brand"]', $detail);
@@ -57,7 +65,8 @@ $products = [];
                     'product_brand_name' => trim($brands[0]->nodeValue),
                     'rating' => trim($ratings[0]->nodeValue),
                     'price' => trim($prices[0]->nodeValue),
-                    'scraped_at_date' =>($scraped_at_date)
+                    'scraped_at_date' =>($scraped_at_date),
+                    'product_id' => $id_in_shop
                 ];
 
 // if (strpos(trim($titles[0]->nodeValue), 'Youth Activating Concentrate Serum')) {
@@ -84,5 +93,3 @@ $products = [];
 // fclose($fp);
 // // finally send browser output
 // ob_end_flush();
-
-
