@@ -2,6 +2,8 @@
 
 namespace App\Scrapers;
 
+use App\ProductIsInShop;
+
 class SephoraTargetURL{
 
     public static function scrape_description()
@@ -75,6 +77,15 @@ class SephoraTargetURL{
                 // save the item to db
 
 
+            }
+
+            $product = ProductIsInShop::find($product_desc_and_nr_of_ratings[0][0]);
+
+            if($product != null){
+                $product->description = $product_desc_and_nr_of_ratings[0][1];
+
+                $product->num_of_ratings = intval(str_replace(" ratings", "", $product_desc_and_nr_of_ratings[0][2]));
+                $product->save();
             }
 
             echo '<pre>';
