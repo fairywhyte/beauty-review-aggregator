@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Scrapers;
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
 
 use App\ProductIsInShop;
 
@@ -75,7 +78,7 @@ class SephoraTargetURL{
                 ];
 
                 // save the item to db
-
+                // find the id_in_shop in the table scraped_products that matches the string in product_url
 
             }
 
@@ -95,6 +98,14 @@ class SephoraTargetURL{
             //if(++$scraped > 200) break;
             //break;//for testing purpose only
         }//for loop
+
+        $description = \App\ProductIsInShop::find($id)->where('id_is_in_shop','=','P427512');
+        //save the data into the column
+        $description = new \App\ProductIsInShop();
+        $description->description=$sephora_serums_description[0]->nodeValue;
+        //$description->num_of_ratings=$sephora_serums_nr_of_ratings[0]->nodeValue;
+        $description->save();
+
 
 
     }//public function
