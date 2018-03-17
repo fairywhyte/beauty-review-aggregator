@@ -99,15 +99,6 @@ class SephoraTargetURL{
             //break;//for testing purpose only
         }//for loop
 
-        $description = \App\ProductIsInShop::find($id)->where('id_is_in_shop','=','P427512');
-        //save the data into the column
-        $description = new \App\ProductIsInShop();
-        $description->description=$sephora_serums_description[0]->nodeValue;
-        //$description->num_of_ratings=$sephora_serums_nr_of_ratings[0]->nodeValue;
-        $description->save();
-
-
-
     }//public function
 
 }//class
