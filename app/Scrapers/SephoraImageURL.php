@@ -10,7 +10,6 @@ class SephoraImageURL{
     public static function json_scrape_image(){
     //connect to the database and grab the image450 from the scraped_products table
     $sephora_image_urls = \App\ProductIsInShop::get(['skuId','image450']);
-    $scraped=0;
     //for every image url for image450,grab each image
         foreach($sephora_image_urls as $sephora_image_url)
         {
@@ -22,7 +21,7 @@ class SephoraImageURL{
             $cache_file = storage_path('scraper_image/'.str_replace('/', '-', join('-', $url_parts)));
             //call the function save image passing 2 parameters, 1st the  imageurl ,second the folder to store images
             static::save_image($sephora_image_url['image450'],$cache_file);
-            if(++$scraped >10)break;
+
         }
 
     }//closing for function json_scrape_image
