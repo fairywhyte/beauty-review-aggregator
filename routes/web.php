@@ -25,3 +25,4 @@ Route::get('/scrape_description', 'ProductController@scrape_description');
 Route::get('/load_influenster', 'ServiceController@load_influenster');
 Route::get('/json_scrape_sephora', 'ProductController@json_scrape_sephora');
 Route::get('/scrape_image_sephora', 'ProductController@json_scrape_image');
+Route::get('/scrape_reviews_sephora', 'ProductController@scrape_review');

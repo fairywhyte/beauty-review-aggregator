@@ -82,6 +82,12 @@ class ProductController extends Controller
     {
         \App\Scrapers\SephoraImageURL::json_scrape_image();
     }
+
+    public function scrape_review()
+    {
+        \App\Scrapers\SephoraScrapeReviews::scrape_review();
+    }
+
     /**
      * Display the specified resource.
      *

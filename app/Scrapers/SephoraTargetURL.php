@@ -3,7 +3,6 @@
 namespace App\Scrapers;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Query\Builder;
 
 use App\ProductIsInShop;
 
