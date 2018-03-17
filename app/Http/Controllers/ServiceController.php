@@ -16,9 +16,10 @@ class ServiceController extends Controller
     public function load_influenster()
     {
 
-        $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster1-2.csv');
+        $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster.csv');
 
-        $fh_infl = fopen($source_file_influenster, 'r');
+        $fh_infl_r = fopen($source_file_influenster, 'r');
+        $fh_infl_w = fopen($source_file_influenster, 'w');
 
         $influenster_products = [];
 
@@ -26,9 +27,12 @@ class ServiceController extends Controller
         while ($row_infl = fgetcsv($fh_infl, 0, ','))
         {
 
-            $key = str_slug($row_infl[0]);
+            $key = str_slug($row_infl_r[0]);
 
             // try to find an item product_in_shop table with the same shop_id and the same id_in_shop
+            $find_id_db = DB::select('SELECT shop_id FROM scraped_products');
+            $find_id_csv = substr($row_infl[4]);
+
             // if it exists
                 // update it
             // else
