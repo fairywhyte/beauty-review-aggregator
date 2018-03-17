@@ -78,6 +78,10 @@ class ProductController extends Controller
         \App\Scrapers\JsonScrapeSephora::json_scrape_sephora();
     }
 
+    public function json_scrape_image()
+    {
+        \App\Scrapers\SephoraImageURL::json_scrape_image();
+    }
     /**
      * Display the specified resource.
      *

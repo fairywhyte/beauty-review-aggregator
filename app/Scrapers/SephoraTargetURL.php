@@ -17,7 +17,7 @@ class SephoraTargetURL{
         //$product_urls =\App\Product::all(['product_url']);//get an array of objects
         //need to loop through every object
 
-        $scraped = 0;
+     $scraped = 0;
         foreach($product_urls as $product_url)
         {
             $url = $product_url['product_url'];
