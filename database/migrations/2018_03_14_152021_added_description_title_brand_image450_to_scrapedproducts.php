@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddedShopIdForSephoraScrapedProducts extends Migration
+class AddedDescriptionTitleBrandImage450ToScrapedproducts extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,10 @@ class AddedShopIdForSephoraScrapedProducts extends Migration
     public function up()
     {
         Schema::table('scraped_products', function (Blueprint $table) {
-            $table->
+            $table->string('title', 127)->nullable();
+            $table->string('brand', 127)->nullable();
+            $table->text('description')->nullable();
+            $table->string('image450');
         });
     }
 
@@ -26,7 +29,7 @@ class AddedShopIdForSephoraScrapedProducts extends Migration
     public function down()
     {
         Schema::table('scraped_products', function (Blueprint $table) {
-            //
+            Schema::dropIfExists('scraped_products');
         });
     }
 }

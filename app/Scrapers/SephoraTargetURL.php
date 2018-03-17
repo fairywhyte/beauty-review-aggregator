@@ -1,6 +1,11 @@
 <?php
 
 namespace App\Scrapers;
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
+
+use App\ProductIsInShop;
 
 class SephoraTargetURL{
 
@@ -8,7 +13,7 @@ class SephoraTargetURL{
     {
 
 
-        $product_urls =\App\Product::get(['id','product_url']);
+        $product_urls =\App\ProductIsInShop::get(['id','product_url']);
         //$product_urls =\App\Product::all(['product_url']);//get an array of objects
         //need to loop through every object
 
@@ -73,8 +78,17 @@ class SephoraTargetURL{
                 ];
 
                 // save the item to db
-                
+                // find the id_in_shop in the table scraped_products that matches the string in product_url
 
+            }
+
+            $product = ProductIsInShop::find($product_desc_and_nr_of_ratings[0][0]);
+
+            if($product != null){
+                $product->description = $product_desc_and_nr_of_ratings[0][1];
+
+                $product->num_of_ratings = intval(str_replace(" ratings", "", $product_desc_and_nr_of_ratings[0][2]));
+                $product->save();
             }
 
             echo '<pre>';
@@ -84,7 +98,6 @@ class SephoraTargetURL{
             //if(++$scraped > 200) break;
             //break;//for testing purpose only
         }//for loop
-
 
     }//public function
 
