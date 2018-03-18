@@ -49,7 +49,7 @@ class ServiceController extends Controller
                 $csv_data->rating = $row_infl [2];
                 $csv_data->price = $row_infl[3];
                 $csv_data->scraped_at = $row_infl[4];
-                $csv_data->shop_id = $row_infl[6];
+                $csv_data->shop_id = 2;
                 $csv_data->slug = $key;
 
                 $csv_data->save();
