@@ -1,12 +1,14 @@
 <?php
 
 namespace App\Scrapers;
+use App\Reviews;
 
 class SephoraScrapeReviews{
 
     public static function scrape_review()
     {
         $review_urls=\App\Reviews::get(['id_in_shop', 'review_url']);
+
         $scraped = 0;
         foreach($review_urls as $review_url)
         {
@@ -22,18 +24,32 @@ class SephoraScrapeReviews{
             $data = json_decode($html, true);//decode the string
             foreach($data['Results'] as $result)
             {
-            /**
-             * get specific rating and review_text
-             */
-            $rating= $result['Rating'];
-            $review_text= $result['ReviewText'];
-            $review_attributes[] =[
-                $id_in_shop,
-                $rating,
-                $review_text
-            ];
-            print_r($review_attributes);
+                /**
+                 * get specific rating and review_text
+                 */
+                $rating= $result['Rating'];
+
+                $review_text= $result['ReviewText'];
+                $review_attributes[] =[
+                    $id_in_shop,
+                    $rating,
+                    $review_text
+                ];
+                //dd($review_attributes);
+            $review = Reviews::find($review_attributes[0][0]);
+
+            if($review != null){
+                // left hand side is what you output, right hand side is the location inside the output
+                $review->id_in_shop = $review_attributes[0][0];
+                dd($review->id_in_shop);
+                $review->review_text = $review_attributes[0][2];
+                $review->save();
             }
+            }
+           print_r($review_attributes);
+
+
+
 
 
             ///*
