@@ -7,39 +7,32 @@ class SephoraScrapeReviews{
     public static function scrape_review()
     {
         $review_urls=\App\Reviews::get(['id_in_shop', 'review_url']);
-
         $scraped = 0;
-
         foreach($review_urls as $review_url)
         {
             // grab the review_url and id_in_shop from table reviews
             $url = $review_url['review_url'];
             $id_in_shop = $review_url['id_in_shop'];
-
-
             /*
             * Start scraping
             */
             // create empty array for items to grab
             $review_attributes = [];
             $html = file_get_contents($url);
-            $data = json_decode($html, true);
-
+            $data = json_decode($html, true);//decode the string
             foreach($data['Results'] as $result)
             {
             /**
              * get specific rating and review_text
              */
-
             $rating= $result['Rating'];
-
             $review_text= $result['ReviewText'];
-
             $review_attributes[] =[
                 $id_in_shop,
                 $rating,
                 $review_text
             ];
+            print_r($review_attributes);
             }
 
 
@@ -66,9 +59,7 @@ class SephoraScrapeReviews{
                 ////if it does exist, then just take it from the local file
                 //$html = file_get_contents($cache_file);
             //}
-
-        }
-        print_r($review_attributes);
+       }
 
     }
 }
