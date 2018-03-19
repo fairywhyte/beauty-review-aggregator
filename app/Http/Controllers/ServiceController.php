@@ -17,7 +17,7 @@ class ServiceController extends Controller
     {
         //returns the fully qualified path to the project root.
         $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster.csv');
-        
+
         $fh_infl_r = fopen($source_file_influenster, 'r');
         $fh_infl_w = fopen($source_file_influenster, 'w');
 
