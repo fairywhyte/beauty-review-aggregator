@@ -42,19 +42,22 @@ class ProductController extends Controller
         if (($handle = fopen ( public_path () . '/sephora_face_serum_product_attributes_1_405.csv', 'r' )) !== FALSE) {
             while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
 
+                $key = str_slug($data[2]);
+
                 $csv_data = new ProductIsInShop ();
 
-                $csv_data->id_in_shop = $data [0];
-                $csv_data->brand= $data [1];
-                $csv_data->title = $data [2];
+
+                $csv_data->id_in_shop = $data[0];
+                $csv_data->brand= $data[1];
+                $csv_data->title = $data[2];
                 $csv_data->rating = $data[3];
-                $csv_data->price = $data [4];
-                $csv_data->product_url = $data [5];
+                $csv_data->price = $data[4];
+                $csv_data->product_url = $data[5];
                 $csv_data->image450 = $data[8];
                 $csv_data->scraped_at = $data[9];
                 $csv_data->shop_id = $data[10];
                 $csv_data->skuId = $data[11];
-
+                $csv_data->slug = $key;
 
                 $csv_data->save();
             }
@@ -88,6 +91,10 @@ class ProductController extends Controller
         \App\Scrapers\SephoraScrapeReviews::scrape_review();
     }
 
+    public function count_ratings()
+    {
+        \App\Scrapers\SephoraScrapeReviews::count_ratings();
+    }
     /**
      * Display the specified resource.
      *
