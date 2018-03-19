@@ -54,7 +54,7 @@ class ServiceController extends Controller
 
                 $csv_data->save();
 
-                    \App\Shop::INFLUENSTER_ID;
+                    // \App\Shop::INFLUENSTER_ID;
                     // try to find an item in product_in_shop that has the same slug
                     // if it exists
                         // set this new product_id to the other items product_id
