@@ -18,7 +18,7 @@ class CreateTableReviews extends Migration
             $table->increments('id');
             $table->string('id_in_shop')->nullable();
             $table->string('review_url')->nullable();
-            $table->text('review_text')->nullable();
+            $table->longtext('review_text')->nullable();
             $table->timestamps();
         });
     }
