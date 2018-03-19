@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Scrapers;
+use Illuminate\Database\Eloquent\Model;
 use App\Reviews;
 
 class SephoraScrapeReviews{
@@ -27,26 +28,22 @@ class SephoraScrapeReviews{
                 /**
                  * get specific rating and review_text
                  */
-                $rating= $result['Rating'];
-
+                //$rating= $result['Rating'];
                 $review_text= $result['ReviewText'];
                 $review_attributes[] =[
                     $id_in_shop,
-                    $rating,
                     $review_text
                 ];
-                //dd($review_attributes);
-            $review = Reviews::find($review_attributes[0][0]);
 
+               }
+            }
+            $review = Reviews::find($review_attributes[0][0]);
             if($review != null){
-                // left hand side is what you output, right hand side is the location inside the output
-                $review->id_in_shop = $review_attributes[0][0];
-                dd($review->id_in_shop);
-                $review->review_text = $review_attributes[0][2];
-                $review->save();
-            }
-            }
-           print_r($review_attributes);
+           // left hand side is what you output, right hand side is the location inside the output
+               $review->id_in_shop = $review_attributes[0][1];
+               $review->review_text = $review_attributes[0][2];
+               $review->save();
+          print_r($review_attributes);
 
 
 
