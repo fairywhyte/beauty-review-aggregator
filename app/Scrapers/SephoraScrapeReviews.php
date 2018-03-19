@@ -23,26 +23,47 @@ class SephoraScrapeReviews{
             $review_attributes = [];
             $html = file_get_contents($url);
             $data = json_decode($html, true);//decode the string
+
+            // $review = Reviews::where('id_in_shop', $id_in_shop);
+
+            $final_text = '';
             foreach($data['Results'] as $result)
             {
+                //create a new row in the database for each review_text
+                $review = new Reviews();
+                $review->id_in_shop = $id_in_shop;
+                $review->review_url = $url;
+                $review->review_text = $result['ReviewText'];
+                $review->save();
+
+                //$final_text .= $result['ReviewText'] . ";\n";
+                //if (!$review) {
+                //
+                //}
+
+                //$review->id_in_shop = $review_attributes[0][1];
+
+
                 /**
                  * get specific rating and review_text
                  */
                 //$rating= $result['Rating'];
-                $review_text= $result['ReviewText'];
-                $review_attributes[] =[
-                    $id_in_shop,
-                    $review_text
-                ];
+                // $review_text= $result['ReviewText'];
+                // $review_attributes[] =[
+                    // $id_in_shop,
+                    // $review_text
+                // ];
 
-               }
             }
-            $review = Reviews::find($review_attributes[0][0]);
-            if($review != null){
+        }
+
+dd($review_attributes);
+
+        if($review != null){
            // left hand side is what you output, right hand side is the location inside the output
-               $review->id_in_shop = $review_attributes[0][1];
-               $review->review_text = $review_attributes[0][2];
-               $review->save();
+            $review->id_in_shop = $review_attributes[0][1];
+            $review->review_text = $review_attributes[0][2];
+            $review->save();
           print_r($review_attributes);
 
 
