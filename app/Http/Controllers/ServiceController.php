@@ -18,7 +18,7 @@ class ServiceController extends Controller
     public function load_influenster(Request $request)
     {
         //returns the fully qualified path to the project root.
-        $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster1-2.csv');
+        $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster-corrected.csv');
 
         $fh_infl_r = fopen($source_file_influenster, 'r');
        // $fh_infl_w = fopen($source_file_influenster, 'w');
@@ -29,9 +29,9 @@ class ServiceController extends Controller
         $row_infl = fgetcsv($fh_infl_r, 0, ',');
 
         $rating = floatval(substr($row_infl[2], 0, strpos($row_infl[2], ' (')));
+        $key = str_slug($row_infl[0]);
 
-
-            $key = str_slug($row_infl[0]);
+        
             $csv_data = new ProductIsInShop ();
             $csv_data->title = $row_infl [0];
             $csv_data->brand= $row_infl [1];
