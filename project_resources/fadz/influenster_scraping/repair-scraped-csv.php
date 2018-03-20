@@ -9,7 +9,7 @@ $fh = fopen($source_file, 'r');
 
 //open the file to write into it
 $fh2 = fopen($target_file, 'w');
-
+$all_my_unique_column_values = [];
 //fgetcsv — Gets line from file pointer and parse for CSV fields
 while ($row = fgetcsv($fh, 0, ',')){
     //var_dump($row);
@@ -47,8 +47,13 @@ while ($row = fgetcsv($fh, 0, ',')){
     //trim removes white spaces from the beginning of string
     $new_row[0] = trim($remove_brand);
 
+    //$data = array_flip(array_flip($new_row[0]));
+
     //create a new file with all the above defined changes
-    fputcsv($fh2, $new_row);
+    if (array_search($new_row[0], $all_my_unique_column_values) === false) {
+        fputcsv($fh2, $new_row);
+        $all_my_unique_column_values[] = $new_row[0];
+    }
 }
 
 //close the files, (they should close on their own but this is better practice)

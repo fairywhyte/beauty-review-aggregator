@@ -22,7 +22,7 @@ class ServiceController extends Controller
 
         $fh_infl_r = fopen($source_file_influenster, 'r');
 
-        
+
         $influenster_products = [];
 
         while (!feof($fh_infl_r)) {
@@ -44,12 +44,6 @@ class ServiceController extends Controller
 
             $csv_data->save();
 
-            // \App\Shop::INFLUENSTER_ID;
-            // try to find an item in product_in_shop that has the same slug
-            // if it exists
-            // set this new product_id to the other items product_id
-            // else
-            // create a new product
 
         }
     }
@@ -58,8 +52,16 @@ class ServiceController extends Controller
 
 
 
+// try to find an item in product_in_shop that has the same slug
+// if it exists
+// set this new product_id to the other items product_id
+// else
+// create a new product
+
 // // try to find an item product_in_shop table with the same shop_id and the same id_in_shop
-// $find_id_db = DB::select('SELECT shop_id FROM scraped_products');
+$find_id_db = DB::select('SELECT shop_id FROM scraped_products');
+
+\App\Shop::INFLUENSTER_ID;
 
 
 // if($find_id_db == $find_id_csv){
@@ -67,6 +69,6 @@ class ServiceController extends Controller
 //         // update it
 
 // }else{
-    // else
-        // first insert that item in product_in_shop
-        //}
+//     //else
+//         //first insert that item in product_in_shop
+//         }
