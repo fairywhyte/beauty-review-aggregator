@@ -14,7 +14,7 @@ class TurnSlugShopidNumratingsIntoNullable extends Migration
     public function up()
     {
         Schema::table('scraped_products', function (Blueprint $table) {
-            $table->string("slug")->nullable()->change();
+
             $table->integer("shop_id")->nullable()->change();
             $table->integer("num_of_ratings")->nullable()->change();
         });

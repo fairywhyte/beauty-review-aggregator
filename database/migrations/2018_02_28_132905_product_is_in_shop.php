@@ -18,7 +18,7 @@ class ProductIsInShop extends Migration
 
             $table->increments('id');
             $table->integer('product_id');
-            $table->string('slug')->index('slug');
+            $table->string('slug')->index('slug')->nullable();
             $table->integer('shop_id');
             $table->string('id_in_shop');
             $table->decimal('rating');

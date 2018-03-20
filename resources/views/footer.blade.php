@@ -1,4 +1,6 @@
-@section(footer)
+
+
+
 
 
 <!--Footer-->
@@ -138,4 +140,3 @@
 <!--/.Footer-->
 
 
-@endsection

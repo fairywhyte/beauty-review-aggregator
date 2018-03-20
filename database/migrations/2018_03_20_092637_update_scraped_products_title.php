@@ -14,7 +14,7 @@ class UpdateScrapedProductsTitle extends Migration
     public function up()
     {
         Schema::table('scraped_products', function (Blueprint $table) {
-            $table->string('title', 255)->nullable()->change();
+            $table->text('title')->nullable()->change();
             $table->string('price')->nullable()->change();
         });
     }

@@ -21,13 +21,15 @@ while ($row = fgetcsv($fh, 0, ',')){
 
     //if the first 3 characters = By or by
     if ($first_three == 'By '|| $first_three == 'by '){
-        // var_dump($row[1]);
+   
         //then remove it
         $extract_name = substr($row[1], 3);
-        var_dump($extract_name);
+
+        $row[1] = $extract_name;
     } else {
         //do nothing and leave it as is
         $extract_name = $row[1];
+
     }
 
     // if the first thing in the string = the above extracted sting (the brand)
@@ -47,7 +49,7 @@ while ($row = fgetcsv($fh, 0, ',')){
     //trim removes white spaces from the beginning of string
     $new_row[0] = trim($remove_brand);
 
-    //$data = array_flip(array_flip($new_row[0]));
+
 
     //create a new file with all the above defined changes
     if (array_search($new_row[0], $all_my_unique_column_values) === false) {
