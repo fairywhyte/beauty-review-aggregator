@@ -59,9 +59,9 @@ class ServiceController extends Controller
 // create a new product
 
 // // try to find an item product_in_shop table with the same shop_id and the same id_in_shop
-$find_id_db = DB::select('SELECT shop_id FROM scraped_products');
+// $find_id_db = DB::select('SELECT shop_id FROM scraped_products');
 
-\App\Shop::INFLUENSTER_ID;
+// \App\Shop::INFLUENSTER_ID;
 
 
 // if($find_id_db == $find_id_csv){
