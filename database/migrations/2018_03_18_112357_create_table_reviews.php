@@ -22,6 +22,7 @@ class CreateTableReviews extends Migration
             $table->longtext('all_reviews_data')->nullable();
             $table->string('rating_count_per_star')->nullable();
             $table->decimal('five_star_rating_percentage')->nullable();
+            $table->integer('five_star_rating_count')->nullable();
             $table->integer('recommended_count')->nullable();
             $table->decimal('recommended_count_percentage')->nullable();
             $table->timestamps();
