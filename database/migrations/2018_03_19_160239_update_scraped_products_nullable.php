@@ -17,6 +17,7 @@ class UpdateScrapedProductsNullable extends Migration
             //
             $table->string("product_url")->nullable()->change();
             $table->string("image450")->nullable()->change();
+            $table->string("price")->nullable()->change();
         });
     }
 

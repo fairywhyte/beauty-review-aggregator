@@ -21,8 +21,8 @@ class ServiceController extends Controller
         $source_file_influenster = base_path('project_resources/fadz/influenster_scraping/influenster-corrected.csv');
 
         $fh_infl_r = fopen($source_file_influenster, 'r');
-       // $fh_infl_w = fopen($source_file_influenster, 'w');
 
+        
         $influenster_products = [];
 
         while (!feof($fh_infl_r)) {
@@ -31,7 +31,7 @@ class ServiceController extends Controller
         $rating = floatval(substr($row_infl[2], 0, strpos($row_infl[2], ' (')));
         $key = str_slug($row_infl[0]);
 
-        
+
             $csv_data = new ProductIsInShop ();
             $csv_data->title = $row_infl [0];
             $csv_data->brand= $row_infl [1];
@@ -60,8 +60,7 @@ class ServiceController extends Controller
 
 // // try to find an item product_in_shop table with the same shop_id and the same id_in_shop
 // $find_id_db = DB::select('SELECT shop_id FROM scraped_products');
-// //if i add the id into the csv file while scraping
-// $find_id_csv = substr($row_infl[6]);
+
 
 // if($find_id_db == $find_id_csv){
 //     // if it exists

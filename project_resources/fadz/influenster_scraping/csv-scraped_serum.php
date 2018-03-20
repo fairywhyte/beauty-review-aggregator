@@ -37,20 +37,20 @@ $products = [];
             $influenster_serums_xpath = new DOMXPath($influenster_serums_doc_page);
 
             //get all the product TITLES
-            $product_links = $influenster_serums_xpath->query('//a[@class="category-product"]');
+            //$product_links = $influenster_serums_xpath->query('//a[@class="category-product"]');
 
             //foreach through each of products on page
             //$detail holds variable
-            foreach($product_links as $link)
+            $product_details = $influenster_serums_xpath->query('//div[@class="category-product-detail"]');
+            foreach($product_details as $detail)
             {
-                $url = $link->getAttribute('href');
+                // $url = $link->getAttribute('href');
 
-                if(!preg_match('#^\/reviews\/([^\/]+)($|\/)#is', $url, $m)) continue;
+                // if(!preg_match('#^\/reviews\/([^\/]+)($|\/)#is', $url, $m)) continue;
 
-                $id_in_shop = $m[1];
+                // $id_in_shop = $m[1];
 
-                $product_details = $influenster_serums_xpath->query('//div[@class="category-product-detail"]', $link);
-                $detail = $product_details[0];
+                // $detail = $product_details[0];
 
                 //$detail at end of following queries mean: look within the context of $detail
                 $titles = $influenster_serums_xpath->query('./div[@class="category-product-title"]', $detail);
@@ -66,7 +66,7 @@ $products = [];
                     'rating' => trim($ratings[0]->nodeValue),
                     'price' => trim($prices[0]->nodeValue),
                     'scraped_at_date' =>($scraped_at_date),
-                    'product_id' => $id_in_shop
+                    //'product_id' => $id_in_shop
                 ];
 
 // if (strpos(trim($titles[0]->nodeValue), 'Youth Activating Concentrate Serum')) {
