@@ -391,10 +391,13 @@ $remove = [
     376 => "oz",
     377 => "oz/ 30 mL",
     378 => "SPF 25 PA+++ - # Medium 4ml/0.16oz",
-    379 => "x 2 fl oz Liquid"
+    379 => "x 2 fl oz Liquid",
+    380 => "L Occitane",
+    381 => "KORRES",
+    382 => "Amore Pacific"
     ];
 
-    
+
 //fgetcsv — Gets line from file pointer and parse for CSV fields
 while ($row = fgetcsv($fh, 0, ',')){
     //var_dump($row);
