@@ -28,7 +28,22 @@ class ServiceController extends Controller
         while (!feof($fh_infl_r)) {
         $row_infl = fgetcsv($fh_infl_r, 0, ',');
 
-        $rating = floatval(substr($row_infl[2], 0, strpos($row_infl[2], ' (')));
+        //$rating = floatval(substr($row_infl[2], 0, strpos($row_infl[2], ' (')));
+
+
+        //SEPARATE RATING AND NUM OF RATINGS
+        $column2=$row_infl[2];
+
+        $firstBracketPos=strpos($column2, ' (');
+
+        //get rating "4.5"
+        $ratingStr =substr($column2, 0, $firstBracketPos);
+        $rating=floatval($ratingStr);
+
+        //get number of ratings "1079"
+        $reviewCountStr=substr($column2, $firstBracketPos+1);
+        $reviewCount=floatval($reviewCountStr);
+
         $key = str_slug($row_infl[0]);
 
 
@@ -36,6 +51,7 @@ class ServiceController extends Controller
             $csv_data->title = $row_infl [0];
             $csv_data->brand= $row_infl [1];
             $csv_data->rating = $rating;
+            $csv_data->num_of_ratings = $reviewCount;
             $csv_data->price = $row_infl[3];
             $csv_data->scraped_at = $row_infl[4];
             $csv_data->shop_id = 2;
