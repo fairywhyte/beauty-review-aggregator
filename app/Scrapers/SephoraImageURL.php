@@ -17,13 +17,14 @@ class SephoraImageURL{
             $skuId = $sephora_image_url['skuId'];//getting the skuid from db
             $url = $sephora_image_url['image450'];//getting the image450 url from db
             //define the parts of the storage path consisting of host+path +query, if you don't define this you will get separate folders for the host, for the path and for the query
-            // $url_parts = array_filter(array_intersect_key(parse_url($url), array_fill_keys(['host', 'path', 'query'], null)));
+           $url_parts = array_filter(array_intersect_key(parse_url($url), array_fill_keys(['host', 'path', 'query'], null)));
             //then you put the image into the cache file where you define the storage_path
+           // $url_parts = array_filter(array_intersect_key(parse_url($url), array_fill_keys(['path', 'query'], null)));
+           $cache_file = storage_path('scraper_image/'.str_replace('/', '-', join('-', $url_parts)));
 
-            // $cache_file = storage_path('scraper_image/'.str_replace('/', '-', join('-', $url_parts)));
-            $cache_file = storage_path('scraper_image/'.$skuId.'.jpg');
             //call the function save image passing 2 parameters, 1st the  imageurl ,second the folder to store images
             static::save_image($sephora_image_url['image450'],$cache_file);
+            //if(++$scraped>3)break;
         }
 
     }//closing for function json_scrape_image
