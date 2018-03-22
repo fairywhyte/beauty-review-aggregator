@@ -42,7 +42,12 @@ class ServiceController extends Controller
 
         //get number of ratings "1079"
         $reviewCountStr=substr($column2, $firstBracketPos+1);
+        $reviewCountStr = str_replace('(','',$reviewCountStr);
         $reviewCount=floatval($reviewCountStr);
+//
+
+
+
 
         $key = str_slug($row_infl[0]);
 
