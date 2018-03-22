@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Brand;
 use App\ProductIsInShop;
 use Illuminate\Http\Request;
 
@@ -190,30 +191,39 @@ class ProductController extends Controller
             $non_sephora_products = \App\ProductIsInShop::where('shop_id','!=', 1)->where('slug', $sephora_product->slug)->get();
             //
 
-            //To calculate the average rating of Sephora, first calculate the sum
-            //step 1.calculate the number of ratings * the sephora rating
-            $sum =  $sephora_product->num_of_ratings * $sephora_product->rating;
+            if(count($non_sephora_products) >= 1){
+                //To calculate the average rating of Sephora, first calculate the sum
+                //step 1.calculate the number of ratings * the sephora rating
+                $sum =  $sephora_product->num_of_ratings * $sephora_product->rating;
 
-            //step 2. select the number of ratings
-            $count = $sephora_product->num_of_ratings;
+                //step 2. select the number of ratings
+                $count = $sephora_product->num_of_ratings;
 
-            foreach($non_sephora_products as $non_sephora_product) {
-                $sum += $non_sephora_product->num_of_ratings * $non_sephora_product->rating;
-                $count += $non_sephora_product->num_of_ratings;
+                foreach($non_sephora_products as $non_sephora_product) {
+                    $sum += $non_sephora_product->num_of_ratings * $non_sephora_product->rating;
+                    $count += $non_sephora_product->num_of_ratings;
+                }
+
+                $average = 0;
+                if($count > 0){
+                    $average = $sum / $count;
+                }
+
+                $matched_product = new Product();
+                $matched_product->title = $sephora_product->title;
+                // $matched_product->brand = $sephora_product->brand;
+
+                $matched_product->brand_id = Brand::where('name', $sephora_product->brand)->first()->id;
+
+                $matched_product->description = $sephora_product->description;
+                $matched_product->price = $sephora_product->price;
+                $matched_product->average_rating = $average;
+                $matched_product->total_number_of_ratings = $count;
+                $matched_product->product_skuId = $sephora_product->skuId;
+
+                $matched_product->save();
             }
-
-            $matched_product = new Product();
-            $matched_product->title = $sephora_product->title;
-            $matched_product->description = $sephora_product->description;
-            $matched_product->price = $sephora_product->price;
-            $matched_product->average_rating = $sum / $count;
-            $matched_product->total_number_of_ratings = $count;
-            $matched_product->product_skuId = $sephora_product->skuId;
-
-
-            $matched_product->save();
         }
-
     }
     /**
      * Show the form for editing the specified resource.
