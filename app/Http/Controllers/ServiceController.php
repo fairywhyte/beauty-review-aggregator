@@ -44,7 +44,7 @@ class ServiceController extends Controller
         $reviewCountStr=substr($column2, $firstBracketPos+1);
         $reviewCountStr = str_replace('(','',$reviewCountStr);
         $reviewCount=floatval($reviewCountStr);
-
+//
 
 
 
