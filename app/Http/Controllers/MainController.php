@@ -15,7 +15,7 @@ class MainController extends Controller
 
     public function result()
     {
-        return view('side-menu');
+        return view('results');
     }
 
     public function details()
@@ -23,11 +23,7 @@ class MainController extends Controller
         return view('details');
     }
 
-    public function results()
-    {
-        return view('results');
-    }
-
+   
 
 
 
