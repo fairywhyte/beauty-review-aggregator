@@ -139,12 +139,25 @@ class ProductController extends Controller
                 $starsRating = [];
                 $count = 0;
 
+                //save all the ratings per star into rating_count_per_star
+                //$review->rating_count_per_star = $all_ratings;
+
+
                 //for each of the star ratings (1,2,3,4,5) ,loop through them and find the count
                 foreach($all_ratings as $rating) {
                     $starsRating[$rating->RatingValue] = $rating->Count;
                     // $count is the total number of reviews
                     $count += $rating->Count;
                 }
+
+                 ////grab the RECOMMENDED COUNT
+                //$recommended_count =
+                //$reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
+                ////define the recommended count percentage column
+                //$recommended_count_percentage = $recommended_count / $count;
+                ////save the recommended count and recommended count percentage variables into the reviews table
+                //$review->recommended_count = $recommended_count;
+                //$review->recommended_count_percentage = $recommended_count_percentage;
 
                 if(isset($starsRating[5])){
                     // grab the number of five star ratings
