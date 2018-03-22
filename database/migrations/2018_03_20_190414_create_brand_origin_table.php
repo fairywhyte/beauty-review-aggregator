@@ -13,7 +13,7 @@ class CreateBrandOriginTable extends Migration
      */
     public function up()
     {
-        Schema::create('brand_origins', function (Blueprint $table) {
+        Schema::create('brands', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
@@ -28,6 +28,6 @@ class CreateBrandOriginTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('brand_origins');
+        Schema::dropIfExists('brands');
     }
 }

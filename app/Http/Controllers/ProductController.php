@@ -179,6 +179,42 @@ class ProductController extends Controller
 
     }
 
+    public function matching() {
+        // select sephora products
+        $sephora_products = \App\ProductIsInShop::where('shop_id', 1)->get();
+
+        //iterate through them
+        foreach($sephora_products as $sephora_product) {
+            //select the products which have the same slug but don't have the sephora shop id
+            //select the shopid other than sephora where slug from sephora equals slug from non sephora shop id
+            $non_sephora_products = \App\ProductIsInShop::where('shop_id','!=', 1)->where('slug', $sephora_product->slug)->get();
+            //
+
+            //To calculate the average rating of Sephora, first calculate the sum
+            //step 1.calculate the number of ratings * the sephora rating
+            $sum =  $sephora_product->num_of_ratings * $sephora_product->rating;
+
+            //step 2. select the number of ratings
+            $count = $sephora_product->num_of_ratings;
+
+            foreach($non_sephora_products as $non_sephora_product) {
+                $sum += $non_sephora_product->num_of_ratings * $non_sephora_product->rating;
+                $count += $non_sephora_product->num_of_ratings;
+            }
+
+            $matched_product = new Product();
+            $matched_product->title = $sephora_product->title;
+            $matched_product->description = $sephora_product->description;
+            $matched_product->price = $sephora_product->price;
+            $matched_product->average_rating = $sum / $count;
+            $matched_product->total_number_of_ratings = $count;
+            $matched_product->product_skuId = $sephora_product->skuId;
+
+
+            $matched_product->save();
+        }
+
+    }
     /**
      * Show the form for editing the specified resource.
      *
