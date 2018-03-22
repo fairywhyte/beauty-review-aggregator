@@ -6,7 +6,7 @@
 <!--Footer-->
 <footer class="page-footer font-small blue-grey lighten-5 pt-0">
 
-    <div style="background-color: #21d192;">
+    <div style="background-color: #F8F9FA;">
         <div class="container">
             <!--Grid row-->
             <div class="row py-4 d-flex align-items-center">
@@ -50,8 +50,8 @@
     </div>
 
     <!--Footer Links-->
-    <div class="container mt-5 mb-4 text-center text-md-left">
-        <div class="row mt-3">
+    <div class="container-fluid text-center text-md-left" style="background-color: white;">
+        <div class="row">
 
             <!--First column-->
             <div class="col-md-3 col-lg-4 col-xl-3 mb-4 dark-grey-text">
