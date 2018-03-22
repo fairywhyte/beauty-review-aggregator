@@ -13,6 +13,11 @@ class MainController extends Controller
         return view('home');
     }
 
+    public function result()
+    {
+        return view('side-menu');
+    }
+
     public function details()
     {
         return view('details');

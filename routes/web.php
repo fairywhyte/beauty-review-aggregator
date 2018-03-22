@@ -29,3 +29,5 @@ Route::get('/scrape_image_sephora', 'ProductController@json_scrape_image');
 Route::get('/scrape_reviews_sephora', 'ProductController@scrape_review');
 Route::get('/count_ratings', 'ProductController@count_ratings');
 Route::get('/get_image/{product_slug}', 'ImageController@show');
+
+Route::get('/result', 'MainController@result');

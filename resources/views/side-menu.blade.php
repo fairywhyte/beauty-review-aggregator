@@ -1,3 +1,7 @@
+@extends('layout')
+
+@section('content')
+
 <div class="navbar navbar-default visible-xs">
   <div class="container-fluid">
     <button class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#filter-sidebar">
@@ -17,7 +21,7 @@
         <h4 data-toggle="collapse" data-target="#group-1">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Artist
+          Brand
         </h4>
         <div id="group-1" class="list-group collapse in">
           <a class="list-group-item" href="#">
@@ -39,7 +43,7 @@
         <h4 data-toggle="collapse" data-target="#group-2">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Artist
+          Skin Type
         </h4>
         <div id="group-2" class="list-group collapse in">
           <a class="list-group-item" href="#">
@@ -61,7 +65,7 @@
         <h4 data-toggle="collapse" data-target="#group-3">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Artist
+          Price
         </h4>
         <div id="group-3" class="list-group collapse in">
           <a class="list-group-item" href="#">
@@ -83,7 +87,7 @@
         <h4 data-toggle="collapse" data-target="#group-4">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Artist
+          Ratings
         </h4>
         <div id="group-4" class="list-group collapse in">
           <a class="list-group-item" href="#">
@@ -107,104 +111,79 @@
     <div class="col-sm-9">
 
       <table class="table table-striped table-hover table-responsive">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Artist</th>
-            <th class="align-right">Price</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="valign-middle" data-label="Title">
-              <a href="#">See You Again</a>
-            </td>
-            <td class="valign-middle" data-label="Artist">
-              Wiz Khalifa
-            </td>
-            <td class="valign-middle align-right" data-label="Price">
-              $1.99
-            </td>
-            <td class="valign-middle align-right">
-              <a class="btn btn-default" href="#" data-toggle="tooltip" title="Add to Cart" data-placement="bottom" data-trigger="hover">
-                <i class="fa fa-cart-plus"></i>
-                <span class="visible-xs">Add to Cart</span>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td class="valign-middle" data-label="Title">
-              <a href="#">See You Again</a>
-            </td>
-            <td class="valign-middle" data-label="Artist">
-              Wiz Khalifa
-            </td>
-            <td class="valign-middle align-right" data-label="Price">
-              $1.99
-            </td>
-            <td class="valign-middle align-right">
-              <a class="btn btn-default" href="#" data-toggle="tooltip" title="Add to Cart" data-placement="bottom" data-trigger="hover">
-                <i class="fa fa-cart-plus"></i>
-                <span class="visible-xs">Add to Cart</span>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td class="valign-middle" data-label="Title">
-              <a href="#">See You Again</a>
-            </td>
-            <td class="valign-middle" data-label="Artist">
-              Wiz Khalifa
-            </td>
-            <td class="valign-middle align-right" data-label="Price">
-              $1.99
-            </td>
-            <td class="valign-middle align-right">
-              <a class="btn btn-default" href="#" data-toggle="tooltip" title="Add to Cart" data-placement="bottom" data-trigger="hover">
-                <i class="fa fa-cart-plus"></i>
-                <span class="visible-xs">Add to Cart</span>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td class="valign-middle" data-label="Title">
-              <a href="#">See You Again</a>
-            </td>
-            <td class="valign-middle" data-label="Artist">
-              Wiz Khalifa
-            </td>
-            <td class="valign-middle align-right" data-label="Price">
-              $1.99
-            </td>
-            <td class="valign-middle align-right">
-              <a class="btn btn-default" href="#" data-toggle="tooltip" title="Add to Cart" data-placement="bottom" data-trigger="hover">
-                <i class="fa fa-cart-plus"></i>
-                <span class="visible-xs">Add to Cart</span>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td class="valign-middle" data-label="Title">
-              <a href="#">See You Again</a>
-            </td>
-            <td class="valign-middle" data-label="Artist">
-              Wiz Khalifa
-            </td>
-            <td class="valign-middle align-right" data-label="Price">
-              $1.99
-            </td>
-            <td class="valign-middle align-right">
-              <a class="btn btn-default" href="#" data-toggle="tooltip" title="Add to Cart" data-placement="bottom" data-trigger="hover">
-                <i class="fa fa-cart-plus"></i>
-                <span class="visible-xs">Add to Cart</span>
-              </a>
-            </td>
-          </tr>
-        </tbody>
+
+<div class="container">
+
+<hgroup class="mb20">
+    <h1>Search Results</h1>
+    <h2 class="lead">
+        <strong class="text-danger">3</strong> results were found for the search for
+        <strong class="text-danger">Lorem</strong>
+    </h2>
+</hgroup>
+
+<section class="col-xs-12 col-sm-6 col-md-12">
+    <article class="search-result row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+        </div>
+        <span class="clearfix borda"></span>
+    </article>
+
+    <article class="search-result row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+        </div>
+        <span class="clearfix borda"></span>
+    </article>
+
+    <article class="search-result row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+        </div>
+        <span class="clearfix border"></span>
+    </article>
+
+</section>
+</div>
+
       </table>
 
     </div>
 
   </div>
 </div>
+
+<script>
+  if (!isTouchDevice()) {
+  $('[data-toggle*="tooltip"]').tooltip();
+}
+
+// utility
+
+function isTouchDevice() {
+	return !!('ontouchstart' in window || navigator.msMaxTouchPoints);
+}
+  </script>
+
+  @endsection
