@@ -152,7 +152,8 @@ class ProductController extends Controller
 
                 //  ////grab the RECOMMENDED COUNT
                  $recommended_count = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
-                // ////define the recommended count percentage column
+
+                 // ////define the recommended count percentage column
                 $recommended_count_percentage = $recommended_count / $count;
                 // ////save the recommended count and recommended count percentage variables into the reviews table
                 $review->recommended_count = $recommended_count;
@@ -222,6 +223,9 @@ class ProductController extends Controller
             }
         }
     }
+
+
+
 
     public function show_results() {
 
