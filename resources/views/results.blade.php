@@ -117,8 +117,8 @@
 <hgroup class="mb20">
     <h1>Search Results</h1>
     <h2 class="lead">
-        <strong class="text-danger">3</strong> results were found for the search for
-        <strong class="text-danger">Lorem</strong>
+        <strong class="text-danger">{{ count($products) }}</strong> results were found for the search for
+        <strong class="text-danger">{{ $q }}</strong>
     </h2>
 </hgroup>
 
