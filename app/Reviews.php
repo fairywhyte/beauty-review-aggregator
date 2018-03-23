@@ -8,4 +8,10 @@ class Reviews extends Model
 {
     protected $table = "reviews";
 
+    public function product()
+    {
+        return $this->belongsTo(Product::class);
+    }
+
+
 }
