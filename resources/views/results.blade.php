@@ -134,7 +134,8 @@
                           <p class="brand-name">{{$product->brand->name}}</p>
                           <p class="product-title">{{$product->title}}</p>
                           <p class="price">{{$product->price}}</p>
-
+                          <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
+                          <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
                     </div>
             </div>
         </div>
