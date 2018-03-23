@@ -6,7 +6,7 @@ use App\Product;
 use App\Brand;
 use App\ProductIsInShop;
 use Illuminate\Http\Request;
-
+use App\Reviews;
 
 
 
@@ -152,7 +152,8 @@ class ProductController extends Controller
 
                 //  ////grab the RECOMMENDED COUNT
                  $recommended_count = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
-                // ////define the recommended count percentage column
+
+                 // ////define the recommended count percentage column
                 $recommended_count_percentage = $recommended_count / $count;
                 // ////save the recommended count and recommended count percentage variables into the reviews table
                 $review->recommended_count = $recommended_count;
@@ -212,6 +213,32 @@ class ProductController extends Controller
                 // $matched_product->brand = $sephora_product->brand;
 
                 $matched_product->brand_id = Brand::where('name', $sephora_product->brand)->first()->id;
+
+                $sephora_reviews = Reviews::where('id_in_shop', $sephora_product->id_in_shop)->first();
+                $matched_product->five_star_rating_percentage = $sephora_reviews->five_star_rating_percentage;
+                $matched_product->recommended_count_percentage = $sephora_reviews->recommended_count_percentage;
+
+                $reviews_data = $sephora_reviews->all_reviews_data;
+
+                $maxFeedback = 0;
+                $reviewText = '';
+
+                //output exceptions if there are any
+                try {
+                    $reviews_data = json_decode($reviews_data);
+                    foreach($reviews_data->Results as $review){
+                        if($review->TotalPositiveFeedbackCount > $maxFeedback){
+                            $maxFeedback = $review->TotalPositiveFeedbackCount;
+                            $reviewText = $review->ReviewText;
+                        }
+                    }
+
+                } catch (\Exception $e) {
+                    echo 'Caught exception: ',  $e->getMessage(), " at product ",$id_in_shop,"\n";
+                }
+
+                $matched_product->most_helpful_review = $reviewText;
+                $matched_product->most_helpful_count = $maxFeedback;
                 $matched_product->description = $sephora_product->description;
                 $matched_product->slug = $sephora_product->slug;
                 $matched_product->price = $sephora_product->price;
@@ -222,6 +249,9 @@ class ProductController extends Controller
             }
         }
     }
+
+
+
 
     public function show_results() {
 

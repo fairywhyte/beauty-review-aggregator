@@ -28,27 +28,39 @@
                              <img class="img-fluid img-detail" height="auto" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}} class="image-responsive">
                         </div>
                         <div class="card-body m-auto">
-                            <p class="card-text col-md-8 p-2 m-0">Product Name : {{$product->title}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Brand : {{$product->brand->name}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Brand Origin: {{$product->brand->origin}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Price : {{$product->price}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Average Rating : {{ number_format($product->average_rating, 1)}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Number of Reviews: {{$product->total_number_of_ratings}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">{{$product->description}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Product Name : {{$product->title}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Brand : {{$product->brand->name}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Brand Origin: {{$product->brand->origin}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Price : {{$product->price}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Average Rating : {{ number_format($product->average_rating, 1)}}</p>
+                            <p class="card-text col-md-8 p-2 mb-4">Number of Reviews: {{$product->total_number_of_ratings}}</p>
+                            <p class="card-text col-md-8 p-2 mb-">{{$product->description}}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                        <div class="card-body">
-                              
+    <div class="container mb-4">
+        <div class="row review-text">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body m-auto">
+                        <p class="card-text col-md-8 p-2 m-0">Most Helpful Review
+                        <p class="card-text col-md-8 p-2 m-0">User : {{$product->brand->name}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body m-auto">
+                        <p class="card-text col-md-8 p-2 m-0">Most Critical Review
+                        <p class="card-text col-md-8 p-2 m-0">User : {{$product->brand->name}}</p>
+                    </div>
                 </div>
             </div>
+        </div>
     </div>
+
+
 
 
 
