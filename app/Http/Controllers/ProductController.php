@@ -102,9 +102,14 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($slug)
     {
-        //
+        //get product for the matchng slug from the product table
+        //use first instead of get to the the first row then go look for the column you want
+        $product= Product::where('slug', $slug)->first();
+        
+        //sending the name of the variable and the value
+        return view('details', ['product' => $product]);
     }
 
     public function five_stars_extractor(){
@@ -216,6 +221,7 @@ class ProductController extends Controller
                 $matched_product->brand_id = Brand::where('name', $sephora_product->brand)->first()->id;
 
                 $matched_product->description = $sephora_product->description;
+                $matched_product->slug = $sephora_product->slug;
                 $matched_product->price = $sephora_product->price;
                 $matched_product->average_rating = $average;
                 $matched_product->total_number_of_ratings = $count;

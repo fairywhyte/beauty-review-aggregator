@@ -18,12 +18,9 @@ class MainController extends Controller
         return view('results');
     }
 
-    public function details()
-    {
-        return view('details');
-    }
 
-   
+
+
 
 
 

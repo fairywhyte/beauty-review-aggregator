@@ -11,7 +11,7 @@
 
 
     <link rel="stylesheet" href="/css/app.css">
-    <title>Product Detail</title>
+<title>{{$product->title}}</title>
 
     <style>
 
@@ -26,26 +26,19 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card">
-                    <h5 class="card-header">Product Detail</h5>
+                    <h5 class="card-header">{{$product->title}}</h5>
                     <div class="card-img-top d-flex  flex-column flex-sm-row align-items-center">
                         <div class="container mt-0">
-                             <img class="img-fluid img-detail" height="auto" src="{{URL::asset('/img/www.sephora.com--productimages-sku-s1468172-main-Lhero.jpg')}}" alt="EL_PoreMinimizingSkinRefresher" height="200" width="200"  class="image-responsive">
+                             <img class="img-fluid img-detail" height="auto" src="{{action('ImageController@show', [$product->slug])}}" alt="EL_PoreMinimizingSkinRefresher" height="200" width="200"  class="image-responsive">
                         </div>
                         <div class="card-body m-auto">
-                            <p class="card-text col-md-8 p-2 m-0">Product Name : Idealist Pore Minimizing Skin Refresher</p>
-                            <p class="card-text col-md-8 p-2 m-0">Brand : Estée Lauder</p>
-                            <p class="card-text col-md-8 p-2 m-0">Brand Origin: France</p>
-                            <p class="card-text col-md-8 p-2 m-0">Price : $105</p>
-                            <p class="card-text col-md-8 p-2 m-0">Aggregated Rating : 4.0/5.0</p>
-                            <p class="card-text col-md-8 p-2 m-0">Aggregated Number of Reviews: 56</p>
-                            <p class="card-text col-md-8 p-2 m-0">What it is:
-                                    A fast-acting serum that deliver dramatic skin resurfacing benefits.
-                                    What it is formulated to do:
-                                    Feel it. See it. Have it: your ideal skin. This fast-acting serum resurfaces skin for an incredibly clear, even-toned, luminous complexion.
-                                    Idealist repairs the look of uneven skin texture, flakiness, and roughness while reducing the appearance of pores.
-                                    Smooth it on and instantly enjoy that soft, seamless, silky feeling you love.
-                                    Research results:
-                                    - 69% reduction in the look of pores in just 4 weeks.
+                        <p class="card-text col-md-8 p-2 m-0">Product Name : {{$product->title}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Brand : {{$product->brand->name}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Brand Origin: {{$product->brand->origin}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Price : {{$product->price}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Aggregated Rating : {{$product->average_rating}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Aggregated Number of Reviews: {{$product->total_number_of_ratings}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">{{$product->description}}
                             </p>
                         </div>
                     </div>
