@@ -111,6 +111,7 @@
 
 <div class="container">
 
+@if(isset($q))
 <hgroup class="mb20">
     <h1>Search Results</h1>
     <h2 class="lead">
@@ -118,6 +119,7 @@
         <strong class="text-danger">{{ $q }}</strong>
     </h2>
 </hgroup>
+@endif
 
 <section class="products">
 

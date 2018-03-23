@@ -31,3 +31,8 @@ Route::get('/scrape_reviews_sephora', 'ProductController@scrape_review');
 Route::get('/matching', 'ProductController@matching');
 Route::get('/get_five_stars', 'ProductController@get_five_stars');
 Route::get('/get_image/{product_slug}', 'ImageController@show');
+
+/* Home Page Queries Controllers */
+Route::get('/get_five_star_rated_80_percent_products', 'TopChartController@get_five_star_rated_80_percent_products');
+Route::get('/get_most_recommended', 'TopChartController@get_most_recommended');
+Route::get('/get_highest_average_rating', 'TopChartController@get_highest_average_rating');
