@@ -15,7 +15,7 @@ class SearchController extends Controller
     public function index()
     {
         //
-        $q = 've se';
+        $q = 'estee lauder serum';
         $words = explode(' ', $q);
 
         $query = Product::query();
@@ -24,7 +24,13 @@ class SearchController extends Controller
             $query->where(function($query) use ($word){
                 $query
                 ->where('title', 'LIKE', '%'.$word.'%')
-                ->orWhere('description', 'LIKE', '%'.$word.'%');
+                ->orWhere('description', 'LIKE', '%'.$word.'%')
+                ->orWhereHas('brand', function($query) use ($word){
+                    $query
+                    ->where('name', 'LIKE', '%'.$word.'%')
+                    ->orWhere('origin', 'LIKE', '%'.$word.'%');
+                });
+
             });
         }
 
