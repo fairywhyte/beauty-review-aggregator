@@ -231,6 +231,14 @@ class ProductController extends Controller
             }
         }
     }
+
+    public function show_results() {
+
+        $products = Product::where('brand_id', 29)->get();
+        return view('results', ['products' => $products]);
+
+    }
+
     /**
      * Show the form for editing the specified resource.
      *

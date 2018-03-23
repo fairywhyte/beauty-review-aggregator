@@ -33,3 +33,4 @@ Route::get('/get_five_stars', 'ProductController@five_stars_extractor');
 Route::get('/matching', 'ProductController@matching');
 Route::get('/result', 'MainController@result');
 Route::get('/search', 'SearchController@index');
+Route::get('/show_results', 'ProductController@show_results');

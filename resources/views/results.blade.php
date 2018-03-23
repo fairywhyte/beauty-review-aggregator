@@ -125,55 +125,21 @@
 <section class="products">
 
     <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+    @foreach($products as $product)
+        <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
+                    <div class="card-body">
+                        <p class="card-text">
+                          <p class="brand-name">{{$product->brand->name}}</p>
+                          <p class="product-title">{{$product->title}}</p>
+                          <p class="price">{{$product->price}}</p>
+
                     </div>
             </div>
         </div>
+    @endforeach
+    </div>
 
     </section>
 
