@@ -13,11 +13,11 @@
       </li>
       <li class="nav-item">
 
-        <form method="GET" action="search" accept-charset="UTF-8">
+        <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
           <div class="input-group col-md-12">
-              <input type="text" class="form-control input-lg" placeholder="Buscar" />
+              <input name="query" type="text" class="form-control input-lg" placeholder="Buscar" />
               <span class="input-group-btn">
-                <button class="btn btn-outline-secondary" type="button">Search</button>
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </button>
               </span>
           </div>

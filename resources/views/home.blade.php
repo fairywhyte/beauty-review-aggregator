@@ -6,16 +6,19 @@
 
 <div class="container mx-auto mt-5 mb-5 py-5" >
 
-    <form method="GET" action="search" accept-charset="UTF-8">
+    <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
     <div id="searchbox-entry" class="container d-flex flex-column justify-content-start">
         <h1>Unravel serums' best kept secrets</h1>
         <div class="input-group input-group-lg mb-3">
-                <input id="inputGroup-sizing-lg" type="text" class="form-control" placeholder="Enter product title or brand name, eg 'Estee Lauder'..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <input name="query" id="inputGroup-sizing-lg" type="text" class="form-control" placeholder="Enter product title or brand name, eg 'Estee Lauder'..." aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">Search</button>
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </div>
             </div>
         </form>
+
+
+
     </div>
 
 
