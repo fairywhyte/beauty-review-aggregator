@@ -12,10 +12,10 @@ class SearchController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
-        $q = 'estee lauder serum';
+        $q = $request->input('query');
+
         $words = explode(' ', $q);
 
         $query = Product::query();
@@ -37,7 +37,8 @@ class SearchController extends Controller
         $products = $query->get();
         //toSql
 
-        return $products;
+        //return $products;
+        return view('results', ['products' => $products, 'q' => $q]);
     }
 
     /**

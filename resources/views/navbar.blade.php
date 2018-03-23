@@ -12,7 +12,16 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Search</a>
+
+        <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
+          <div class="input-group col-md-12">
+              <input name="query" type="text" class="form-control input-lg" placeholder="Buscar" />
+              <span class="input-group-btn">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </button>
+              </span>
+          </div>
+        </form>
       </li>
     </ul>
 

@@ -117,63 +117,30 @@
 <hgroup class="mb20">
     <h1>Search Results</h1>
     <h2 class="lead">
-        <strong class="text-danger">3</strong> results were found for the search for
-        <strong class="text-danger">Lorem</strong>
+        <strong class="text-danger">{{ count($products) }}</strong> results were found for the search for
+        <strong class="text-danger">{{ $q }}</strong>
     </h2>
 </hgroup>
 
 <section class="products">
 
     <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/20/12/38/flower-3243156_1280.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+    @foreach($products as $product)
+        <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
+                    <div class="card-body">
+                        <p class="card-text">
+                          <p class="brand-name">{{$product->brand->name}}</p>
+                          <p class="product-title">{{$product->title}}</p>
+                          <p class="price">{{$product->price}}</p>
+                          <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
+                          <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
                     </div>
             </div>
         </div>
+    @endforeach
+    </div>
 
     </section>
 
