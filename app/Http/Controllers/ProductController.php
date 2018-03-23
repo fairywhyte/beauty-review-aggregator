@@ -46,8 +46,6 @@ class ProductController extends Controller
                 $key = str_slug($data[2]);
 
                 $csv_data = new ProductIsInShop ();
-
-
                 $csv_data->id_in_shop = $data[0];
                 $csv_data->brand= $data[1];
                 $csv_data->title = $data[2];
@@ -107,17 +105,17 @@ class ProductController extends Controller
         //get product for the matchng slug from the product table
         //use first instead of get to the the first row then go look for the column you want
         $product= Product::where('slug', $slug)->first();
-        
+
         //sending the name of the variable and the value
         return view('details', ['product' => $product]);
     }
 
-    public function five_stars_extractor(){
+    public function get_five_stars(){
         /*
         * This function will go inside the all_reviews_data column from the reviews table, extract the count of 5 star ratings, calculate the total number of ratings, and return the count of 5 star ratings, and the percentage of 5 star ratings of the total number of ratings
         */
 
-        $id_in_shop = 'P12574';
+        //$id_in_shop = 'P12574';
 
         // This foreach loop will make sure that each product from sephora is grabbed from the scraped_products table, and that its all_reviews_data column is then grabbed from the reviews table
 
@@ -129,25 +127,21 @@ class ProductController extends Controller
             //grab the id_in_shop that is the common_id between the scraped_products table and the reviews_table
             $id_in_shop = $product->id_in_shop;
 
-            //get the id in shop from the reviews table, and make the connection between the scraped products table via $id
-           $review = \App\Reviews::where('id_in_shop', $id_in_shop)->first();
+        //get the id in shop from the reviews table, and make the connection between the scraped products table via $id
+        $review = \App\Reviews::where('id_in_shop', $id_in_shop)->first();
 
-            // once we are inside the reviews table, grab the all_reviews_data column
-           $reviews_data = $review->all_reviews_data;
+        // once we are inside the reviews table, grab the all_reviews_data column
+        $reviews_data = $review->all_reviews_data;
 
-            //output exceptions if there are any
-            try {
-                $reviews_data = json_decode($reviews_data);
+        //output exceptions if there are any
+        try {
+            $reviews_data = json_decode($reviews_data);
 
-                //grab the actual elements from the json array (the all_reviews_data column)
-                $all_ratings = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RatingDistribution;
+            //grab the actual elements from the json array (the all_reviews_data column)
+            $all_ratings = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RatingDistribution;
 
-                $starsRating = [];
-                $count = 0;
-
-                //save all the ratings per star into rating_count_per_star
-                //$review->rating_count_per_star = $all_ratings;
-
+            $starsRating = [];
+            $count = 0;
 
                 //for each of the star ratings (1,2,3,4,5) ,loop through them and find the count
                 foreach($all_ratings as $rating) {
@@ -156,14 +150,13 @@ class ProductController extends Controller
                     $count += $rating->Count;
                 }
 
-                 ////grab the RECOMMENDED COUNT
-                //$recommended_count =
-                //$reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
-                ////define the recommended count percentage column
-                //$recommended_count_percentage = $recommended_count / $count;
-                ////save the recommended count and recommended count percentage variables into the reviews table
-                //$review->recommended_count = $recommended_count;
-                //$review->recommended_count_percentage = $recommended_count_percentage;
+                //  ////grab the RECOMMENDED COUNT
+                 $recommended_count = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
+                // ////define the recommended count percentage column
+                $recommended_count_percentage = $recommended_count / $count;
+                // ////save the recommended count and recommended count percentage variables into the reviews table
+                $review->recommended_count = $recommended_count;
+                $review->recommended_count_percentage = $recommended_count_percentage;
 
                 if(isset($starsRating[5])){
                     // grab the number of five star ratings
@@ -219,14 +212,12 @@ class ProductController extends Controller
                 // $matched_product->brand = $sephora_product->brand;
 
                 $matched_product->brand_id = Brand::where('name', $sephora_product->brand)->first()->id;
-
                 $matched_product->description = $sephora_product->description;
                 $matched_product->slug = $sephora_product->slug;
                 $matched_product->price = $sephora_product->price;
                 $matched_product->average_rating = $average;
                 $matched_product->total_number_of_ratings = $count;
                 $matched_product->product_skuId = $sephora_product->skuId;
-
                 $matched_product->save();
             }
         }

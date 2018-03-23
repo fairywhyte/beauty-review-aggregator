@@ -8,8 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" />
-
-
     <link rel="stylesheet" href="/css/app.css">
 <title>{{$product->title}}</title>
 
@@ -20,8 +18,6 @@
 
 <body>
 @include('navbar')
-
-
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -29,24 +25,31 @@
                     <h5 class="card-header">{{$product->title}}</h5>
                     <div class="card-img-top d-flex  flex-column flex-sm-row align-items-center">
                         <div class="container mt-0">
-                             <img class="img-fluid img-detail" height="auto" src="{{action('ImageController@show', [$product->slug])}}" alt="EL_PoreMinimizingSkinRefresher" height="200" width="200"  class="image-responsive">
+                             <img class="img-fluid img-detail" height="auto" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}} class="image-responsive">
                         </div>
                         <div class="card-body m-auto">
-                        <p class="card-text col-md-8 p-2 m-0">Product Name : {{$product->title}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Product Name : {{$product->title}}</p>
                             <p class="card-text col-md-8 p-2 m-0">Brand : {{$product->brand->name}}</p>
                             <p class="card-text col-md-8 p-2 m-0">Brand Origin: {{$product->brand->origin}}</p>
                             <p class="card-text col-md-8 p-2 m-0">Price : {{$product->price}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Aggregated Rating : {{$product->average_rating}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">Aggregated Number of Reviews: {{$product->total_number_of_ratings}}</p>
-                            <p class="card-text col-md-8 p-2 m-0">{{$product->description}}
-                            </p>
+                            <p class="card-text col-md-8 p-2 m-0">Average Rating : {{ number_format($product->average_rating, 1)}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">Number of Reviews: {{$product->total_number_of_ratings}}</p>
+                            <p class="card-text col-md-8 p-2 m-0">{{$product->description}}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="card-body">
+                              
+                </div>
+            </div>
+    </div>
+
 
 
 

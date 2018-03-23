@@ -25,16 +25,4 @@ class SephoraScrapeReviews{
 
     }
 
-    public static function count_ratings()
-    {
-        $reviews = \App\Reviews::get();
-        foreach($reviews as $review)
-        {
-            dd($reviews);
-            $review->review_text=$reviews;
-            $review->rating_count_per_star =$reviews;
-            $review->save();
-        }
-    }
-
 }
