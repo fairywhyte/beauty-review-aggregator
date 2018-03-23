@@ -2,23 +2,20 @@
 
 @section('content')
 
-<div class="navbar navbar-default visible-xs">
-  <div class="container-fluid">
-    <button class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#filter-sidebar">
-      <i class="fa fa-tasks"></i> Toggle Sidebar
-    </button>
-  </div>
-</div>
 
-<div class="container-fluid">
+
+
+
+<div class="container-fluid side-bar">
+    <h2> Categories </h2>
 
   <div class="row">
 
     <!-- filter sidebar -->
-    <div id="filter-sidebar" class="col-xs-6 col-sm-3 visible-sm visible-md visible-lg collapse sliding-sidebar">
+    <div id="filter-sidebar" class="col-xs-6 col-sm-3">
 
       <div>
-        <h4 data-toggle="collapse" data-target="#group-1">
+        <h4 class="side-bar-h4" id="h4Id1">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Brand
@@ -40,7 +37,7 @@
       </div>
 
       <div>
-        <h4 data-toggle="collapse" data-target="#group-2">
+        <h4 class="side-bar-h4" id="h4Id2">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Skin Type
@@ -62,7 +59,7 @@
       </div>
 
       <div>
-        <h4 data-toggle="collapse" data-target="#group-3">
+        <h4 class="side-bar-h4" id="h4Id3">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Price
@@ -84,7 +81,7 @@
       </div>
 
       <div>
-        <h4 data-toggle="collapse" data-target="#group-4">
+        <h4 class="side-bar-h4" id="h4Id4">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Ratings
@@ -155,15 +152,23 @@
 </div>
 
 <script>
-  if (!isTouchDevice()) {
-  $('[data-toggle*="tooltip"]').tooltip();
-}
 
-// utility
+$('#h4Id1').click(function(){
+  $('#group-1').toggle();
+})
 
-function isTouchDevice() {
-	return !!('ontouchstart' in window || navigator.msMaxTouchPoints);
-}
+$('#h4Id2').click(function(){
+  $('#group-2').toggle();
+})
+
+$('#h4Id3').click(function(){
+  $('#group-3').toggle();
+})
+
+$('#h4Id4').click(function(){
+  $('#group-4').toggle();
+})
+
   </script>
 
   @endsection
