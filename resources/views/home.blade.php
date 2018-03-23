@@ -33,9 +33,9 @@
                     <div class="card-body">
                         <p class="card-text font-weight-bold">Metrics</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="#">80% 5-star rating</a></li>
-                            <li class="list-group-item"><a href="#">Most Recommended</a></li>
-                            <li class="list-group-item"><a href="#">Most Rated</a></li>
+                            <li class="list-group-item"><a href="{{action('TopChartController@get_five_star_rated_80_percent_products')}}">80% 5-star rating</a></li>
+                            <li class="list-group-item"><a href="{{action('TopChartController@get_most_recommended')}}">Most Recommended</a></li>
+                            <li class="list-group-item"><a href="{{action('TopChartController@get_highest_average_rating')}}">Most Rated</a></li>
                             <a href="#" class="btn btn-primary mt-1 justify-content-center">View All</a>
                         </ul>
                     </div>
