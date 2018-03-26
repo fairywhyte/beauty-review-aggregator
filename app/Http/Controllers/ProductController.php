@@ -150,12 +150,12 @@ class ProductController extends Controller
                     $count += $rating->Count;
                 }
 
-                //  ////grab the RECOMMENDED COUNT
+                //grab the RECOMMENDED COUNT
                  $recommended_count = $reviews_data->Includes->Products->{$id_in_shop}->ReviewStatistics->RecommendedCount;
 
-                 // ////define the recommended count percentage column
+                //define the recommended count percentage column
                 $recommended_count_percentage = $recommended_count / $count;
-                // ////save the recommended count and recommended count percentage variables into the reviews table
+               //save the recommended count and recommended count percentage variables into the reviews table
                 $review->recommended_count = $recommended_count;
                 $review->recommended_count_percentage = $recommended_count_percentage;
 
@@ -185,18 +185,17 @@ class ProductController extends Controller
 
         //iterate through them
         foreach($sephora_products as $sephora_product) {
-            //select the products which have the same slug but don't have the sephora shop id
-            //select the shopid other than sephora where slug from sephora equals slug from non sephora shop id
-            $non_sephora_products = \App\ProductIsInShop::where('shop_id','!=', 1)->where('slug', $sephora_product->slug)->get();
-            //
+        //select the products which have the same slug but don't have the sephora shop id
+        //select the shopid other than sephora where slug from sephora equals slug from non sephora shop id
+        $non_sephora_products = \App\ProductIsInShop::where('shop_id','!=', 1)->where('slug', $sephora_product->slug)->get();
 
             if(count($non_sephora_products) >= 1){
-                //To calculate the average rating of Sephora, first calculate the sum
-                //step 1.calculate the number of ratings * the sephora rating
-                $sum =  $sephora_product->num_of_ratings * $sephora_product->rating;
+            //To calculate the average rating of Sephora, first calculate the sum
+            //step 1.calculate the number of ratings * the sephora rating
+            $sum =  $sephora_product->num_of_ratings * $sephora_product->rating;
 
-                //step 2. select the number of ratings
-                $count = $sephora_product->num_of_ratings;
+            //step 2. select the number of ratings
+            $count = $sephora_product->num_of_ratings;
 
                 foreach($non_sephora_products as $non_sephora_product) {
                     $sum += $non_sephora_product->num_of_ratings * $non_sephora_product->rating;
@@ -210,10 +209,7 @@ class ProductController extends Controller
 
                 $matched_product = new Product();
                 $matched_product->title = $sephora_product->title;
-                // $matched_product->brand = $sephora_product->brand;
-
                 $matched_product->brand_id = Brand::where('name', $sephora_product->brand)->first()->id;
-
                 $sephora_reviews = Reviews::where('id_in_shop', $sephora_product->id_in_shop)->first();
                 $matched_product->five_star_rating_percentage = $sephora_reviews->five_star_rating_percentage;
                 $matched_product->recommended_count_percentage = $sephora_reviews->recommended_count_percentage;
@@ -230,13 +226,13 @@ class ProductController extends Controller
                         if($review->TotalPositiveFeedbackCount > $maxFeedback){
                             $maxFeedback = $review->TotalPositiveFeedbackCount;
                             $reviewText = $review->ReviewText;
+
                         }
                     }
 
                 } catch (\Exception $e) {
                     echo 'Caught exception: ',  $e->getMessage(), " at product ",$id_in_shop,"\n";
                 }
-
                 $matched_product->most_helpful_review = $reviewText;
                 $matched_product->most_helpful_count = $maxFeedback;
                 $matched_product->description = $sephora_product->description;
@@ -250,11 +246,7 @@ class ProductController extends Controller
         }
     }
 
-
-
-
     public function show_results() {
-
         $products = Product::where('brand_id', 29)->get();
         return view('results', ['products' => $products]);
 

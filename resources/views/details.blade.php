@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" />
     <link rel="stylesheet" href="/css/app.css">
-<title>{{$product->title}}</title>
+<title>Product detail</title>
 
     <style>
 
@@ -19,43 +19,29 @@
 <body>
 @include('navbar')
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="card">
-                    <h5 class="card-header">{{$product->title}}</h5>
-                    <div class="card-img-top d-flex  flex-column flex-sm-row align-items-center">
-                        <div class="container mt-0">
-                             <img class="img-fluid img-detail" height="auto" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}} class="image-responsive">
-                        </div>
-                        <div class="card-body m-auto">
-                            <p class="card-text col-md-8 p-2 mb-4">Product Name : {{$product->title}}</p>
-                            <p class="card-text col-md-8 p-2 mb-4">Brand : {{$product->brand->name}}</p>
-                            <p class="card-text col-md-8 p-2 mb-4">Brand Origin: {{$product->brand->origin}}</p>
-                            <p class="card-text col-md-8 p-2 mb-4">Price : {{$product->price}}</p>
-                            <p class="card-text col-md-8 p-2 mb-4">Average Rating : {{ number_format($product->average_rating, 1)}}</p>
-                            <p class="card-text col-md-8 p-2 mb-4">Number of Reviews: {{$product->total_number_of_ratings}}</p>
-                            <p class="card-text col-md-8 p-2 mb-">{{$product->description}}</p>
-                        </div>
+        <div class="card">
+            <h5 class="card-header">{{$product->title}} By {{$product->brand->name}}</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>{{$product->brand->name}}</p>
+                        <img class="img-fluid" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}}By{{$product->brand->name}} class="image-responsive">
+                    </div>
+
+                    <div class="col-md-8">
+                        <p class="card-text p-2 mb-4">Brand : {{$product->brand->name}}</p>
+                        <p class="card-text p-2 mb-4">Brand Origin : {{$product->brand->origin}}</p>
+                        <p class="card-text p-2 mb-4">Price (approx.) : {{$product->price}}</p>
+                        <p class="card-text p-2 mb-4">Average Rating : {{ number_format($product->average_rating, 1)}}/5.0</p>
+                        <p class="card-text p-2 mb-4">Product Name : {{$product->title}}</p>
+                        <p class="card-text p-2 mb-4">Number of Ratings : {{$product->total_number_of_ratings}}</p>
+                        <p class="card-text p-2 mb-4">Product Details : </br>{{$product->description}}</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container mb-4">
-        <div class="row review-text">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-body m-auto">
-                        <p class="card-text col-md-8 p-2 m-0">Most Helpful Review
-                        <p class="card-text col-md-8 p-2 m-0">User : {{$product->brand->name}}</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body m-auto">
-                        <p class="card-text col-md-8 p-2 m-0">Most Critical Review
-                        <p class="card-text col-md-8 p-2 m-0">User : {{$product->brand->name}}</p>
-                    </div>
-                </div>
+            <div class="card-body m-auto">
+                <p class="card-text p-2 m-0">Most Helpful Review :</br>{{$product->most_helpful_review}}</p>
+                <p class="card-text p-2 m-0">Number of Reviews :{{$product->most_helpful_count}}</p>
             </div>
         </div>
     </div>
