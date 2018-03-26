@@ -25,6 +25,7 @@ class CreateTableReviews extends Migration
             $table->integer('five_star_rating_count')->nullable();
             $table->integer('recommended_count')->nullable();
             $table->decimal('recommended_count_percentage')->nullable();
+            $table->integer('product_id')->nullable();
             $table->timestamps();
         });
     }
