@@ -16,13 +16,7 @@
                 </div>
             </div>
         </form>
-
-
-
     </div>
-
-
-
 
 
     <div id="search-categories" class="container mt-3 ">

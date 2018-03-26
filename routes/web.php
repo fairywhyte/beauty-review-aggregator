@@ -33,6 +33,13 @@ Route::get('/get_five_stars', 'ProductController@get_five_stars');
 Route::get('/get_image/{product_slug}', 'ImageController@show');
 
 /* Home Page Queries Controllers */
+// Block Metrics
 Route::get('/get_five_star_rated_80_percent_products', 'TopChartController@get_five_star_rated_80_percent_products');
 Route::get('/get_most_recommended', 'TopChartController@get_most_recommended');
 Route::get('/get_highest_average_rating', 'TopChartController@get_highest_average_rating');
+
+// Block Origin
+Route::get('/get_korean_beauty_brands', 'OriginController@get_korean_beauty_brands');
+Route::get('/get_american_beauty_brands', 'OriginController@get_american_beauty_brands');
+Route::get('/get_french_beauty_brands', 'OriginController@get_french_beauty_brands');
+// Block Brands
