@@ -5,6 +5,7 @@
 
 
 
+
 <div class="container-fluid side-bar">
     <h2> Categories </h2>
 
@@ -49,16 +50,69 @@
         </div>
       </div>
 
-
       <div>
-        <h4 class="side-bar-h4" id="h4Id1">
+        <h4 class="side-bar-h4" id="h4Id2">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Rating
+          Skin Type
         </h4>
+        <div id="group-2" class="list-group collapse in">
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+        </div>
+      </div>
 
-        
+      <div>
+        <h4 class="side-bar-h4" id="h4Id3">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Price
+        </h4>
+        <div id="group-3" class="list-group collapse in">
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+        </div>
+      </div>
 
+      <div>
+        <h4 class="side-bar-h4" id="h4Id4">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Ratings
+        </h4>
+        <div id="group-4" class="list-group collapse in">
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
+          <a class="list-group-item" href="#">
+            <span class="badge">3</span> John Lennon
+          </a>
         </div>
       </div>
 
@@ -85,8 +139,8 @@
 
     <div class="row">
     @foreach($products as $product)
-        <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
-            <div class="card" style="width: 15rem;">
+        <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
                     <div class="card-body">
                         <p class="card-text">
