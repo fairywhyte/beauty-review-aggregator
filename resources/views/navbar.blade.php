@@ -15,7 +15,7 @@
 
         <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
           <div class="input-group col-md-12">
-              <input name="query" type="text" class="form-control input-lg" placeholder="Buscar" />
+              <input name="query" type="text" class="form-control input-lg" placeholder="Search" />
               <span class="input-group-btn">
                 <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </button>
