@@ -5,7 +5,6 @@
 
 
 
-
 <div class="container-fluid side-bar">
     <h2> Categories </h2>
 
@@ -20,19 +19,33 @@
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Brand
         </h4>
+        @php
+            $brands = [];
+            $brands_count = [];
+
+            foreach($products as $product){
+                if(!isset($brands_count[$product->brand_id])){
+                    $brands_count[$product->brand_id] = 0;
+                }
+
+                $brands_count[$product->brand_id]++;
+                $brands[$product->brand_id] = $product->brand;
+            }
+
+            arsort($brands_count);
+            $brands_ids = array_keys($brands_count);
+        @endphp
+
         <div id="group-1" class="list-group collapse in">
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
+            {{-- @for( $i = 0; $i < count($brands_ids); $i++) --}}
+            {{-- @for( $i = 0; $i < min(5, count($brands_ids)); $i++) --}}
+
+            @for( $i = 0; $i < count($brands_ids); $i++)
+                <a class="list-group-item" href="#">
+                    <span class="badge">{{ $brands_count[  $brands_ids[$i] ] }}</span> {{ $brands[ $brands_ids[$i] ]->name }}
+                </a>
+            @endfor
+
         </div>
       </div>
 
