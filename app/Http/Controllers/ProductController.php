@@ -115,8 +115,6 @@ class ProductController extends Controller
         * This function will go inside the all_reviews_data column from the reviews table, extract the count of 5 star ratings, calculate the total number of ratings, and return the count of 5 star ratings, and the percentage of 5 star ratings of the total number of ratings
         */
 
-        //$id_in_shop = 'P12574';
-
         // This foreach loop will make sure that each product from sephora is grabbed from the scraped_products table, and that its all_reviews_data column is then grabbed from the reviews table
 
         //step 1. Go inside the scraped_products table and select only the products from sephora where shop_id = 1
@@ -249,7 +247,6 @@ class ProductController extends Controller
     public function show_results() {
         $products = Product::where('brand_id', 29)->get();
         return view('results', ['products' => $products]);
-
     }
 
     /**
