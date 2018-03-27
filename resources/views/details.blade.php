@@ -24,24 +24,23 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-4">
-                        <p>{{$product->brand->name}}</p>
                         <img class="img-fluid" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}}By{{$product->brand->name}} class="image-responsive">
                     </div>
-
                     <div class="col-md-8">
-                        <p class="card-text p-2 mb-4">Brand : {{$product->brand->name}}</p>
-                        <p class="card-text p-2 mb-4">Brand Origin : {{$product->brand->origin}}</p>
-                        <p class="card-text p-2 mb-4">Price (approx.) : {{$product->price}}</p>
-                        <p class="card-text p-2 mb-4">Average Rating : {{ number_format($product->average_rating, 1)}}/5.0</p>
-                        <p class="card-text p-2 mb-4">Product Name : {{$product->title}}</p>
-                        <p class="card-text p-2 mb-4">Number of Ratings : {{$product->total_number_of_ratings}}</p>
-                        <p class="card-text p-2 mb-4">Product Details : </br>{{$product->description}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Brand : </span></p><p>{{$product->brand->name}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Brand Origin : </span></p><p>{{$product->brand->origin}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Average Rating :</span></p><p> {{ number_format($product->average_rating, 1)}}/5.0</p>
+                        <p class="card-text "><span class="font-weight-bold">Product Name : </span></p><p>{{$product->title}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Price (approx.) : </span></p><p>{{$product->price}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Number of Ratings : </span></p><p>{{$product->total_number_of_ratings}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Product Details : </span></p><p>{{$product->description}}</p>
                     </div>
                 </div>
             </div>
-            <div class="card-body m-auto">
-                <p class="card-text p-2 m-0">Most Helpful Review :</br>{{$product->most_helpful_review}}</p>
-                <p class="card-text p-2 m-0">Number of Reviews :{{$product->most_helpful_count}}</p>
+    <!--Reviews-->
+            <div class="card-body">
+                <p class="card-text px-2"><span class="font-weight-bold">Most Helpful Review : </span><br>{{$product->most_helpful_review}}</p>
+                <p class="card-text px-2"><span class="font-weight-bold">Number of Reviews :</span><br>{{$product->most_helpful_count}}</p>
             </div>
         </div>
     </div>

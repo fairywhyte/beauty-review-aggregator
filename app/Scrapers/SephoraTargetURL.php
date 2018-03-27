@@ -10,8 +10,6 @@ class SephoraTargetURL{
 
     public static function scrape_description()
     {
-
-
         $product_urls =\App\ProductIsInShop::get(['id','product_url']);
         //$product_urls =\App\Product::all(['product_url']);//get an array of objects
         //need to loop through every object
@@ -85,7 +83,7 @@ class SephoraTargetURL{
 
             if($product != null){
                 $product->description = $product_desc_and_nr_of_ratings[0][1];
-
+                 //this will remove the word ratings from the product rating like 4.5ratings to 4.5
                 $product->num_of_ratings = intval(str_replace(" ratings", "", $product_desc_and_nr_of_ratings[0][2]));
                 $product->save();
             }

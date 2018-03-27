@@ -22,14 +22,27 @@ Route::get('/details/{slug}', 'ProductController@show');
 Route::get('/results', 'MainController@result');
 Route::get('/search', 'SearchController@index');
 
-Route::get('/store', 'ProductController@store');
-Route::get('/scrape_description', 'ProductController@scrape_description');
-Route::get('/load_influenster', 'ServiceController@load_influenster');
+//1.Scraping Sephora Face Serum
 Route::get('/json_scrape_sephora', 'ProductController@json_scrape_sephora');
-Route::get('/scrape_image_sephora', 'ProductController@json_scrape_image');
+
+//2.Store the sephora products into the scraped_products table
+Route::get('/store', 'ProductController@store');
+
+//3.scrape the product description and num_of_ratings save into the description and num_of_ratings columns.
+Route::get('/scrape_description', 'ProductController@scrape_description');
+
+//4.scrape the reviews and images from sephora individual product page
 Route::get('/scrape_reviews_sephora', 'ProductController@scrape_review');
-Route::get('/matching', 'ProductController@matching');
 Route::get('/get_five_stars', 'ProductController@get_five_stars');
+Route::get('/scrape_image_sephora', 'ProductController@json_scrape_image');
+
+//5.Store influenster products into the table scraped_products
+Route::get('/load_influenster', 'ServiceController@load_influenster');
+
+//6.Compare between the sephora and influenster products based on the same slug and push into final table products
+Route::get('/matching', 'ProductController@matching');
+
+//7.To be called by detail page to display the individual product detail page
 Route::get('/get_image/{product_slug}', 'ImageController@show');
 
 /* Home Page Queries Controllers */

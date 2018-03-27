@@ -16,7 +16,6 @@ class SephoraScrapeReviews{
             $current_prodact_api = 'https://api.bazaarvoice.com/data/reviews.json?Filter=ProductId%3A' . $piis->id_in_shop .
             '&Sort=Helpfulness%3Adesc&Limit=100&Offset=0&Include=Products%2CComments&Stats=Reviews&passkey=rwbw526r2e7spptqd2qzbkp7&apiversion=5.4';
             $html = file_get_contents($current_prodact_api);
-            // $data = json_decode($html, true);//decode the string
             $review = new \App\Reviews();
             $review->all_reviews_data = $html;
             $review->id_in_shop = $piis->id_in_shop ;
