@@ -2,12 +2,24 @@
 
 
 
+$starNumber = 4.3;
 
-if (($handle = fopen ( public_path () . '/MOCK_DATA.csv', 'r' )) !== FALSE) {
-        while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
 
-            //saving to db logic goes here
-
-        }
-        fclose ( $handle );
+    for($x=1;$x<=$starNumber;$x++) {
+        echo '<img src="../star.png" />';
     }
+    if (strpos($starNumber,'.')) {
+        echo '<img src="../half-star.png" />';
+        $x++;
+    }
+    while ($x<=5) {
+        echo '<img src="../blank-star.png" />';
+        $x++;
+    }
+
+
+
+
+
+
+?>

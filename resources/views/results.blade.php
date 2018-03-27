@@ -49,69 +49,16 @@
         </div>
       </div>
 
-      <div>
-        <h4 class="side-bar-h4" id="h4Id2">
-          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Skin Type
-        </h4>
-        <div id="group-2" class="list-group collapse in">
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-        </div>
-      </div>
 
       <div>
-        <h4 class="side-bar-h4" id="h4Id3">
+        <h4 class="side-bar-h4" id="h4Id1">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Price
+          Rating
         </h4>
-        <div id="group-3" class="list-group collapse in">
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-        </div>
-      </div>
 
-      <div>
-        <h4 class="side-bar-h4" id="h4Id4">
-          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Ratings
-        </h4>
-        <div id="group-4" class="list-group collapse in">
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
-          <a class="list-group-item" href="#">
-            <span class="badge">3</span> John Lennon
-          </a>
+        
+
         </div>
       </div>
 
