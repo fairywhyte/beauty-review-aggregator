@@ -39,7 +39,11 @@ Route::get('/get_most_recommended', 'TopChartController@get_most_recommended');
 Route::get('/get_highest_average_rating', 'TopChartController@get_highest_average_rating');
 
 // Block Origin
-Route::get('/get_korean_beauty_brands', 'OriginController@get_korean_beauty_brands');
+Route::get('/get_asian_beauty_brands', 'OriginController@get_asian_beauty_brands');
 Route::get('/get_american_beauty_brands', 'OriginController@get_american_beauty_brands');
 Route::get('/get_french_beauty_brands', 'OriginController@get_french_beauty_brands');
+
 // Block Brands
+Route::get('/get_the_ordinary_products', 'BrandController@get_the_ordinary_products');
+Route::get('/get_estee_lauder_products', 'BrandController@get_estee_lauder_products');
+Route::get('/get_kate_sommerville_products', 'BrandController@get_kate_sommerville_products');
