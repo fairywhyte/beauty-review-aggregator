@@ -21,6 +21,7 @@ Route::get('/details/{slug}', 'ProductController@show');
 
 Route::get('/results', 'MainController@result');
 Route::get('/search', 'SearchController@index');
+Route::get('/home', 'BlockController@fill_blocks');
 
 //1.Scraping Sephora Face Serum
 Route::get('/json_scrape_sephora', 'ProductController@json_scrape_sephora');
@@ -50,6 +51,7 @@ Route::get('/get_image/{product_slug}', 'ImageController@show');
 Route::get('/get_five_star_rated_80_percent_products', 'TopChartController@get_five_star_rated_80_percent_products');
 Route::get('/get_most_recommended', 'TopChartController@get_most_recommended');
 Route::get('/get_highest_average_rating', 'TopChartController@get_highest_average_rating');
+Route::get('/get_all', 'TopChartController@get_all');
 
 // Block Origin
 Route::get('/get_asian_beauty_brands', 'OriginController@get_asian_beauty_brands');

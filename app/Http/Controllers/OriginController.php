@@ -10,11 +10,13 @@ class OriginController extends Controller
 {
     public function get_asian_beauty_brands() {
         //! change 'first' to something else
-        $brands = Brand::where('origin', '=', 'Korea')->orderBy('total_number_of_ratings', 'DESC')->first();
+        $brands = Brand::where('origin', '=', 'Korea')->get();
         // where origin = korea and origin = japan // brands korean (2,6,9,27,52,67,68)
         //Brand::find(2);solve with yogi: the code will run if you find one brand and get its products, but not with several brands
         $products = $brands->products;
-        return $products;
+        //return $products;
+        print_r($brands);
+        exit;
         //return view('results', ['products'=> $products]) ;
     }
 

@@ -14,11 +14,16 @@ class TopChartController extends Controller
 
     public function get_most_recommended() {
         $products = Product::orderBy('recommended_count_percentage', 'DESC')->get();
-        return view('results', ['top_recommended_products'=> $top_recommended_products]);
+        return view('results', ['products'=> $products]);
     }
 
     public function get_highest_average_rating() {
         $products = Product::orderBy('average_rating', 'DESC')->get();
-        return view('results', ['top_average_rated' => $top_average_rated]);
+        return view('results', ['products' => $products]);
+    }
+
+    public function get_all() {
+        $products = Product::orderBy('total_number_of_ratings')->get();
+        return view('results', ['products' => $products]);
     }
 }

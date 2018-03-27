@@ -9995,7 +9995,26 @@ a.text-dark:focus {
 }
 
 .img-detail {
-  min-width: 150px;
+  min-width: 400px;
+}
+
+.searchbox-home {
+  margin-top: 5rem;
+}
+
+.search-card {
+  width: 15rem;
+}
+
+h1 {
+  color: red;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1515165244752-2465b61f0441?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2a0e354c2c6767c0b1ab4733ff24011&auto=format&fit=crop&w=989&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
 .container {
