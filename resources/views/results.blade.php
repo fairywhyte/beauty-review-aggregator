@@ -125,8 +125,8 @@
 
     <div class="row">
     @foreach($products as $product)
-        <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
-            <div class="card" style="width: 18rem;">
+        <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
+            <div class="card" style="width: 15rem;">
                     <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
                     <div class="card-body">
                         <p class="card-text">
