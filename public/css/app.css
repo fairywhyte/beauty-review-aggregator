@@ -9998,6 +9998,10 @@ a.text-dark:focus {
   min-width: 400px;
 }
 
+.review-text {
+  color: red;
+}
+
 .searchbox-home {
   margin-top: 5rem;
 }

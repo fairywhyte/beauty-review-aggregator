@@ -38,7 +38,7 @@
                 </div>
             </div>
     <!--Reviews-->
-            <div class="card-body">
+            <div class="card-body review-text">
                 <p class="card-text px-2"><span class="font-weight-bold">Most Helpful Review : </span><br>{{$product->most_helpful_review}}</p>
                 <p class="card-text px-2"><span class="font-weight-bold">Number of Reviews :</span><br>{{$product->most_helpful_count}}</p>
             </div>
