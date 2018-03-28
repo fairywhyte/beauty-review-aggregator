@@ -43,7 +43,7 @@
 
             @for( $i = 0; $i < count($brands_ids); $i++)
                 <a class="list-group-item" href="#">
-                    <span class="badge">{{ $brands_count[  $brands_ids[$i] ] }}</span> {{ $brands[ $brands_ids[$i] ]->name }}
+                    <span class="badge badge-pill badge-secondary">{{ $brands_count[  $brands_ids[$i] ] }}</span> {{ $brands[ $brands_ids[$i] ]->name }}
                 </a>
             @endfor
 
@@ -138,20 +138,23 @@
 <section class="products">
 
     <div class="row">
-    @foreach($products as $product)
-        <div class="col-sm-12 col-lg-6 col-md-6 mb-3">
+
+      @foreach($products as $product)
+        <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
             <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
                     <div class="card-body">
                         <p class="card-text">
-                          <p class="brand-name">{{$product->brand->name}}</p>
+                          <h5 class="card-title">{{$product->brand->name}}</h5>
                           <p class="product-title">{{$product->title}}</p>
                           <p class="price">{{$product->price}}</p>
                           <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
                           <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
+                          <a href="#" class="btn btn-secondary">View</a>
                     </div>
             </div>
-        </div>
+          </div>
+
     @endforeach
     </div>
 
