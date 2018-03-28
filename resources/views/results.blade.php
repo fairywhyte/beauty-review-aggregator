@@ -148,7 +148,7 @@
                           <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
                           <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
                           <p class="recommended">Recommended: {{number_format($product->recommended_count_percentage,1)}}%</p>
-                          <a href="#" class="btn btn-primary">View</a>
+                        <a href="{{action('ProductController@show',[$product->slug])}}" class="btn btn-primary">View</a>
                     </div>
             </div>
           </div>
