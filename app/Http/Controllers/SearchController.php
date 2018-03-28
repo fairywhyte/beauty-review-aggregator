@@ -20,6 +20,11 @@ class SearchController extends Controller
 
         $query = Product::query();
 
+        if(null !== ($price = $request->input('price'))){
+            $query->whereBetween('price', [$price*50, ($price+1)*50]);
+
+        }
+
         foreach($words as $word){
             $query->where(function($query) use ($word){
                 $query
@@ -34,76 +39,30 @@ class SearchController extends Controller
             });
         }
 
-        $products = $query->get();
+        if(null !== ($brand = $request->input('brand'))){
+            $query->whereHas('brand', function($query) use ($brand){
+                $query
+                ->where('name', 'LIKE', '%'.$brand.'%');
+            });
+        }
+
+
+
+
+        $products = ($query->get());
         //toSql
 
         //return $products;
         return view('results', ['products' => $products, 'q' => $q]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+
+    public function show($brand)
     {
-        //
+
+
+
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

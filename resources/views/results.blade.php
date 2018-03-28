@@ -39,6 +39,8 @@
 
   foreach($products as $product){
     $productPrice = floatval(str_replace('$', '', $product->price));
+    $product->price = $productPrice;
+    $product->save();
 
     if($productPrice<=50){
         $prices[0][]=$productPrice;
@@ -82,7 +84,7 @@
             {{-- @for( $i = 0; $i < min(5, count($brands_ids)); $i++) --}}
 
             @for( $i = 0; $i < count($brands_ids); $i++)
-                <a class="list-group-item" href="#">
+                <a class="list-group-item" href="{{action('SearchController@index', ['brand'=>$brands[ $brands_ids[$i] ]->name])}}">
                     <span class="badge badge-pill badge-primary">{{ $brands_count[  $brands_ids[$i] ] }}</span> {{ $brands[ $brands_ids[$i] ]->name }}
                 </a>
             @endfor
@@ -100,7 +102,7 @@
         </h4>
         <div id="group-4" class="list-group collapse in">
         @for( $i=0; $i < count($prices); $i++)
-          <a class="list-group-item" href="#">
+          <a class="list-group-item" href="{{action('SearchController@index', ['price'=>$i]) }}">
 
             <span class="badge badge-pill badge-primary">{{count($prices[$i])}}
               </span>
