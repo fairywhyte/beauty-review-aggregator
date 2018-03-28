@@ -9994,12 +9994,8 @@ a.text-dark:focus {
   }
 }
 
-.img-detail {
-  min-width: 400px;
-}
-
-.review-text {
-  color: red;
+.header {
+  background-color: #F4E0DC;
 }
 
 h1 {

@@ -21,7 +21,7 @@
 
     <div class="container">
         <div class="card">
-            <h5 class="card-header">{{$product->title}} By {{$product->brand->name}}</h5>
+            <h5 class="card-header header">{{$product->title}} By {{$product->brand->name}}</h5>
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-4 ">
@@ -53,7 +53,7 @@
             </div>
 
     <!--Reviews-->
-            <div class="card-body review-text">
+            <div class="card-body">
                 <p class="card-text px-2"><span class="font-weight-bold">Most Helpful Review : </span><br>{{$product->most_helpful_review}}</p>
                 <p class="card-text px-2"><span class="font-weight-bold">Number of People Who Found this Review Helpful:</span><br>{{$product->most_helpful_count}}/{{$product->total_number_of_ratings}}</p>
             </div>
