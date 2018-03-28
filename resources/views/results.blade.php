@@ -3,6 +3,62 @@
 @section('content')
 
 
+@php
+    $brands = [];
+    $brands_count = [];
+
+    foreach($products as $product){
+        if(!isset($brands_count[$product->brand_id])){
+            $brands_count[$product->brand_id] = 0;
+        }
+
+        $brands_count[$product->brand_id]++;
+        $brands[$product->brand_id] = $product->brand;
+    }
+
+    arsort($brands_count);
+    $brands_ids = array_keys($brands_count);
+@endphp
+
+
+
+
+
+
+
+
+
+@php
+
+
+  $prices=[
+    0=>[],
+    1=>[],
+    2=>[]
+  ];
+
+  foreach($products as $product){
+    $productPrice = floatval(str_replace('$', '', $product->price));
+
+    if($productPrice<=50){
+        $prices[0][]=$productPrice;
+      }elseif($productPrice<=100){
+        $prices[1][]=$productPrice;
+      }else{
+        $prices[2][]=$productPrice;
+    }
+  }
+
+  foreach($prices as $range=>$rangeArr){
+      foreach($products as $product){
+        if($product->price<=$range){
+          $range=$product->price;
+          break;
+        }
+      }
+  }
+
+@endphp
 
 
 
@@ -20,62 +76,6 @@
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Brand
         </h4>
-        @php
-            $brands = [];
-            $brands_count = [];
-
-            foreach($products as $product){
-                if(!isset($brands_count[$product->brand_id])){
-                    $brands_count[$product->brand_id] = 0;
-                }
-
-                $brands_count[$product->brand_id]++;
-                $brands[$product->brand_id] = $product->brand;
-            }
-
-            arsort($brands_count);
-            $brands_ids = array_keys($brands_count);
-        @endphp
-
-
-
-
-
-
-
-
-
-        @php
-
-
-          $prices=[
-            0=>[],
-            1=>[],
-            2=>[]
-          ];
-
-          foreach($products as $product){
-            $productPrice = floatval(str_replace('$', '', $product->price));
-
-            if($productPrice<=50){
-                $prices[0][]=$productPrice;
-              }elseif($productPrice<=100){
-                $prices[1][]=$productPrice;
-              }else{
-                $prices[2][]=$productPrice;
-            }
-          }
-
-          foreach($prices as $range=>$rangeArr){
-              foreach($products as $product){
-                if($product->price<=$range){
-                  $range=$product->price;
-                  break;
-                }
-              }
-          }
-
-      @endphp
 
         <div id="group-1" class="list-group collapse in">
             {{-- @for( $i = 0; $i < count($brands_ids); $i++) --}}
