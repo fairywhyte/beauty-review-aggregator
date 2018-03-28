@@ -25,3 +25,8 @@ hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; 
 .search-result span.plus a:hover { background-color: #414141; }
 .search-result span.plus a i { color: #fff !important; }
 .search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+.badge-primary { background-color: #15523c !important ;}
+.badge-primary[href]:hover,
+.badge-primary[href]:focus { background-color: #0b8c5c !important; }
+.container-fluid { max-width: none !important; }
+h2,h4 {color:white !important;}

@@ -5340,14 +5340,14 @@ tbody.collapse.show {
 
 .badge-primary {
   color: #fff;
-  background-color: #15523c;
+  background-color: #007bff;
 }
 
 .badge-primary[href]:hover,
 .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #0b8c5c;
+  background-color: #0062cc;
 }
 
 .badge-secondary {
@@ -10173,8 +10173,26 @@ hgroup h2.lead {
   border-bottom: 1px dotted #ccc;
 }
 
+.badge-primary {
+  background-color: #15523c !important;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  background-color: #0b8c5c !important;
+}
+
 .container-fluid {
-  max-width: none;
+  max-width: none !important;
+}
+
+h2,
+h4 {
+  color: white !important;
+}
+
+.container-fluid {
+  max-width: 960px;
 }
 
 [data-toggle="collapse"] {
