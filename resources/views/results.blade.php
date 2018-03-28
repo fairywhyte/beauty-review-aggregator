@@ -147,24 +147,26 @@
                           <h5 class="card-title text-center">{{$product->brand->name}}</h5>
                           <p class="product-title text-center">{{$product->title}}</p>
                           <p class="price text-center">Price (approx): $ {{$product->price}}</p>
-                          <p class="average-rating text-center ">Average rating: {{number_format($product->average_rating,1)}}</p>
-                          @php
+                          <p class="average-rating text-center">Average rating: {{number_format($product->average_rating,1)}}</p>
+                          <div class="d-flex justify-content-center">
+                            @php
 
-                        for($x=1;$x<=$product->getStars();$x++) {
-                            echo '<img src="/assets/stars_rating/star.png" />';
-                        }
-                        if (strpos($product->getStars(),'.')) {
-                            echo '<img src="/assets/stars_rating/half-star.png" />';
-                            $x++;
-                        }
-                        while ($x<=5) {
-                            echo '<img src="/assets/stars_rating/blank-star.png" />';
-                            $x++;
-                        }
-                        @endphp
+                            for($x=1;$x<=$product->getStars();$x++) {
+                                echo '<img src="/assets/stars_rating/star.png" />';
+                            }
+                            if (strpos($product->getStars(),'.')) {
+                                echo '<img src="/assets/stars_rating/half-star.png" />';
+                                $x++;
+                            }
+                            while ($x<=5) {
+                                echo '<img src="/assets/stars_rating/blank-star.png" />';
+                                $x++;
+                            }
+                            @endphp
+                          </div>
                           <p class="number-of-reviews text-center pt-4"><b>Aggregated # of reviews: {{number_format($product->total_number_of_ratings)}}</b></p>
                           <p class="recommended text-center">Recommended: {{($product->recommended_count_percentage)*100}}%</p>
-                          <div class="justify-content">
+                          <div class="d-flex justify-content-center">
                             <a href="{{action('ProductController@show',[$product->slug])}}" class="btn btn-primary">View</a>
                           </div>
 
