@@ -18,29 +18,44 @@
 
 <body>
 @include('navbar')
+
     <div class="container">
         <div class="card">
             <h5 class="card-header">{{$product->title}} By {{$product->brand->name}}</h5>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}}By{{$product->brand->name}} class="image-responsive">
+                    <div class="col-md-4 ">
+                        <img class="img-fluid img-responsive d-flex flex-row justify-content-center my-5 py-5" src="{{action('ImageController@show', [$product->slug])}}" alt={{$product->slug}}By{{$product->brand->name}} class="image-responsive">
                     </div>
                     <div class="col-md-8">
                         <p class="card-text "><span class="font-weight-bold">Brand : </span></p><p>{{$product->brand->name}}</p>
                         <p class="card-text "><span class="font-weight-bold">Brand Origin : </span></p><p>{{$product->brand->origin}}</p>
-                        <p class="card-text "><span class="font-weight-bold">Average Rating :</span></p><p> {{ number_format($product->average_rating, 1)}}/5.0</p>
-                        <p class="card-text "><span class="font-weight-bold">Product Name : </span></p><p>{{$product->title}}</p>
+                        <p class="card-text "><span class="font-weight-bold">Aggregated Average Rating :</span></p><p> {{ number_format($product->average_rating, 1)}}/5.0</p>
+                        @php
+                        $starNumber =$product ->average_rating;
+                        for($x=1;$x<=$starNumber;$x++) {
+                            echo '<img src="/assets/stars_rating/star.png" />';
+                        }
+                        if (strpos($starNumber,'.')) {
+                            echo '<img src="/assets/stars_rating/half-star.png" />';
+                            $x++;
+                        }
+                        while ($x<=5) {
+                            echo '<img src="/assets/stars_rating/blank-star.png" />';
+                            $x++;
+                        }
+                        @endphp
+                        <p class="card-text"><span class="font-weight-bold">Aggregated Number of Ratings : </span></p><p>{{$product->total_number_of_ratings}}</p>
                         <p class="card-text "><span class="font-weight-bold">Price (approx.) : </span></p><p>{{$product->price}}</p>
-                        <p class="card-text "><span class="font-weight-bold">Number of Ratings : </span></p><p>{{$product->total_number_of_ratings}}</p>
                         <p class="card-text "><span class="font-weight-bold">Product Details : </span></p><p>{{$product->description}}</p>
                     </div>
                 </div>
             </div>
+
     <!--Reviews-->
             <div class="card-body review-text">
                 <p class="card-text px-2"><span class="font-weight-bold">Most Helpful Review : </span><br>{{$product->most_helpful_review}}</p>
-                <p class="card-text px-2"><span class="font-weight-bold">Number of Reviews :</span><br>{{$product->most_helpful_count}}</p>
+                <p class="card-text px-2"><span class="font-weight-bold">Number of People Who Found this Review Helpful:</span><br>{{$product->most_helpful_count}}/{{$product->total_number_of_ratings}}</p>
             </div>
         </div>
     </div>
@@ -60,4 +75,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
+
 

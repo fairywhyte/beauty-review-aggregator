@@ -9994,14 +9994,6 @@ a.text-dark:focus {
   }
 }
 
-.img-detail {
-  min-width: 400px;
-}
-
-.review-text {
-  color: red;
-}
-
 .search-card {
   width: 15rem;
 }
@@ -10127,7 +10119,7 @@ hgroup h2.lead {
 }
 
 .container-fluid {
-  max-width: none;
+  max-width: 960px;
 }
 
 [data-toggle="collapse"] {
