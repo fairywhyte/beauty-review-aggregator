@@ -146,6 +146,20 @@
                           <p class="product-title">{{$product->title}}</p>
                           <p class="price">{{$product->price}}</p>
                           <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
+                          @php
+                        $starNumber =$product ->average_rating;
+                        for($x=1;$x<=$starNumber;$x++) {
+                            echo '<img src="/assets/stars_rating/star.png" />';
+                        }
+                        if (strpos($starNumber,'.')) {
+                            echo '<img src="/assets/stars_rating/half-star.png" />';
+                            $x++;
+                        }
+                        while ($x<=5) {
+                            echo '<img src="/assets/stars_rating/blank-star.png" />';
+                            $x++;
+                        }
+                        @endphp
                           <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
                           <p class="recommended">Recommended: {{number_format($product->recommended_count_percentage,1)}}%</p>
                         <a href="{{action('ProductController@show',[$product->slug])}}" class="btn btn-primary">View</a>

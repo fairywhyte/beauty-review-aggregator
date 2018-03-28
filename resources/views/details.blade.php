@@ -20,7 +20,7 @@
 @include('navbar')
 
     <div class="container">
-        <div class="card">
+        <div class="card mb-5">
             <h5 class="card-header header">{{$product->title}} By {{$product->brand->name}}</h5>
             <div class="card-body">
                 <div class="row">
