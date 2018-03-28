@@ -10174,7 +10174,7 @@ hgroup h2.lead {
 }
 
 .container-fluid {
-  max-width: 960px;
+  max-width: none;
 }
 
 [data-toggle="collapse"] {
