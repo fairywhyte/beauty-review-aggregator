@@ -10022,8 +10022,9 @@ h1 {
 }
 
 .btn-outline-secondary:hover {
-  background-color: #F4E0DC;
-  border-color: #F4E0DC;
+  background-color: white;
+  border-color: white;
+  color: lightgray;
 }
 
 .btn-primary {
