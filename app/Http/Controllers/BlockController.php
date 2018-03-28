@@ -8,7 +8,7 @@ class BlockController extends Controller
 {
     public function fill_blocks() {
 
-        $blocks[] = array('card-img-top src' => asset('img/home_images/metrics-skincare.jpg'),
+        $blocks[] = array('card-img-top src' => asset('img/home_images/metrics-skincare-small.jpg'),
         'card-img top alt' => 'skincare product',
         'card-text' => 'Metrics',
         'list-item-1' => '> 80% 5-star rated',
@@ -20,7 +20,7 @@ class BlockController extends Controller
         'view-all href' => action('TopChartController@get_all')
         );
 
-        $blocks[] = array('card-img-top src' => asset('img/home_images/origin-korean-women.jpg'),
+        $blocks[] = array('card-img-top src' => asset('img/home_images/origin-korean-women-small.jpg'),
         'card-img top alt' => 'korean women',
         'card-text' => 'Origin',
         'list-item-1' => '> Asian Skincare',
@@ -32,7 +32,7 @@ class BlockController extends Controller
         'view-all href' => action('TopChartController@get_all')
         );
 
-        $blocks[] = array('card-img-top src' => asset('img/home_images/brands-serum.jpg'),
+        $blocks[] = array('card-img-top src' => asset('img/home_images/brands-serum-small.jpg'),
         'card-img top alt' => 'serum',
         'card-text' => 'Brands',
         'list-item-1' => 'The Ordinary',

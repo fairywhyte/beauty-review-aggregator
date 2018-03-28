@@ -10002,20 +10002,22 @@ a.text-dark:focus {
   color: red;
 }
 
-.searchbox-home {
-  margin-top: 5rem;
-}
-
 .search-card {
   width: 15rem;
 }
 
-h1 {
-  color: red;
+.searchbox-home {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1515165244752-2465b61f0441?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2a0e354c2c6767c0b1ab4733ff24011&auto=format&fit=crop&w=989&q=80");
+  background-image: url("/assets/pink_rose.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fixed;

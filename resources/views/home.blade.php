@@ -4,7 +4,7 @@
 
 
 
-<div class="searchbox-home container mx-auto mb-5 py-5" >
+<div class="searchbox-home container py-5" >
 
     <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
     <div class="container d-flex flex-column justify-content-start searchbox-entry">
@@ -20,8 +20,7 @@
 
 
     <div class="search-categories container mt-3 ">
-        <div class="row">
-            <div class="card-deck">
+        <div class="row d-flex justify-content-between">
                 @for($i=0; $i <3; $i ++)
                     <div class="col-sm-12 col-lg-4 mb-4">
                         <div class="search-card card text-center m-auto">
@@ -38,7 +37,6 @@
                         </div>
                     </div>
                 @endfor
-            </div>
         </div>
     </div>
 
