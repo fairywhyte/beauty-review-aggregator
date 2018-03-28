@@ -141,13 +141,13 @@
       @foreach($products as $product)
         <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
             <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
+                    <img class="card-img-top pt-5" src="{{action('ImageController@show', [$product->slug] )}}" alt="{{$product->slug}}">
                     <div class="card-body">
-                        <p class="card-text">
-                          <h5 class="card-title">{{$product->brand->name}}</h5>
-                          <p class="product-title">{{$product->title}}</p>
-                          <p class="price">{{$product->price}} $</p>
-                          <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
+                        <p class="card-text text-center">
+                          <h5 class="card-title text-center">{{$product->brand->name}}</h5>
+                          <p class="product-title text-center">{{$product->title}}</p>
+                          <p class="price text-center">Price (approx): $ {{$product->price}}</p>
+                          <p class="average-rating text-center ">Average rating: {{number_format($product->average_rating,1)}}</p>
                           @php
 
                         for($x=1;$x<=$product->getStars();$x++) {
@@ -162,9 +162,12 @@
                             $x++;
                         }
                         @endphp
-                          <p class="number-of-reviews">Number of reviews: {{number_format($product->total_number_of_ratings)}}</p>
-                          <p class="recommended">Recommended: {{number_format($product->recommended_count_percentage,1)}}%</p>
-                        <a href="{{action('ProductController@show',[$product->slug])}}" class="btn btn-primary">View</a>
+                          <p class="number-of-reviews text-center pt-4"><b>Aggregated # of reviews: {{number_format($product->total_number_of_ratings)}}</b></p>
+                          <p class="recommended text-center">Recommended: {{($product->recommended_count_percentage)*100}}%</p>
+                          <div class="justify-content">
+                            <a href="{{action('ProductController@show',[$product->slug])}}" class="btn btn-primary">View</a>
+                          </div>
+
                     </div>
             </div>
           </div>
