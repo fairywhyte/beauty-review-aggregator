@@ -20,10 +20,10 @@ class BlockController extends Controller
         'view-all href' => action('TopChartController@get_all')
         );
 
-        $blocks[] = array('card-img-top src' => asset('img/home_images/origin-korean-women-small.jpg'),
+        $blocks[] = array('card-img-top src' => asset('img/home_images/korean-girl-small.jpg'),
         'card-img top alt' => 'korean women',
         'card-text' => 'Origin',
-        'list-item-1' => '> Asian Skincare',
+        'list-item-1' => 'Asian Skincare',
         'list-item-1-href' => action('OriginController@get_asian_beauty_brands'),
         'list-item-2' => 'American Skincare',
         'list-item-2-href' => action('OriginController@get_american_beauty_brands'),
@@ -39,7 +39,7 @@ class BlockController extends Controller
         'list-item-1-href' => action('BrandController@get_the_ordinary_products'),
         'list-item-2' => 'Estee Lauder',
         'list-item-2-href' => action('BrandController@get_estee_lauder_products'),
-        'list-item-3' => 'Kate Sommerville',
+        'list-item-3' => 'Kate Somerville',
         'list-item-3-href' => action('BrandController@get_kate_sommerville_products'),
         'view-all href' => action('TopChartController@get_all')
         );

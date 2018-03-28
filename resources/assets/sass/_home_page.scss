@@ -1,5 +1,9 @@
 
 
+h1 {
+    color: white;
+}
+
 .search-card {
     width: 15rem;
 }
@@ -12,4 +16,41 @@
 .card {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color:white;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #F4E0DC;
+    border-color:#F4E0DC;
+}
+
+.btn-primary {
+    background-color: #15523c;
+    border-color: #15523c;
+}
+
+.btn-primary:hover {
+    background-color:  #0b8c5c;
+    border-color: #0b8c5c;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #0b8c5c;
+}
+
+
+.search-text {
+    color: white;
+}
+
+.card-text {
+    color: black;
 }
