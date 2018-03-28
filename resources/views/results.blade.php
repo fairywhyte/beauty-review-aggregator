@@ -6,7 +6,7 @@
 
 
 
-<div class="container-fluid side-bar">
+<div class="container-fluid side-bar float:left">
     <h2> Categories </h2>
 
   <div class="row">
