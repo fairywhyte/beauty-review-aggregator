@@ -9998,6 +9998,10 @@ a.text-dark:focus {
   background-color: #F4E0DC;
 }
 
+.border-card {
+  border: solid 3px #F4E0DC;
+}
+
 h1 {
   color: white;
 }
