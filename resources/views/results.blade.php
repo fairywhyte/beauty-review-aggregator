@@ -146,7 +146,7 @@
                         <p class="card-text">
                           <h5 class="card-title">{{$product->brand->name}}</h5>
                           <p class="product-title">{{$product->title}}</p>
-                          <p class="price">{{$product->price}}</p>
+                          <p class="price">{{$product->price}} $</p>
                           <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
                           @php
 
