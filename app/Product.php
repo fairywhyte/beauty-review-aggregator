@@ -29,4 +29,9 @@ class Product extends Model
     {
         return $this->belongsTo(Review::class);
     }
+
+    public function getStars()
+    {
+        return round($this ->average_rating * 2) / 2;
+    }
 }

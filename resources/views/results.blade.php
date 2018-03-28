@@ -147,11 +147,11 @@
                           <p class="price">{{$product->price}}</p>
                           <p class="average-rating">Average rating: {{number_format($product->average_rating,1)}}</p>
                           @php
-                        $starNumber =$product ->average_rating;
-                        for($x=1;$x<=$starNumber;$x++) {
+
+                        for($x=1;$x<=$product->getStars();$x++) {
                             echo '<img src="/assets/stars_rating/star.png" />';
                         }
-                        if (strpos($starNumber,'.')) {
+                        if (strpos($product->getStars(),'.')) {
                             echo '<img src="/assets/stars_rating/half-star.png" />';
                             $x++;
                         }

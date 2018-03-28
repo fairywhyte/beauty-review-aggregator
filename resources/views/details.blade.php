@@ -32,11 +32,11 @@
                         <p class="card-text "><span class="font-weight-bold">Brand Origin : </span></p><p>{{$product->brand->origin}}</p>
                         <p class="card-text "><span class="font-weight-bold">Aggregated Average Rating :</span></p><p> {{ number_format($product->average_rating, 1)}}/5.0</p>
                         @php
-                        $starNumber =$product ->average_rating;
-                        for($x=1;$x<=$starNumber;$x++) {
+
+                        for($x=1;$x<=$product->getStars();$x++) {
                             echo '<img src="/assets/stars_rating/star.png" />';
                         }
-                        if (strpos($starNumber,'.')) {
+                        if (strpos($product->getStars(),'.')) {
                             echo '<img src="/assets/stars_rating/half-star.png" />';
                             $x++;
                         }
