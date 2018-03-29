@@ -18,6 +18,10 @@ class MainController extends Controller
         return view('results');
     }
 
+    public function aboutus()
+    {
+        return view('aboutus');
+    }
 
 
 
