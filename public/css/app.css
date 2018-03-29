@@ -10329,6 +10329,11 @@ body {
 
 .navbar {
   background-color: #F4E0DC;
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-left: 1em;
 }
 
 .page-footer {
