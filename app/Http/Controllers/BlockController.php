@@ -34,13 +34,13 @@ class BlockController extends Controller
 
         $blocks[] = array('card-img-top src' => asset('img/home_images/brands-serum-small.jpg'),
         'card-img top alt' => 'serum',
-        'card-text' => 'Brands',
-        'list-item-1' => 'The Ordinary',
-        'list-item-1-href' => action('BrandController@get_the_ordinary_products'),
-        'list-item-2' => 'Estee Lauder',
-        'list-item-2-href' => action('BrandController@get_estee_lauder_products'),
-        'list-item-3' => 'Kate Somerville',
-        'list-item-3-href' => action('BrandController@get_kate_sommerville_products'),
+        'card-text' => 'Skin Concern',
+        'list-item-1' => 'Anti-aging',
+        'list-item-1-href' => '/search?query=antiaging',
+        'list-item-2' => 'Acne',
+        'list-item-2-href' => '/search?query=acne',
+        'list-item-3' => 'Redness',
+        'list-item-3-href' => '/search?query=Redness',
         'view-all href' => action('TopChartController@get_all')
         );
 
