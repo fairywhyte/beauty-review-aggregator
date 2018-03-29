@@ -1,3 +1,4 @@
+<title>Home | La Ravelle </title>
 @extends('layout')
 
 @section('content')

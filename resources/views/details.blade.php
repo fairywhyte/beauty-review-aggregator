@@ -1,4 +1,4 @@
-<title>Product Detail {{$product->title}} By {{$product->brand->name}}</title>
+<title>Product Detail {{$product->title}} By {{$product->brand->name}} | La Ravelle </title>
 @extends('layout')
 
 @section('content')
