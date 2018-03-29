@@ -69,8 +69,27 @@
 
   <div class="row">
 
+
+
     <!-- filter sidebar -->
     <div id="filter-sidebar" class="col-xs-6 col-sm-3">
+
+      <div>
+        <h4 class="side-bar-h4" id="h4Id3">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Skin Concern
+        </h4>
+        <div id="group-3" class="list-group collapse in">
+          <a class="list-group-item" href="http://www.final-project.test/search?query=puffiness"> Puffiness </a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=acne"> Acne </a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=antiaging">Anti-aging</a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=Dark+Circles">Dark Circles</a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=Dryness">Dryness</a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=Wrinkles">Wrinkles</a>
+          <a class="list-group-item" href="http://www.final-project.test/search?query=Redness">Redness</a>
+        </div>
+      </div>
 
       <div>
         <h4 class="side-bar-h4" id="h4Id1">
@@ -90,6 +109,7 @@
             @endfor
 
         </div>
+
       </div>
 
 
@@ -98,7 +118,7 @@
         <h4 class="side-bar-h4" id="h4Id4">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Ratings
+          Price Ranges
         </h4>
         <div id="group-4" class="list-group collapse in">
         @for( $i=0; $i < count($prices); $i++)
@@ -116,6 +136,8 @@
       </div>
 
     </div>
+
+
 
     <!-- table container -->
     <div class="col-sm-9">
