@@ -95,6 +95,28 @@
       </div>
 
       <div>
+        <h4 class="side-bar-h4" id="h4Id4">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Price Ranges
+        </h4>
+        <div id="group-4" class="list-group collapse in">
+        @for( $i=0; $i < count($prices); $i++)
+          <a class="list-group-item" href="{{action('SearchController@index', ['price'=>$i]) }}">
+
+            <span class="badge badge-pill badge-primary">{{count($prices[$i])}}
+              </span>
+            @if(count($prices[$i]) > 0)
+              {{ min($prices[$i])}} - {{max($prices[$i])}}
+            @endif
+            $
+          </a>
+          @endfor
+        </div>
+      </div>
+
+
+      <div>
         <h4 class="side-bar-h4" id="h4Id1">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
@@ -117,26 +139,7 @@
 
 
 
-      <div>
-        <h4 class="side-bar-h4" id="h4Id4">
-          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          Price Ranges
-        </h4>
-        <div id="group-4" class="list-group collapse in">
-        @for( $i=0; $i < count($prices); $i++)
-          <a class="list-group-item" href="{{action('SearchController@index', ['price'=>$i]) }}">
 
-            <span class="badge badge-pill badge-primary">{{count($prices[$i])}}
-              </span>
-            @if(count($prices[$i]) > 0)
-              {{ min($prices[$i])}} - {{max($prices[$i])}}
-            @endif
-            $
-          </a>
-          @endfor
-        </div>
-      </div>
 
     </div>
 
