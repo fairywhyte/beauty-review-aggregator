@@ -105,7 +105,7 @@
           <a class="list-group-item" href="{{action('SearchController@index', ['price'=>$i]) }}">
 
             <span class="badge badge-pill badge-primary">{{count($prices[$i])}}
-              </span>$
+              </span>
             @if(count($prices[$i]) > 0)
               {{ min($prices[$i])}} - {{max($prices[$i])}}
             @endif
