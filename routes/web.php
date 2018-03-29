@@ -22,6 +22,7 @@ Route::get('/details/{slug}', 'ProductController@show');
 Route::get('/results', 'MainController@result');
 Route::get('/search', 'SearchController@index');
 Route::get('/home', 'BlockController@fill_blocks');
+Route::get('/aboutus', 'MainController@aboutus');
 
 //1.Scraping Sephora Face Serum
 Route::get('/json_scrape_sephora', 'ProductController@json_scrape_sephora');
