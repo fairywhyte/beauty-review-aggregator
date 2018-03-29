@@ -10336,6 +10336,17 @@ body {
   padding-left: 1em;
 }
 
+.laravelle-logo {
+  position: relative;
+  top: -5px;
+  margin-bottom: 10px;
+}
+
+.navbar-right {
+  position: absolute;
+  right: 1rem;
+}
+
 .page-footer {
   background-color: #F4E0DC;
 }
