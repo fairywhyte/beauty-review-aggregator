@@ -84,13 +84,13 @@
           Skin Concern
         </h4>
         <div id="group-3" class="list-group collapse in">
-          <a class="list-group-item" href="http://www.final-project.test/search?query=puffiness"> Puffiness </a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=acne"> Acne </a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=antiaging">Anti-aging</a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=Dark+Circles">Dark Circles</a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=Dryness">Dryness</a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=Wrinkles">Wrinkles</a>
-          <a class="list-group-item" href="http://www.final-project.test/search?query=Redness">Redness</a>
+          <a class="list-group-item" href="/search?query=puffiness"> Puffiness </a>
+          <a class="list-group-item" href="/search?query=acne"> Acne </a>
+          <a class="list-group-item" href="/search?query=antiaging">Anti-aging</a>
+          <a class="list-group-item" href="/search?query=Dark+Circles">Dark Circles</a>
+          <a class="list-group-item" href="/search?query=Dryness">Dryness</a>
+          <a class="list-group-item" href="/search?query=Wrinkles">Wrinkles</a>
+          <a class="list-group-item" href="/search?query=Redness">Redness</a>
         </div>
       </div>
 
