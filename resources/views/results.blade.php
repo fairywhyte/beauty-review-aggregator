@@ -1,3 +1,4 @@
+<title> Results Page | La Ravelle </title>
 @extends('layout')
 
 @section('content')
@@ -61,6 +62,8 @@
   }
 
 @endphp
+
+
 
 
 
@@ -169,7 +172,7 @@
                           <h5 class="card-title text-center">{{$product->brand->name}}</h5>
                           <p class="product-title text-center">{{$product->title}}</p>
                           <p class="price text-center">Price (approx): $ {{$product->price}}</p>
-                          <p class="average-rating text-center">Average rating: {{number_format($product->average_rating,1)}}</p>
+                          <p class="average-rating text-center">Average rating: {{number_format($product->average_rating,1)}} / 5</p>
                           <div class="d-flex justify-content-center">
                             @php
 
