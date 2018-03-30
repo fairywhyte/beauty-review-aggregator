@@ -24,6 +24,7 @@ class OriginController extends Controller
         $products = Product::whereHas('brand', function ($query) {
             $query->where('origin', '=', 'United States');
         })->orderBy('total_number_of_ratings', 'DESC')->get();
+        
         return view('results', ['products'=> $products]) ;
     }
 

@@ -41,25 +41,24 @@ class SearchController extends Controller
             });
         }
 
-        if(null !== ($brand = $request->input('brand'))){
-            $query->whereHas('brand', function($query) use ($brand){
-                $query
+        if(null !== ($brand = $request->input('brand'))||null !== ($origin = $request->input('origin'))){
+            $query->whereHas('brand', function($query) use ($brand, $origin){
+                if($brand){
+                    $query
                 ->where('name', 'LIKE', '%'.$brand.'%');
+                }
+                if($origin){
+                    $query
+                ->where('origin', 'LIKE',$origin);
+                }
+
             });
         }
 
+
         $products = ($query->get());
         //toSql
-        //added the criteria for the input search,prices and brand into the array criteria
-        $criteria =[
-            'query'=> $request->input('query'),
-            'price'=>$request->input('price'),
-            'brand'=>$request->input('brand')
-        ];
-        //array_filter will remove some of the items in the array
-        $criteria = array_filter($criteria,function($value){
-            return $value!==null;
-        });
+
 
 
         // foreach($all_brands as $brand){
@@ -72,7 +71,7 @@ class SearchController extends Controller
 
         //return $products;
         return view('results', ['products' => $products,
-        'q' => $q, 'criteria'=>$criteria]);
+        'q' => $q]);
 
     }
 

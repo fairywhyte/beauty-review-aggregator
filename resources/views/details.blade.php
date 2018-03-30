@@ -38,7 +38,7 @@
     <!--Reviews-->
             <div class="card-body px-2 py-0">
                 <p class="card-text mx-4 mb-4"><span class="font-weight-bold">Most Helpful Review : </span><br>{{$product->most_helpful_review}}</p>
-                <p class="card-text mx-4 mb-4"><span class="font-weight-bold">Number of People Who Found this Review Helpful:</span><br>{{$product->most_helpful_count}}/{{$product->total_number_of_ratings}}</p>
+                <p class="card-text mx-4 mb-4"><span class="font-weight-bold">Number of People Who Found this Review Helpful:</span><br>{{$product->most_helpful_count}}</p>
             </div>
         </div>
     </div>
