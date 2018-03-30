@@ -21,6 +21,7 @@ class SearchController extends Controller
         $query = Product::query();
 
         if(null !== ($price = $request->input('price'))){
+            // dd($request->input('price'));
             $query->whereBetween('price', [$price*50, ($price+1)*50]);
 
         }
@@ -51,9 +52,19 @@ class SearchController extends Controller
 
         $products = ($query->get());
         //toSql
+        //added the criteria for the input search,prices and brand into the array criteria
+        $criteria =[
+            'q'=> $request->input('q'),
+            'price'=>$request->input('price'),
+            'brand'=>$request->input('brand')
+        ];
+        //array_filter will remove some of the items in the array
+        $criteria = array_filter($criteria,function($value){
+            return $value!==null;
+        });
 
         //return $products;
-        return view('results', ['products' => $products, 'q' => $q]);
+        return view('results', ['products' => $products, 'q' => $q, 'criteria'=>$criteria]);
     }
 
 

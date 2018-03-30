@@ -231,6 +231,7 @@ class ProductController extends Controller
                 } catch (\Exception $e) {
                     echo 'Caught exception: ',  $e->getMessage(), " at product ",$id_in_shop,"\n";
                 }
+                 
                 $matched_product->most_helpful_review = $reviewText;
                 $matched_product->most_helpful_count = $maxFeedback;
                 $matched_product->description = $sephora_product->description;

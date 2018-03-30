@@ -84,13 +84,13 @@
           Skin Concern
         </h4>
         <div id="group-3" class="list-group collapse in">
-          <a class="list-group-item" href="/search?query=puffiness"> Puffiness </a>
-          <a class="list-group-item" href="/search?query=acne"> Acne </a>
-          <a class="list-group-item" href="/search?query=antiaging">Anti-aging</a>
-          <a class="list-group-item" href="/search?query=Dark+Circles">Dark Circles</a>
-          <a class="list-group-item" href="/search?query=Dryness">Dryness</a>
-          <a class="list-group-item" href="/search?query=Wrinkles">Wrinkles</a>
-          <a class="list-group-item" href="/search?query=Redness">Redness</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'puffiness']))}}"> Puffiness </a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'acne']))}}"> Acne </a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'antiaging']))}}">Anti-aging</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Dark Circles']))}}">Dark Circles</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Dryness']))}}Dryness">Dryness</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Wrinkles']))}}">Wrinkles</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Redness']))}}">Redness</a>
         </div>
       </div>
 
