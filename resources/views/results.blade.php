@@ -165,20 +165,7 @@ $brands_count = [];
       </div>
 
 
-      <div>
-        <h4 class="side-bar-h4" id="h4Id4">
-          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          All brands
-        </h4>
-        <div id="group-4" class="list-group collapse in">
-          @foreach($all_brands as $brand)
-          <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
-          <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
-          </a>
-          @endforeach
-        </div>
-      </div>
+
 
 
 
