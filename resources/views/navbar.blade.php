@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-light mb-5">
   <div class="row">
     <a class="navbar-brand navbar-left" href="{{action('BlockController@fill_blocks')}}">La Ravelle</a>
-    <img class="laravelle-logo" src="img/home_images/laravelle_logo.ico"/>
+    <img class="laravelle-logo" src="../img/home_images/laravelle_logo.ico"/>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

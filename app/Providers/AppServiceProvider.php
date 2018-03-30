@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
+    {//added the results.blade.php to view
         \View::composer(
             'results', 'App\Http\ViewComposers\ResultsComposer'
         );

@@ -11,6 +11,7 @@ class ResultsComposer
     public function compose(View $view)
     {
         //added the criteria for the input search,prices and brand into the array criteria
+        //add request method here to initialize the request to be used in this method
         $request=request();
         $criteria =[
             'query'=> $request->input('query'),

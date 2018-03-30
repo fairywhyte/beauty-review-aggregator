@@ -111,6 +111,9 @@ $brands_count = [];
           Skin Concern
         </h4>
         <div id="group-3" class="list-group collapse in">
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                <span class="badge badge-pill badge-primary">Reset Skin Concerns
+            </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'puffiness']))}}"> Puffiness </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'acne']))}}"> Acne </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'antiaging']))}}">Anti-aging</a>
@@ -128,6 +131,9 @@ $brands_count = [];
           Price Ranges
         </h4>
         <div id="group-4" class="list-group collapse in">
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                <span class="badge badge-pill badge-primary">Reset Prices
+            </a>
         @for( $i=0; $i < count($prices); $i++)
           <a class="list-group-item" href="{{action('SearchController@index',array_merge($criteria, ['price'=>$i]))}}">
 
@@ -141,6 +147,24 @@ $brands_count = [];
           @endfor
         </div>
       </div>
+
+      <div>
+          <h4 class="side-bar-h4" id="h4Id4">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Origins
+          </h4>
+          <div id="group-4" class="list-group collapse in">
+              <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                  <span class="badge badge-pill badge-primary">Reset Origins
+              </a>
+              @foreach($origins as $origin)
+              <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['origin'=>$origin]))}}">
+              {{$origin}}
+              </a>
+              @endforeach
+          </div>
+       </div>
 
 
       <div>
@@ -172,8 +196,8 @@ $brands_count = [];
           </h4>
         <div id="group-4" class="list-group collapse in">
             <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
-                <span class="badge badge-pill badge-primary">All brands
-                </a>
+                <span class="badge badge-pill badge-primary">Reset Brands
+            </a>
             @foreach($all_brands as $brand)
             <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
             <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
@@ -182,20 +206,7 @@ $brands_count = [];
         </div>
       </div>
 
-      <div>
-        <h4 class="side-bar-h4" id="h4Id4">
-        <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-        <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-        Origins
-        </h4>
-      <div id="group-4" class="list-group collapse in">
-          @foreach($origins as $origin)
-          <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['origin'=>$origin]))}}">
-          {{$origin}}
-          </a>
-          @endforeach
-      </div>
-    </div>
+
 
 
 
