@@ -10538,7 +10538,6 @@ body {
 .page-footer {
   background-color: #F4E0DC;
   width: 100%;
-  position: fixed;
   bottom: 0px;
   text-align: center;
 }

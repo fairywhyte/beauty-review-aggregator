@@ -111,11 +111,14 @@ $brands_count = [];
           Skin Concern
         </h4>
         <div id="group-3" class="list-group collapse in">
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                <span class="badge badge-pill badge-primary">Reset Skin Concerns
+            </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'puffiness']))}}"> Puffiness </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'acne']))}}"> Acne </a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'antiaging']))}}">Anti-aging</a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Dark Circles']))}}">Dark Circles</a>
-          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Dryness']))}}Dryness">Dryness</a>
+          <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Dryness']))}}">Dryness</a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Wrinkles']))}}">Wrinkles</a>
           <a class="list-group-item" href="/search?{{http_build_query(array_merge($criteria,['query'=>'Redness']))}}">Redness</a>
         </div>
@@ -128,8 +131,11 @@ $brands_count = [];
           Price Ranges
         </h4>
         <div id="group-4" class="list-group collapse in">
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                <span class="badge badge-pill badge-primary">Reset Prices
+            </a>
         @for( $i=0; $i < count($prices); $i++)
-          <a class="list-group-item" href="{{action('SearchController@index', ['price'=>$i]) }}">
+          <a class="list-group-item" href="{{action('SearchController@index',array_merge($criteria, ['price'=>$i]))}}">
 
             <span class="badge badge-pill badge-primary">{{count($prices[$i])}}
               </span>$
@@ -141,6 +147,24 @@ $brands_count = [];
           @endfor
         </div>
       </div>
+
+      <div>
+          <h4 class="side-bar-h4" id="h4Id4">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          Origins
+          </h4>
+          <div id="group-4" class="list-group collapse in">
+              <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                  <span class="badge badge-pill badge-primary">Reset Origins
+              </a>
+              @foreach($origins as $origin)
+              <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['origin'=>$origin]))}}">
+              {{$origin}}
+              </a>
+              @endforeach
+          </div>
+       </div>
 
 
       <div>
@@ -159,25 +183,34 @@ $brands_count = [];
                     <span class="badge badge-pill badge-primary">{{ $brands_count[  $brands_ids[$i] ] }}</span> {{ $brands[ $brands_ids[$i] ]->name }}
                 </a>
             @endfor
-
         </div>
+      </div>
 
+
+
+      <div>
+          <h4 class="side-bar-h4" id="h4Id4">
+          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
+          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
+          All brands
+          </h4>
+        <div id="group-4" class="list-group collapse in">
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
+                <span class="badge badge-pill badge-primary">Reset Brands
+            </a>
+            @foreach($all_brands as $brand)
+            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
+            <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
+            </a>
+            @endforeach
+        </div>
       </div>
 
 
 
 
 
-
-
-
-
-
-
-    </div>
-
-
-
+</div>
     <!-- table container -->
     <div class="col-sm-9">
 
