@@ -105,12 +105,12 @@ $brands_count = [];
     <div id="filter-sidebar" class="col-xs-6 col-sm-3">
 
       <div>
-        <h4 class="side-bar-h4" id="h4Id3">
+        <h4 class="side-bar-h4" id="h4Id1">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Skin Concern
         </h4>
-        <div id="group-3" class="list-group collapse in">
+        <div id="group-1" class="list-group collapse in">
             <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
                 <span class="badge badge-pill badge-primary">Reset Skin Concerns
             </a>
@@ -125,12 +125,12 @@ $brands_count = [];
       </div>
 
       <div>
-        <h4 class="side-bar-h4" id="h4Id4">
+        <h4 class="side-bar-h4" id="h4Id2">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Price Ranges
         </h4>
-        <div id="group-4" class="list-group collapse in">
+        <div id="group-2" class="list-group collapse in">
             <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
                 <span class="badge badge-pill badge-primary">Reset Prices
             </a>
@@ -149,12 +149,12 @@ $brands_count = [];
       </div>
 
       <div>
-          <h4 class="side-bar-h4" id="h4Id4">
+          <h4 class="side-bar-h4" id="h4Id3">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Origins
           </h4>
-          <div id="group-4" class="list-group collapse in">
+          <div id="group-3" class="list-group collapse in">
               <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
                   <span class="badge badge-pill badge-primary">Reset Origins
               </a>
@@ -168,13 +168,13 @@ $brands_count = [];
 
 
       <div>
-        <h4 class="side-bar-h4" id="h4Id1">
+        <h4 class="side-bar-h4" id="h4Id4">
           <i class="fa fa-fw fa-caret-down parent-expanded"></i>
           <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
           Brand Results
         </h4>
 
-        <div id="group-1" class="list-group collapse in">
+        <div id="group-4" class="list-group collapse in">
             {{-- @for( $i = 0; $i < count($brands_ids); $i++) --}}
             {{-- @for( $i = 0; $i < min(5, count($brands_ids)); $i++) --}}
 
@@ -188,23 +188,7 @@ $brands_count = [];
 
 
 
-      <div>
-          <h4 class="side-bar-h4" id="h4Id4">
-          <i class="fa fa-fw fa-caret-down parent-expanded"></i>
-          <i class="fa fa-fw fa-caret-right parent-collapsed"></i>
-          All brands
-          </h4>
-        <div id="group-4" class="list-group collapse in">
-            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>null]))}}">
-                <span class="badge badge-pill badge-primary">Reset Brands
-            </a>
-            @foreach($all_brands as $brand)
-            <a class="list-group-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
-            <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
-            </a>
-            @endforeach
-        </div>
-      </div>
+
 
 
 

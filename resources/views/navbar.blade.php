@@ -21,6 +21,21 @@
         <a class="nav-link" href="{{ action('MainController@aboutus')}}">About us & FAQ</a>
       </li>
 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          All Brands
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          @foreach($all_brands as $brand)
+            <a class="dropdown-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
+            <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
+            </a>
+            @endforeach
+
+        </div>
+      </li>
+
     </ul>
     <form class="form-inline my-2 my-lg-0" method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
       <input name="query" type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
