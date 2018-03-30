@@ -10132,6 +10132,177 @@ a.text-dark:focus {
   /* Styles */
 }
 
+.aboutus-h1 {
+  text-align: center;
+  color: white;
+}
+
+.square-picture {
+  height: 150px;
+  width: 150px;
+  border: 1px dashed white;
+  /*   padding: 1px; resize squares */
+  margin-top: 1em;
+}
+
+.pic1 {
+  background-image: url("");
+}
+
+.pic2 {
+  background-image: url("");
+}
+
+.pic3 {
+  background-image: url("");
+  margin-bottom: 15em;
+}
+
+.mi {
+  margin-top: 5em;
+}
+
+.bullshit-squares {
+  margin-top: 5em;
+}
+
+#about-us {
+  display: block;
+  width: 100%;
+  line-height: 1.6em;
+}
+
+#about-us #about-intro {
+  margin-bottom: 30px;
+}
+
+#about-us #about-intro blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#about-us #about-intro blockquote p {
+  margin: 0;
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.6em;
+}
+
+#about-us #about-intro blockquote p span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+  line-height: .8em;
+}
+
+#about-us #about-intro .panorama .imgholder {
+  padding: 9px;
+}
+
+#about-us #skillset {
+  margin-bottom: 0;
+}
+
+#about-us #skillset .fl_left {
+  width: 274px;
+  margin-left: 20px;
+}
+
+#about-us #skillset .fl_left:first-child {
+  margin-left: 0;
+}
+
+#about-us #skillset .fl_left li {
+  margin-top: 5px;
+}
+
+#about-us #skillset .fl_left li:first-child {
+  margin-top: 0;
+}
+
+#about-us #team {
+  margin-bottom: 0;
+}
+
+#about-us #team ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#about-us #team ul li {
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+#about-us #team ul li:first-child {
+  margin-top: 0;
+}
+
+#about-us #team ul li figure img {
+  float: left;
+}
+
+#about-us #team ul li figcaption {
+  float: right;
+  width: 250px;
+}
+
+#about-us #team ul li figcaption p {
+  margin: 0;
+  padding: 0;
+}
+
+#about-us #team ul li figure figcaption .team_name {
+  font-weight: bold;
+}
+
+#about-us #team ul li figure figcaption .team_title {
+  font-size: 11px;
+  line-height: normal;
+}
+
+#about-us #team ul li figure figcaption .team_description {
+  margin-top: 15px;
+  line-height: 1.4em;
+}
+
+.aboutus {
+  color: whitesmoke;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.team {
+  color: whitesmoke;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.last-team {
+  margin-bottom: 10em;
+}
+
+#team {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.faq {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.first-text {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
 h1 {
   color: white;
 }
@@ -10349,6 +10520,10 @@ body {
 
 .page-footer {
   background-color: #F4E0DC;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
 }
 
 .container {
