@@ -13,8 +13,11 @@
       <li class="nav-item active">
         <a class="nav-link" href="{{ action('BlockController@fill_blocks')}}">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ action('MainController@aboutus')}}">About Us and FAQ <span class="sr-only">(current)</span></a>
+      </li>
 
+      <li class="nav-item">
         <form method="GET" action="{{action('SearchController@index')}}" accept-charset="UTF-8">
           <div class="input-group ">
               <input name="query" type="text" class="form-control" placeholder="Search" />
