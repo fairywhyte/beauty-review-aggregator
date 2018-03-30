@@ -7,7 +7,7 @@
         <h1 class="aboutus-h1">
             About Us and FAQ
             <br>
-            <img src="https://image.ibb.co/nk616F/Layer_1_copy_21.png" width="47" height="11" align="center">
+            <img class="aboutus-tri last-tri" src="https://image.ibb.co/nk616F/Layer_1_copy_21.png" width="47" height="11" align="center">
         </h1>
         <h2 class="team-happen">The problem</h2>
         <article class="first-text">
@@ -22,7 +22,7 @@
             </p>
         </article>
         <br>
-        <div class="aboutus-h1">
+        <div class="aboutus-tri">
             <img src="https://image.ibb.co/nk616F/Layer_1_copy_21.png" width="47" height="11" align="center">
         </div>
 
@@ -57,6 +57,10 @@
 
             </ul>
         </section>
+
+         <div class="aboutus-tri last-tri">
+            <img src="https://image.ibb.co/nk616F/Layer_1_copy_21.png" width="47" height="11" align="center">
+        </div>
 
         <section class="faq last-team">
             <h2 class="team-happen">FAQ</h2>

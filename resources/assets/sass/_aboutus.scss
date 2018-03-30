@@ -4,6 +4,18 @@
     margin-bottom: 1em;
 }
 
+.aboutus-tri{
+
+    margin-bottom: 1em;
+    text-align: center;
+    align-content: center;
+
+}
+
+.last-tri{
+    margin-top: 2em;
+}
+
 
 .square-picture{
 
@@ -14,18 +26,7 @@
 
 }
 
-.pic1{
-    background-image: url("");
-}
 
-.pic2{
-    background-image: url("");
-}
-
-.pic3{
-    background-image: url("");
-    margin-bottom: 15em;
-}
 
 .mi{
     margin-top: 5em;
@@ -34,6 +35,56 @@
 .bullshit-squares{
     margin-top: 5em;
 }
+
+.aboutus{
+    background-color: #F4E0DC;
+    color: black;
+    padding: 2em;
+    margin-bottom: 10em;
+    border-radius: 5%;
+
+}
+.team{
+    color: black;
+
+}
+
+.list-style {
+    list-style: none;
+}
+
+.team_name {
+    font-weight: bold;
+}
+.team-images {
+    border-radius: 50%;
+}
+.last-team{
+    margin-bottom: 5em;
+}
+
+#team{
+    align-content: center;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.faq{
+    align-content: center;
+    text-align: center;
+}
+
+.first-text{
+    align-content: center;
+    text-align: center;
+}
+
+h2.team-happen{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
 
 #about-us{display:block; width:100%; line-height:1.6em;}
 
@@ -64,50 +115,3 @@
 #about-us #team ul li figure figcaption .team_name{font-weight:bold;}
 #about-us #team ul li figure figcaption .team_title{font-size:11px; line-height:normal;}
 #about-us #team ul li figure figcaption .team_description{margin-top:15px; line-height:1.4em;}
-.aboutus{
-    background-color: #F4E0DC;
-    color: black;
-    padding: 2em;
-    margin-bottom: 10em;
-    border-radius: 5%;
-
-}
-.team{
-    color: black;
-
-}
-
-.list-style {
-    list-style: none;
-}
-
-.team_name {
-    font-weight: bold;
-}
-.team-images {
-    border-radius: 50%;
-}
-.last-team{
-    margin-bottom: 10em;
-}
-
-#team{
-    align-content: center;
-    text-align: center;
-    margin-top: 3em;
-}
-
-.faq{
-    align-content: center;
-    text-align: center;
-}
-
-.first-text{
-    align-content: center;
-    text-align: center;
-}
-
-h2.team-happen{
-    margin-bottom: 1em;
-    text-align: center;
-}

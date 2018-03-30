@@ -10138,24 +10138,22 @@ a.text-dark:focus {
   margin-bottom: 1em;
 }
 
+.aboutus-tri {
+  margin-bottom: 1em;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.last-tri {
+  margin-top: 2em;
+}
+
 .square-picture {
   height: 150px;
   width: 150px;
   border: 1px dashed black;
   margin-top: 1em;
-}
-
-.pic1 {
-  background-image: url("");
-}
-
-.pic2 {
-  background-image: url("");
-}
-
-.pic3 {
-  background-image: url("");
-  margin-bottom: 15em;
 }
 
 .mi {
@@ -10164,6 +10162,58 @@ a.text-dark:focus {
 
 .bullshit-squares {
   margin-top: 5em;
+}
+
+.aboutus {
+  background-color: #F4E0DC;
+  color: black;
+  padding: 2em;
+  margin-bottom: 10em;
+  border-radius: 5%;
+}
+
+.team {
+  color: black;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.team_name {
+  font-weight: bold;
+}
+
+.team-images {
+  border-radius: 50%;
+}
+
+.last-team {
+  margin-bottom: 5em;
+}
+
+#team {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.faq {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.first-text {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+h2.team-happen {
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 #about-us {
@@ -10268,58 +10318,6 @@ a.text-dark:focus {
 #about-us #team ul li figure figcaption .team_description {
   margin-top: 15px;
   line-height: 1.4em;
-}
-
-.aboutus {
-  background-color: #F4E0DC;
-  color: black;
-  padding: 2em;
-  margin-bottom: 10em;
-  border-radius: 5%;
-}
-
-.team {
-  color: black;
-}
-
-.list-style {
-  list-style: none;
-}
-
-.team_name {
-  font-weight: bold;
-}
-
-.team-images {
-  border-radius: 50%;
-}
-
-.last-team {
-  margin-bottom: 10em;
-}
-
-#team {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-  margin-top: 3em;
-}
-
-.faq {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-}
-
-.first-text {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-}
-
-h2.team-happen {
-  margin-bottom: 1em;
-  text-align: center;
 }
 
 h1 {
