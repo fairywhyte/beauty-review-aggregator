@@ -9,6 +9,9 @@ use \App\Product;
 class OriginController extends Controller
 {
     public function get_asian_beauty_brands() {
+        $request=request();
+        $request->merge(['origin'=>'Japan']);
+
 
         //the goal is to return products, so you have to start with the products table and then join the brands table
         $products = Product::whereHas('brand', function ($query) {
@@ -24,7 +27,7 @@ class OriginController extends Controller
         $products = Product::whereHas('brand', function ($query) {
             $query->where('origin', '=', 'United States');
         })->orderBy('total_number_of_ratings', 'DESC')->get();
-        
+
         return view('results', ['products'=> $products]) ;
     }
 

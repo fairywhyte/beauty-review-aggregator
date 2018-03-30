@@ -25,7 +25,7 @@ class ResultsComposer
             return $value!==null;
         });
 
-        $view_criteria=$criteria;
+        $view->criteria=$criteria;
 
         //select from table brands where column equals origin
         $origins = \DB::table('brands')->select('origin')->distinct()->orderBy('origin')->pluck('origin');

@@ -23,8 +23,10 @@ class SearchController extends Controller
 
         if(null !== ($price = $request->input('price'))){
             // dd($request->input('price'));
-            $query->whereBetween('price', [$price*50, ($price+1)*50]);
+            $query->whereBetween('price', [$price*50, ($price+1)*50])->orderBy('price','DESC');
 
+        }else{
+            $query->orderBy('total_number_of_ratings','DESC');
         }
 
         foreach($words as $word){
@@ -37,30 +39,35 @@ class SearchController extends Controller
                     ->where('name', 'LIKE', '%'.$word.'%')
                     ->orWhere('origin', 'LIKE', '%'.$word.'%');
                 });
-
             });
         }
 
-        if(null !== ($brand = $request->input('brand'))||null !== ($origin = $request->input('origin'))){
+        //add the search criteria here where the brand not null OR origin not null
+        $brand = $request->input('brand');
+        $origin = $request->input('origin');
+        if(null !== $brand||null !== $origin)
+        {
             $query->whereHas('brand', function($query) use ($brand, $origin){
                 if($brand){
-                    $query
-                ->where('name', 'LIKE', '%'.$brand.'%');
+                    $query->where('name', 'LIKE', '%'.$brand.'%');
                 }
                 if($origin){
-                    $query
-                ->where('origin', 'LIKE',$origin);
+                    $query->where('origin', 'LIKE',$origin);
                 }
-
-            });
+            })->orderBy('total_number_of_ratings','DESC');
         }
 
 
+        //return the queries for the brand,name,origin,title
         $products = ($query->get());
-        //toSql
+        return view('results', ['products' => $products, 'q' => $q]);
 
-
-
+    }
+    public function show($brand)
+    {
+    }
+}
+//toSql
         // foreach($all_brands as $brand){
         //     $brands[$brand->id] = $brand;
         //     $brands_count[$brand->id]=$brand->product_count;
@@ -68,20 +75,4 @@ class SearchController extends Controller
         // }
         // $brands_ids = array_keys($brands_count);
         // arsort($brands_count);
-
         //return $products;
-        return view('results', ['products' => $products,
-        'q' => $q]);
-
-    }
-
-
-    public function show($brand)
-    {
-
-
-
-    }
-
-
-}
