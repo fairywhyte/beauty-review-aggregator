@@ -43,7 +43,7 @@
             <figure class="clear"><img src="{{ asset('img/mireille.jpg') }}" alt="">
               <figcaption>
                 <p class="team_name">Mireille Bobbert</p>
-                <p class="team_title">Job Title Here</p>
+                <p class="team_title">Overlord</p>
                 <p class="team_description">Vestassapede et donec ut est liberos sus et eget sed eget. Quisqueta habitur augue magnisl magna phas ellus.</p>
               </figcaption>
             </figure>
@@ -52,7 +52,7 @@
             <figure class="clear"><img src="{{ asset('img/fadz.JPG') }}" alt="">
               <figcaption>
                 <p class="team_name">Fadz</p>
-                <p class="team_title">Job Title Here</p>
+                <p class="team_title">Overlords valued assistant</p>
                 <p class="team_description">Vestassapede et donec ut est liberos sus et eget sed eget. Quisqueta habitur augue magnisl magna phas ellus.</p>
               </figcaption>
             </figure>
@@ -61,7 +61,7 @@
             <figure class="clear"><img src="{{ asset('img/eva.jpg') }}" alt="">
               <figcaption>
                 <p class="team_name">Eva Kroon</p>
-                <p class="team_title">Job Title Here</p>
+                <p class="team_title">Underling</p>
                 <p class="team_description">I loved working with my team on this project as it was a lot of fun! Couldn't have asked for better teammates.</p>
               </figcaption>
             </figure>
