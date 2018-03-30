@@ -13,6 +13,7 @@ class OriginController extends Controller
         $request->merge(['origin'=>'Japan']);
 
 
+
         //the goal is to return products, so you have to start with the products table and then join the brands table
         $products = Product::whereHas('brand', function ($query) {
             $query->where('origin', '=', 'Korea')->orwhere('origin', '=', 'Japan');
@@ -23,6 +24,8 @@ class OriginController extends Controller
 
 
     public function get_american_beauty_brands() {
+        $request=request();
+        $request->merge(['origin'=>'United States']);
 
         $products = Product::whereHas('brand', function ($query) {
             $query->where('origin', '=', 'United States');
@@ -32,7 +35,8 @@ class OriginController extends Controller
     }
 
     public function get_french_beauty_brands() {
-
+        $request=request();
+        $request->merge(['origin'=>'France']);
         $products = Product::whereHas('brand', function ($query) {
             $query->where('origin', '=', 'France');
         })->orderBy('total_number_of_ratings', 'DESC')->get();
