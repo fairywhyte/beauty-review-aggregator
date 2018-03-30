@@ -17,6 +17,9 @@ class AppServiceProvider extends ServiceProvider
         \View::composer(
             'results', 'App\Http\ViewComposers\ResultsComposer'
         );
+        \View::composer(
+            'navbar', 'App\Http\ViewComposers\NavbarComposer'
+        );
     }
 
     /**
