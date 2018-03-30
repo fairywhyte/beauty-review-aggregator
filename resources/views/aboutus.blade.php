@@ -36,7 +36,8 @@
 
 
 <section id="team" class="two_fifth">
-        <h2>The team who made it happen</h2>
+        <h2 class="team-happen">The team who made it happen</h2>
+
         <ul>
           <li class="team">
             <figure class="clear"><img src="{{ asset('img/mireille.jpg') }}" alt="">
@@ -70,7 +71,7 @@
       </section>
 
       <section class="faq last-team">
-          <h2>Additional information about the project</h1>
+          <h2 class="team-happen">Additional information about the project</h1>
 
 
 

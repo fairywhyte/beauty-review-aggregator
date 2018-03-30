@@ -10303,6 +10303,10 @@ a.text-dark:focus {
   text-align: center;
 }
 
+h2.team-happen {
+  margin-bottom: 3em;
+}
+
 h1 {
   color: white;
 }
