@@ -2,9 +2,9 @@
 
 <nav class="navbar navbar-expand-lg navbar-light">
 <nav class="navbar navbar-light">
-  <a class="navbar-brand" src="img/home_images/laravelle_logo.ico">
+  <a class="navbar-brand" src="../img/home_images/laravelle_logo.ico">
 
-    <img class="laravelle-logo" src="img/home_images/laravelle_logo.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img class="laravelle-logo" src="../img/home_images/laravelle_logo.ico" width="30" height="30" class="d-inline-block align-top" alt="">
     La Ravelle
   </a>
 </nav>
@@ -26,7 +26,7 @@
           All Brands
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          
+
           @foreach($all_brands as $brand)
             <a class="dropdown-item" href="{{action('SearchController@index', array_merge($criteria,['brand'=>$brand->name]))}}">
             <span class="badge badge-pill badge-primary">{{ $brand ->product_count}}</span> {{ $brand->name }}
