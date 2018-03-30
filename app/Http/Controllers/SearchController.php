@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Product;
+use App\Brand;
 
 class SearchController extends Controller
 {
@@ -47,14 +48,11 @@ class SearchController extends Controller
             });
         }
 
-
-
-
         $products = ($query->get());
         //toSql
         //added the criteria for the input search,prices and brand into the array criteria
         $criteria =[
-            'q'=> $request->input('q'),
+            'query'=> $request->input('query'),
             'price'=>$request->input('price'),
             'brand'=>$request->input('brand')
         ];
@@ -63,8 +61,19 @@ class SearchController extends Controller
             return $value!==null;
         });
 
+
+        // foreach($all_brands as $brand){
+        //     $brands[$brand->id] = $brand;
+        //     $brands_count[$brand->id]=$brand->product_count;
+
+        // }
+        // $brands_ids = array_keys($brands_count);
+        // arsort($brands_count);
+
         //return $products;
-        return view('results', ['products' => $products, 'q' => $q, 'criteria'=>$criteria]);
+        return view('results', ['products' => $products,
+        'q' => $q, 'criteria'=>$criteria]);
+
     }
 
 
