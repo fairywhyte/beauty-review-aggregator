@@ -75,7 +75,7 @@
 
               <p><b>Aggregated average rating per product</b> =</p>
 
-              <p>(Average rating Sephora * # of reviews Sephora + Average rating Influenster * # of reviews Influenster) /</p>
+              <p>(Average rating Sephora * # of reviews Sephora + Average rating Influenster * # of reviews Influenster) / Aggregated number of ratings per product</p>
 
 
             <h4>What do we scrape?</h4>
