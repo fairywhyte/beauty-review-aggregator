@@ -84,6 +84,7 @@
                 <ul class="list-style">
                     <li>Basic product information (title, brand name, price, av. rating + number of ratings)</li>
                     <li>Specific product information (product description)</li>
+                    <li>Images</li>
                     <li>Reviews from Sephora (last 100 reviews per product)</li>
                     <ul class="list-style">
                       <li><b>Recommended count percentage</b> = the # of people who recommended the products / the # of Sephora ratings for that product</li>
